@@ -65,7 +65,38 @@
  * };
  */
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
-
+    struct ListNode* head = NULL, *result = head;
+    int carry=0;
+    while(l1!=NULL || l2!=NULL || carry!=0){
+        int x=0, y=0;
+        if(l1){
+            x=l1->val;
+            l1=l1->next;
+        }
+        if(l2){
+            y=l2->val;;
+            l2=l2->next;
+        }
+        int sum=x+y+carry;
+        carry=sum/10;
+        /*head = (struct ListNode*)malloc(sizeof(struct ListNode));
+        head->val=sum%10;
+        head->next=NULL;
+        head=head->next;*/
+        if(head==NULL){
+            head = (struct ListNode*)malloc(sizeof(struct ListNode));
+            head->val=sum%10;
+            head->next=NULL;
+            result=head;
+        }
+        else{
+            head->next=(struct ListNode*)malloc(sizeof(struct ListNode));
+            head->next->val=sum%10;
+            head=head->next;
+        }
+    }
+    head->next=NULL;
+    return result;
 }
 // @lc code=end
 
