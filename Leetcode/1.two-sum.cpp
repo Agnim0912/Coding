@@ -8,7 +8,7 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        int size = sizeof(nums)/sizeof(nums[0]);
+        int size = sizeof(nums)/sizeof(nums[0])
         return size;
     }
 };
