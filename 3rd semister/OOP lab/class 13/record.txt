@@ -1,0 +1,17 @@
+agnim
+2028083
+male
+175
+80
+
+gupta
+202807
+female
+190
+60
+
+priyansh
+2028090
+male
+170
+70

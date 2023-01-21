@@ -1,0 +1,9 @@
+n<-1:20
+print(mean(n))
+print(median(n))
+print(var(n))
+print(sd(n))
+print(scale(n))
+print(summary(n))
+print(rank(n))
+print(quantile(n))

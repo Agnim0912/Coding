@@ -1,0 +1,678 @@
+SQL> create table employee_8083(
+  2  EMP_ID INTEGER,
+  3  F_NAME CHAR(30),
+  4  L_NAME CHAR(30),
+  5  JOB_TYPE CHAR(10),
+  6  SALARY INTEGER,
+  7  COMMISION INTEGER,
+  8  DEPT CHAR(30),
+  9  MANAGER_ID INTEGER);
+
+Table created.
+
+SQL> DESC employee_8083;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMP_ID                                             NUMBER(38)
+ F_NAME                                             CHAR(30)
+ L_NAME                                             CHAR(30)
+ JOB_TYPE                                           CHAR(10)
+ SALARY                                             NUMBER(38)
+ COMMISION                                          NUMBER(38)
+ DEPT                                               CHAR(30)
+ MANAGER_ID                                         NUMBER(38)
+
+SQL> alter table employee_8083
+  2  ADD DOJ DATE;
+
+Table altered.
+
+SQL> create table DEPARTMENT_8083(
+  2  D_NAME CHAR(30),
+  3  D_LOC VARCHAR(50),
+  4  HOD_ID INTEGER);
+
+Table created.
+
+SQL> create table LOCATION_8083(
+  2  LOC_ID INTEGER,
+  3  CITY CHAR(30),
+  4  CONTACT_NO INTEGER);
+
+Table created.
+
+SQL> ALTER TABLE LOCATION_8083
+  2  modify CITY CHAR(35);
+
+Table altered.
+
+SQL> ALTER TABLE LOCATION_8083
+  2  drop column CONTACT_NO;
+
+Table altered.
+
+SQL> ALTER TABLE LOCATION_8083
+  2  RENAME COLUMN "CITY" TO "ADDRESS";
+
+Table altered.
+
+SQL> RENAME "LOCATION_8083" TO "LOC";
+
+Table renamed.
+
+SQL> INSERT INTO LOC(LOC_ID, ADDRESS)
+  2  VALUES(1, 'KOLKATA');
+
+1 row created.
+
+SQL> INSERT INTO LOC(LOC_ID, ADDRESS)
+  2  VALUES(2, 'MUMBAI');
+
+1 row created.
+
+SQL> SELECT * FROM LOC;
+
+    LOC_ID ADDRESS                                                              
+---------- -----------------------------------                                  
+         1 KOLKATA                                                              
+         2 MUMBAI                                                               
+
+SQL> DELETE FROM LOC;
+
+2 rows deleted.
+
+SQL> DROP TABLE LOCATION_8083;
+
+Table dropped.
+
+SQL> INSERT INTO DEPARTMENT_8083(D_NAME, D_LOC, HOD_ID)
+  2  VALUES('SALES', 'KOL', 4);
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT_8083(D_NAME, D_LOC, HOD_ID)
+  2  VALUES('ACCOUNTS', 'DELHI', 6);
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT_8083(D_NAME, D_LOC, HOD_ID)
+  2  VALUES('PRODUCTIONS', 'KOL', 1);
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT_8083(D_NAME, D_LOC, HOD_ID)
+  2  VALUES('MARKETING', 'KOL', 2);
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT_8083(D_NAME, D_LOC, HOD_ID)
+  2  VALUES('RD', 'DELHI', 8);
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(1, 'ARUN', 'KHAN', 'MANAGER', 90000, NULL, 'PRODUCTION', NULL, TO_DATE('1998-01-04','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(2, 'BARUN', 'KUMAR', 'MANAGER', 80000, NULL, 'MARKETING', NULL, TO_DATE('1998-02-09','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(3, 'CHITRA', 'KAPOOR', 'ENGINEER', 60000, NULL, 'PRODUCTION', 1, TO_DATE('1998-01-08','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(4, 'DHEERAJ', 'MISHRA', 'MANAGER', 75000, NULL, 'SALES', 2, TO_DATE('2001-12-27','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(5, 'EMMA', 'DUTT', 'ENGINEER', 55000, NULL, 'PRODUCTION', 1, TO_DATE('2002-03-20','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(6, 'FLOKI', 'DUTT', 'ACCOUNTANT', 70000, NULL, 'ACCOUNTS', NULL, TO_DATE('2000-07-16','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(7, 'DHEERAJ', 'KUMAR', 'CLERK', 40000, NULL, 'ACCOUNTS', 6, TO_DATE('2016-07-01','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(8, 'SAUL', 'GOOD', 'ENGINEER', 60000, NULL, 'RD', NULL, TO_DATE('2014-09-06','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(9, 'MOU', 'BHAT', 'CLERK', 30000, NULL, 'SALES', 4, TO_DATE('2018-03-08','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(10, 'SUNNY', 'DEOL', 'SALESMAN', 20000, 10000, 'MARKETING', 2, TO_DATE('2001-03-31','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(11, 'BOBBY', 'DEOL', 'ENGINEER', 35000, NULL, 'RD', 8, TO_DATE('2017-10-17','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083(EMP_ID, F_NAME, L_NAME, JOB_TYPE, SALARY, COMMISION, DEPT, MANAGER_ID, DOJ)
+  2  VALUES(12, 'AMIR', 'KHAN', 'SALESMAN', 15000, 5000, 'MARKETING', 2, TO_DATE('2013-01-11','YYYY-MM-DD'));
+
+1 row created.
+
+SQL> commit;
+
+Commit complete.                                                                       
+
+SQL> SET LINESIZE 100
+SQL> SELECT * FROM DEPARTMENT_8083;
+
+D_NAME                         D_LOC                                                  HOD_ID        
+------------------------------ -------------------------------------------------- ----------        
+SALES                          KOL                                                         4        
+ACCOUNTS                       DELHI                                                       6        
+PRODUCTION                     KOL                                                         1        
+MARKETING                      KOL                                                         2        
+
+SQL> SELECT D_NAME, D_LOC FROM DEPARTMENT_8083;
+
+D_NAME                         D_LOC                                                                
+------------------------------ --------------------------------------------------                   
+SALES                          KOL                                                                  
+ACCOUNTS                       DELHI                                                                
+PRODUCTION                     KOL                                                                  
+MARKETING                      KOL                                                                  
+
+SQL> SELECT F_NAME, L_NAME, SALARY, SALARY+1000 FROM EMPLOYEE_8083;
+
+F_NAME                         L_NAME                             SALARY SALARY+1000                                                                                                                                                                                                                                                                                                                                                                                                                                
+------------------------------ ------------------------------ ---------- -----------                                                                                                                                                                                                                                                                                                                                                                                                                                
+ARUN                           KHAN                                90000       91000                                                                                                                                                                                                                                                                                                                                                                                                                                
+BARUN                          KUMAR                               80000       81000                                                                                                                                                                                                                                                                                                                                                                                                                                
+CHITRA                         KAPOOR                              60000       61000                                                                                                                                                                                                                                                                                                                                                                                                                                
+DHEERAJ                        MISHRA                              75000       76000                                                                                                                                                                                                                                                                                                                                                                                                                                
+EMMA                           DUTT                                55000       56000                                                                                                                                                                                                                                                                                                                                                                                                                                
+FLOKI                          DUTT                                70000       71000                                                                                                                                                                                                                                                                                                                                                                                                                                
+DHEERAJ                        KUMAR                               40000       41000                                                                                                                                                                                                                                                                                                                                                                                                                                
+SAUL                           GOOD                                60000       61000                                                                                                                                                                                                                                                                                                                                                                                                                                
+MOU                            BHAT                                30000       31000                                                                                                                                                                                                                                                                                                                                                                                                                                
+SUNNY                          DEOL                                20000       21000                                                                                                                                                                                                                                                                                                                                                                                                                                
+BOBBY                          DEOL                                35000       36000                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+F_NAME                         L_NAME                             SALARY SALARY+1000                                                                                                                                                                                                                                                                                                                                                                                                                                
+------------------------------ ------------------------------ ---------- -----------                                                                                                                                                                                                                                                                                                                                                                                                                                
+AMIR                           KHAN                                15000       16000                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+12 rows selected.
+
+SQL> SELECT (SALARY*12)+1000, (SALARY+100)*12 FROM EMPLOYEE_8083;
+
+(SALARY*12)+1000 (SALARY+100)*12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+---------------- ---------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+         1081000         1081200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          961000          961200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          721000          721200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          901000          901200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          661000          661200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          841000          841200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          481000          481200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          721000          721200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          361000          361200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          241000          241200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          421000          421200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+(SALARY*12)+1000 (SALARY+100)*12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+---------------- ---------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+          181000          181200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+12 rows selected.
+
+SQL> SELECT F_NAME AS NAME, SALARY AS ANNSAL FROM EMPLOYEE_8083;
+
+NAME                               ANNSAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+------------------------------ ----------                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+ARUN                                90000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+BARUN                               80000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+CHITRA                              60000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+DHEERAJ                             75000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+EMMA                                55000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+FLOKI                               70000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+DHEERAJ                             40000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+SAUL                                60000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+MOU                                 30000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+SUNNY                               20000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+BOBBY                               35000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+NAME                               ANNSAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+------------------------------ ----------                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+AMIR                                15000                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+12 rows selected.
+
+SQL> SELECT L_NAME AS SURNAME, SALARY+100 AS NEWSAL FROM EMPLOYEE_8083;
+
+SURNAME                            NEWSAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+------------------------------ ----------                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+KHAN                                90100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+KUMAR                               80100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+KAPOOR                              60100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+MISHRA                              75100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+DUTT                                55100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+DUTT                                70100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+KUMAR                               40100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+GOOD                                60100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+BHAT                                30100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+DEOL                                20100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+DEOL                                35100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+SURNAME                            NEWSAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+------------------------------ ----------                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+KHAN                                15100                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+12 rows selected.
+
+SQL> SELECT F_NAME||L_NAME FROM EMPLOYEE_8083;
+
+F_NAME||L_NAME                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ARUN                          KHAN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+BARUN                         KUMAR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+CHITRA                        KAPOOR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+DHEERAJ                       MISHRA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+EMMA                          DUTT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+FLOKI                         DUTT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+DHEERAJ                       KUMAR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+SAUL                          GOOD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+MOU                           BHAT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+SUNNY                         DEOL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+BOBBY                         DEOL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+F_NAME||L_NAME                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+AMIR                          KHAN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+12 rows selected.
+
+SQL> select f_name||l_name||JOB_TYPE AS EMPLOYEES from employee_8083;
+
+EMPLOYEES
+----------------------------------------------------------------------
+ARUN                          KHAN                          MANAGER
+BARUN                         KUMAR                         MANAGER
+CHITRA                        KAPOOR                        ENGINEER
+DHEERAJ                       MISHRA                        MANAGER
+EMMA                          DUTT                          ENGINEER
+FLOKI                         DUTT                          ACCOUNTANT
+DHEERAJ                       KUMAR                         CLERK
+SAUL                          GOOD                          ENGINEER
+MOU                           BHAT                          CLERK
+SUNNY                         DEOL                          SALESMAN
+BOBBY                         DEOL                          ENGINEER
+
+EMPLOYEES
+----------------------------------------------------------------------
+AMIR                          KHAN                          SALESMAN
+
+12 rows selected.
+
+SQL> select f_name||l_name||'IS A '||JOB_TYPE AS EMPLOYEES_DETAILS  from employee_8083;
+
+EMPLOYEES_DETAILS
+---------------------------------------------------------------------------
+ARUN                          KHAN                          IS A MANAGER
+BARUN                         KUMAR                         IS A MANAGER
+CHITRA                        KAPOOR                        IS A ENGINEER
+DHEERAJ                       MISHRA                        IS A MANAGER
+EMMA                          DUTT                          IS A ENGINEER
+FLOKI                         DUTT                          IS A ACCOUNTANT
+DHEERAJ                       KUMAR                         IS A CLERK
+SAUL                          GOOD                          IS A ENGINEER
+MOU                           BHAT                          IS A CLERK
+SUNNY                         DEOL                          IS A SALESMAN
+BOBBY                         DEOL                          IS A ENGINEER
+
+EMPLOYEES_DETAILS
+---------------------------------------------------------------------------
+AMIR                          KHAN                          IS A SALESMAN
+
+12 rows selected.
+
+SQL> select f_name||'S MONTHLY SALARY IS '||SALARY AS MONTHLY_SALARY_DETAILS  from employee_8083;
+
+MONTHLY_SALARY_DETAILS
+--------------------------------------------------------------------------------
+ARUN                          S MONTHLY SALARY IS 90000
+BARUN                         S MONTHLY SALARY IS 80000
+CHITRA                        S MONTHLY SALARY IS 60000
+DHEERAJ                       S MONTHLY SALARY IS 75000
+EMMA                          S MONTHLY SALARY IS 55000
+FLOKI                         S MONTHLY SALARY IS 70000
+DHEERAJ                       S MONTHLY SALARY IS 40000
+SAUL                          S MONTHLY SALARY IS 60000
+MOU                           S MONTHLY SALARY IS 30000
+SUNNY                         S MONTHLY SALARY IS 20000
+BOBBY                         S MONTHLY SALARY IS 35000
+
+MONTHLY_SALARY_DETAILS
+--------------------------------------------------------------------------------
+AMIR                          S MONTHLY SALARY IS 15000
+
+12 rows selected.
+
+SQL> select DEPT  from employee_8083;
+
+DEPT
+------------------------------
+PRODUCTION
+MARKETING
+PRODUCTION
+SALES
+PRODUCTION
+ACCOUNTS
+ACCOUNTS
+RD
+SALES
+MARKETING
+RD
+
+DEPT
+------------------------------
+MARKETING
+
+12 rows selected.
+
+SQL> select DISTINCT(DEPT)  from employee_8083;
+
+DEPT
+------------------------------
+ACCOUNTS
+PRODUCTION
+SALES
+MARKETING
+RD
+
+SQL> select * from employee_8083 WHERE SALARY>50000;
+
+    EMP_ID F_NAME                         L_NAME                         JOB_TYPE       SALARY  COMMISION DEPT                           MANAGER_ID DOJ
+---------- ------------------------------ ------------------------------ ---------- ---------- ---------- ------------------------------ ---------- ---------
+         1 ARUN                           KHAN                           MANAGER         90000            PRODUCTION                                04-JAN-98
+         2 BARUN                          KUMAR                          MANAGER         80000            MARKETING                                 09-FEB-98
+         3 CHITRA                         KAPOOR                         ENGINEER        60000            PRODUCTION                              1 08-JAN-98
+         4 DHEERAJ                        MISHRA                         MANAGER         75000            SALES                                   2 27-DEC-01
+         5 EMMA                           DUTT                           ENGINEER        55000            PRODUCTION                              1 20-MAR-02
+         6 FLOKI                          DUTT                           ACCOUNTANT      70000            ACCOUNTS                                  16-JUL-00
+         8 SAUL                           GOOD                           ENGINEER        60000            RD                                        06-SEP-14
+
+7 rows selected.
+
+SQL> select EMP_ID from employee_8083 WHERE NOT(MANAGER_ID=1);
+
+    EMP_ID
+----------
+         4
+         7
+         9
+        10
+        11
+        12
+
+6 rows selected.
+
+SQL> select F_NAME, L_NAME, SALARY from employee_8083 WHERE SALARY>40000 AND SALARY<70000;
+
+F_NAME                         L_NAME                             SALARY
+------------------------------ ------------------------------ ----------
+CHITRA                         KAPOOR                              60000
+EMMA                           DUTT                                55000
+SAUL                           GOOD                                60000
+
+SQL> SELECT F_NAME,L_NAME FROM EMPLOYEE_8083 WHERE MANAGER_ID=1 OR MANAGER_ID=6 OR MANAGER_ID=8;
+
+F_NAME                         L_NAME
+------------------------------ ------------------------------
+CHITRA                         KAPOOR
+EMMA                           DUTT
+DHEERAJ                        KUMAR
+BOBBY                          DEOL
+
+SQL> SELECT F_NAME, SALARY FROM EMPLOYEE_8083 WHERE L_NAME LIKE 'KHAN%';
+
+F_NAME                             SALARY
+------------------------------ ----------
+ARUN                                90000
+AMIR                                15000
+
+SQL> SELECT F_NAME, SALARY FROM EMPLOYEE_8083 WHERE L_NAME LIKE 'K%';
+
+F_NAME                             SALARY
+------------------------------ ----------
+ARUN                                90000
+BARUN                               80000
+CHITRA                              60000
+DHEERAJ                             40000
+AMIR                                15000
+
+SQL> SELECT F_NAME, L_NAME, SALARY FROM EMPLOYEE_8083 WHERE L_NAME LIKE 'K%R';
+
+no rows selected
+
+SQL> SPOOL OFF;
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE L_NAME LIKE'__O%';
+
+    EMP_ID NAME       L_NAME     JOB_TYPE                 SALARY COMMISSION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         8 SAUL       GOOD       ENGINEER                  60000            R9                    06-SEP-14                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        11 BOBBY      DEOL       ENGINEER                  35000            R6                  8 17-OCT-17                                                                                             
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE NOT(JOB_TYPE='MANAGER');
+
+    EMP_ID NAME       L_NAME     JOB_TYPE                 SALARY COMMISSION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         3 CHITRA     KAPOOR     ENGINEER                  60000            PRODUCTION          1 08-JAN-98                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+         7 DHEERAJ    KUMAR      CLERK                     40000            ACCOUNTS            6 01-JUL-16                                                                                             
+         8 SAUL       GOOD       ENGINEER                  60000            R9                    06-SEP-14                                                                                             
+         9 MOU        BHAT       CLERK                     30000            SALES               4 08-MAR-18                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        11 BOBBY      DEOL       ENGINEER                  35000            R6                  8 17-OCT-17                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13                                                                                             
+
+9 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE JOB_TYPE='ENGINEER' AND SALARY > 50000;
+
+    EMP_ID NAME       L_NAME     JOB_TYPE                 SALARY COMMISSION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         3 CHITRA     KAPOOR     ENGINEER                  60000            PRODUCTION          1 08-JAN-98                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         8 SAUL       GOOD       ENGINEER                  60000            R9                    06-SEP-14                                                                                             
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE DEPT='PRODUCTION' OR SALARY > 60000;
+
+    EMP_ID NAME       L_NAME     JOB_TYPE                 SALARY COMMISSION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         1 ARUN       KHAN       MANAGER                   90000            PRODUCTION            04-JAN-98                                                                                             
+         2 BARUN      KUMAR      MANAGER                   80000            MARKETING             09-FEB-98                                                                                             
+         3 CHITRA     KAPOOR     ENGINEER                  60000            PRODUCTION          1 08-JAN-98                                                                                             
+         4 DHEERAJ    MISHRA     MANAGER                   75000            SALES               2 27-DEC-01                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+
+6 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE NOT(JOB_TYPE='MANAGER' OR JOB_TYPE='ENGINEER' OR JOB_TYPE='CLERKS');
+
+    EMP_ID NAME       L_NAME     JOB_TYPE                 SALARY COMMISSION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+         7 DHEERAJ    KUMAR      CLERK                     40000            ACCOUNTS            6 01-JUL-16                                                                                             
+         9 MOU        BHAT       CLERK                     30000            SALES               4 08-MAR-18                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13                                                                                             
+
+5 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE SALARY > 49000 OR SALARY < 29000;
+
+    EMP_ID F_NAME       L_NAME     JOB_TYPE                 SALARY COMMISION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         1 ARUN       KHAN       MANAGER                   90000            PRODUCTION            04-JAN-98                                                                                             
+         2 BARUN      KUMAR      MANAGER                   80000            MARKETING             09-FEB-98                                                                                             
+         3 CHITRA     KAPOOR     ENGINEER                  60000            PRODUCTION          1 08-JAN-98                                                                                             
+         4 DHEERAJ    MISHRA     MANAGER                   75000            SALES               2 27-DEC-01                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+         8 SAUL       GOOD       ENGINEER                  60000            R9                    06-SEP-14                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13                                                                                             
+
+9 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE NOT(L_NAME LIKE '%O_');
+
+    EMP_ID F_NAME       L_NAME     JOB_TYPE                 SALARY COMMISION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         1 ARUN       KHAN       MANAGER                   90000            PRODUCTION            04-JAN-98                                                                                             
+         2 BARUN      KUMAR      MANAGER                   80000            MARKETING             09-FEB-98                                                                                             
+         4 DHEERAJ    MISHRA     MANAGER                   75000            SALES               2 27-DEC-01                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+         7 DHEERAJ    KUMAR      CLERK                     40000            ACCOUNTS            6 01-JUL-16                                                                                             
+         9 MOU        BHAT       CLERK                     30000            SALES               4 08-MAR-18                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13                                                                                             
+
+8 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE NOT(COMMISION=NULL);
+
+no rows selected
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE COMMISION IS NOT NULL;
+
+    EMP_ID F_NAME       L_NAME     JOB_TYPE                 SALARY COMMISION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13 
+
+SQL> SELECT SYSDATE FROM DUAL;
+
+SYSDATE                                                                                                                                                                                                 
+---------                                                                                                                                                                                               
+11-FEB-22                                                                                                                                                                                               
+
+SQL> SELECT (SYSDATE-DOJ)/7 AS TOTAL_EXPERIENCEINWEEKS FROM EMPLOYEE_8083;
+
+TOTAL_EXPERIENCEINWEEKS                                                                                                                                                                                 
+-----------------------                                                                                                                                                                                 
+             1257.72121                                                                                                                                                                                 
+             1252.57836                                                                                                                                                                                 
+             1257.14979                                                                                                                                                                                 
+             1050.14979                                                                                                                                                                                 
+             1038.29264                                                                                                                                                                                 
+             1125.72121                                                                                                                                                                                 
+             293.006928                                                                                                                                                                                 
+             387.864071                                                                                                                                                                                 
+             205.149785                                                                                                                                                                                 
+             1088.86407                                                                                                                                                                                 
+             225.435499                                                                                                                                                                                 
+             474.006928                                                                                                                                                                                 
+
+
+12 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 WHERE EMP_ID=2;
+
+    EMP_ID F_NAME       L_NAME     JOB_TYPE                 SALARY COMMISION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         2 BARUN      KUMAR      MANAGER                   80000            MARKETING             09-FEB-98                                                                                             
+
+SQL> DELETE FROM EMPLOYEE_8083 WHERE DEPT='SALES' AND NOT(JOB_TYPE='MANAGER');
+
+1 row deleted.
+
+SQL> INSERT INTO EMPLOYEE_8083 VALUES(13,'ANAND','PATIL','ENGINEER',28000,2000,NULL,1,'31-JAN-2017');
+
+1 row created.
+
+SQL> INSERT INTO EMPLOYEE_8083 VALUES(14,'ANANDI','PATEL','CLERK',12000,500,NULL,1,'01-APR-2017');
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT_8083 VALUES('ADMIN','MUMBAI',5);
+
+1 row created.
+
+SQL> INSERT INTO DEPARTMENT_8083 VALUES('TRANSPORT','MUMBAI',3);
+
+1 row created.
+
+SQL> UPDATE EMPLOYEE_8083 SET DEPT='ADMIN' WHERE F_NAME='ANAND';
+
+1 row updated.
+
+SQL> UPDATE EMPLOYEE_8083 SET EMP_ID=1 WHERE EMP_ID=2
+  2  ;
+
+1 row updated.
+
+SQL> SELECT * FROM EMPLOYEE_8083 ORDER BY SALARY DESC;
+
+    EMP_ID NAME       L_NAME     JOB_TYPE                 SALARY COMMISSION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+         1 ARUN       KHAN       MANAGER                   90000            PRODUCTION            04-JAN-98                                                                                             
+         1 BARUN      KUMAR      MANAGER                   80000            MARKETING             09-FEB-98                                                                                             
+         4 DHEERAJ    MISHRA     MANAGER                   75000            SALES               2 27-DEC-01                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+         3 CHITRA     KAPOOR     ENGINEER                  60000            PRODUCTION          1 08-JAN-98                                                                                             
+         8 SAUL       GOOD       ENGINEER                  60000            R9                    06-SEP-14                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         7 DHEERAJ    KUMAR      CLERK                     40000            ACCOUNTS            6 01-JUL-16                                                                                             
+        11 BOBBY      DEOL       ENGINEER                  35000            R6                  8 17-OCT-17                                                                                             
+        13 ANAND      PATIL      ENGINEER                  28000       2000 ADMIN               1 31-JAN-17                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13                                                                                             
+        14 ANANDI     PATEL      CLERK                     12000        500                     1 01-APR-17                                                                                             
+
+13 rows selected.
+
+SQL> SELECT * FROM EMPLOYEE_8083 ORDER BY L_NAME ;
+
+    EMP_ID f_NAME       L_NAME     JOB_TYPE                 SALARY COMMISION DEPT       MANAGER_ID DOJ                                                                                                   
+---------- ---------- ---------- -------------------- ---------- ---------- ---------- ---------- ---------                                                                                             
+        10 SUNNY      DEOL       SALESMAN                  20000      10000 MARKETING           2 31-MAR-01                                                                                             
+        11 BOBBY      DEOL       ENGINEER                  35000            R6                  8 17-OCT-17                                                                                             
+         5 EMMA       DUTT       ENGINEER                  55000            PRODUCTION          1 20-MAR-02                                                                                             
+         6 FLOKI      DUTT       ACCOUNTANT                70000            ACCOUNTS              16-JUL-00                                                                                             
+         8 SAUL       GOOD       ENGINEER                  60000            R9                    06-SEP-14                                                                                             
+         3 CHITRA     KAPOOR     ENGINEER                  60000            PRODUCTION          1 08-JAN-98                                                                                             
+         1 ARUN       KHAN       MANAGER                   90000            PRODUCTION            04-JAN-98                                                                                             
+        12 AMIR       KHAN       SALESMAN                  15000       5000 MARKETING           2 11-JAN-13                                                                                             
+         1 BARUN      KUMAR      MANAGER                   80000            MARKETING             09-FEB-98                                                                                             
+         7 DHEERAJ    KUMAR      CLERK                     40000            ACCOUNTS            6 01-JUL-16                                                                                             
+         4 DHEERAJ    MISHRA     MANAGER                   75000            SALES               2 27-DEC-01                                                                                             
+        14 ANANDI     PATEL      CLERK                     12000        500                     1 01-APR-17                                                                                             
+        13 ANAND      PATIL      ENGINEER                  28000       2000 ADMIN               1 31-JAN-17                                                                                             
+
+13 rows selected.
+
+SQL> DELETE FROM EMPLOYEE_8083 WHERE JOB_TYPE='SALESMAN' AND (SYSDATE-DOJ)/365 < 15;
+
+1 row deleted.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> spool off;

@@ -1,0 +1,236 @@
+SQL> create table employee_8083(emp_no Integer,name varchar2(20),designation varchar2(10),salary Number(7));
+
+Table created.
+
+SQL> insert into employee_8083 values(8101,'Agnim','Doctor',51615);
+
+1 row created.
+
+SQL> insert into employee_8083 values(8102,'Nitisha','Lawyer',80000);
+
+1 row created.
+
+SQL> insert into employee_8083 values(8103,'Rohan','Engineer',180000);
+
+1 row created.
+
+SQL> select * from employee_8083;
+
+      E_NO E_NAME               DESIGNATION              SALARY
+---------- -------------------- -------------------- ----------
+      8101 Agnim                Doctor                    51615
+      8102 Nitisha              Lawyer                    80000
+      8103 Rohan                Engineer                 180000                           
+
+SQL> create table deposit_8083(Acc_no Number(6),Customer_name varchar2(20),Branch_Name varchar2(10),Amount  Number(10));
+
+Table created.
+
+SQL> create table Branch_8083(Branch_Name varchar2(10),City_Name varchar(10));
+
+Table created.
+
+SQL> create table customer_8083(Customer_Name varchar2(10),City_Name varchar(10));
+
+Table created.
+
+SQL> create table Borrow_8083(Loan_no Number(5),Customer_Name varchar2(10),Branch_name varchar2(10),Amount Number(10));
+
+Table created.
+
+SQL> insert into customer_8083 values('Mehul','Nagpur');
+
+1 row created.
+
+SQL> insert into customer_8083 values('Pratham','Kolkata');
+
+1 row created.
+
+SQL> insert into customer_8083 values('Harshit','Nagpur');
+
+1 row created.
+
+SQL> insert into customer_8083 values('Krishna','chennai');
+
+1 row created.
+
+SQL> select * from customer_8083 where City_Name='Nagpur';
+
+CUSTOMER_N CITY_NAME                                                            
+---------- ----------                                                           
+Mehul      Nagpur                                                               
+Harshit    Nagpur                                                               
+
+SQL> insert into deposit_8083 values(123456,'Krishna','sbi_kol',20000);
+
+1 row created.
+
+SQL> insert into deposit_8083 values(123466,'Mehul','sbi_tkg',50000);
+
+1 row created.
+
+SQL> insert into deposit_8083 values(163466,'Harshit','sbi_slg',40000);
+
+1 row created.
+
+SQL> insert into deposit_8083 values(168466,'Chetan','sbi_kne',57000);
+
+1 row created.
+
+SQL> insert into deposit_8083 values(268466,'Chetana','sbi_tkg',67000);
+
+1 row created.
+
+SQL> select * from deposit_8083 where Customer_name LIKE 'c%';
+
+no rows selected
+
+SQL> select * from deposit_8083 where Customer_name LIKE '%c';
+
+no rows selected
+
+SQL> select * from deposit_8083 where Customer_name LIKE '_c%';
+
+no rows selected
+
+SQL> select * from deposit_8083 where Customer_name LIKE 'C%';
+
+    ACC_NO CUSTOMER_NAME        BRANCH_NAM     AMOUNT                           
+---------- -------------------- ---------- ----------                           
+    168466 Chetan               sbi_kne         57000                           
+    268466 Chetana              sbi_tkg         67000                           
+
+SQL> 
+SQL> insert into deposit_8083 values(166,'Kullu','sbi_slg',40000);
+
+1 row created.
+
+SQL> insert into Borrow_8083 values(166,'Kullu','sbi_slg',40000);
+
+1 row created.
+
+SQL> insert into Borrow_8083 values(168,'Chetan','sbi_kne',57000);
+
+1 row created.
+
+SQL> insert into deposit_8083 values(123,'Bull','sbi_tkg',50000);
+
+1 row created.
+
+SQL> select * from Borrow_8083 where Customer_name LIKE '_C%';
+
+no rows selected
+
+SQL> select * from Borrow_8083 where Customer_name LIKE '_u%';
+
+   LOAN_NO CUSTOMER_N BRANCH_NAM     AMOUNT                                     
+---------- ---------- ---------- ----------                                     
+       166 Kullu      sbi_slg         40000                                     
+
+SQL> insert into Borrow_8083 values(123,'Bull','sbi_tkg',50000);
+
+1 row created.
+
+SQL> select * from Borrow_8083 where Customer_name LIKE '_u%';
+
+   LOAN_NO CUSTOMER_N BRANCH_NAM     AMOUNT                                     
+---------- ---------- ---------- ----------                                     
+       166 Kullu      sbi_slg         40000                                     
+       123 Bull       sbi_tkg         50000                                     
+
+SQL> insert into deposit_8083 values(124643,'Bull','Mg_Road',50000);
+
+1 row created.
+
+SQL> alter table deposit_8083 modify Branch_name varchar2(20);
+
+Table altered.
+
+SQL> insert into deposit_8083 values(16476,'Kullu','Delta_colony',40000);
+
+1 row created.
+
+SQL> select * from deposit_8083;
+
+    ACC_NO CUSTOMER_NAME        BRANCH_NAME              AMOUNT                 
+---------- -------------------- -------------------- ----------                 
+    123456 Krishna              sbi_kol                   20000                 
+    123466 Mehul                sbi_tkg                   50000                 
+    163466 Harshit              sbi_slg                   40000                 
+    168466 Chetan               sbi_kne                   57000                 
+    268466 Chetana              sbi_tkg                   67000                 
+       166 Kullu                sbi_slg                   40000                 
+       123 Bull                 sbi_tkg                   50000                 
+    124643 Bull                 Mg_Road                   50000                 
+     16476 Kullu                Delta_colony              40000                 
+
+9 rows selected.
+
+SQL> select * from deposit_8083 where Branch_name='Mg_Road' or Branch_name='Delta_colony';
+
+    ACC_NO CUSTOMER_NAME        BRANCH_NAME              AMOUNT                 
+---------- -------------------- -------------------- ----------                 
+    124643 Bull                 Mg_Road                   50000                 
+     16476 Kullu                Delta_colony              40000                 
+
+SQL> select * from deposit_8083 where Branch_name<>'Mg_Road' or Branch_name<>'Delta_colony';
+
+    ACC_NO CUSTOMER_NAME        BRANCH_NAME              AMOUNT                 
+---------- -------------------- -------------------- ----------                 
+    123456 Krishna              sbi_kol                   20000                 
+    123466 Mehul                sbi_tkg                   50000                 
+    163466 Harshit              sbi_slg                   40000                 
+    168466 Chetan               sbi_kne                   57000                 
+    268466 Chetana              sbi_tkg                   67000                 
+       166 Kullu                sbi_slg                   40000                 
+       123 Bull                 sbi_tkg                   50000                 
+    124643 Bull                 Mg_Road                   50000                 
+     16476 Kullu                Delta_colony              40000                 
+
+9 rows selected.
+
+SQL> select * from deposit_8083 where Branch_name<>'Mg_Road' and Branch_name<>'Delta_colony';
+
+    ACC_NO CUSTOMER_NAME        BRANCH_NAME              AMOUNT                 
+---------- -------------------- -------------------- ----------                 
+    123456 Krishna              sbi_kol                   20000                 
+    123466 Mehul                sbi_tkg                   50000                 
+    163466 Harshit              sbi_slg                   40000                 
+    168466 Chetan               sbi_kne                   57000                 
+    268466 Chetana              sbi_tkg                   67000                 
+       166 Kullu                sbi_slg                   40000                 
+       123 Bull                 sbi_tkg                   50000                 
+
+7 rows selected.
+
+SQL> select Customer_Name,Amount,0.10*Amount AS TA,0.2*Amount AS DA,(0.1*Amount)+(0.2*Amount)+Amount AS Total from Borrow_8083;
+
+CUSTOMER_N     AMOUNT         TA         DA      TOTAL                          
+---------- ---------- ---------- ---------- ----------                          
+Kullu           40000       4000       8000      52000                          
+Chetan          57000       5700      11400      74100                          
+Bull            50000       5000      10000      65000                          
+
+SQL> select * from Borrow_8083;
+
+   LOAN_NO CUSTOMER_N BRANCH_NAM     AMOUNT                                     
+---------- ---------- ---------- ----------                                     
+       166 Kullu      sbi_slg         40000                                     
+       168 Chetan     sbi_kne         57000                                     
+       123 Bull       sbi_tkg         50000                                     
+
+SQL> insert into Borrow_8083 values(16476,'Pratham','Kolkata',40000);
+
+1 row created.
+
+SQL> select * from Borrow_8083 where Customer_Name like '__a%';
+
+   LOAN_NO CUSTOMER_N BRANCH_NAM     AMOUNT                                     
+---------- ---------- ---------- ----------                                     
+     16476 Pratham    Kolkata         40000                                     
+
+SQL> commit;
+
+Commit complete.
+
+SQL> spool off;

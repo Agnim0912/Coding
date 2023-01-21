@@ -1,0 +1,21 @@
+#!/bin/bash
+num=21
+a=1
+while [ $num -gt '3' ]
+do
+a=$(($a * $num))
+counter=0
+for (( j=2;j<num;j++ ))
+do
+if [ $(($num % $j)) -eq '0' ]
+then
+((counter++))
+fi
+done
+if [ $counter -eq '0' ]
+then
+echo "$num is a prime number"
+fi
+((num--))
+done
+echo "The factorial is $a"

@@ -1,0 +1,2318 @@
+﻿gpuName,G3Dmark,G2Dmark,TDP,price,gpuValue,powerPerformance,category
+GeForce RTX 3090 Ti,29130,"1,124",,2099.99,13.87,,Unknown
+GeForce RTX 3080 Ti,26878,"1,030",350,1199.99,22.40,77,Desktop
+GeForce RTX 3090,26395,999,350,1749.99,15.08,75,Desktop
+Radeon RX 6900 XT,25445,"1,103",300,1120.31,22.71,85,Desktop
+GeForce RTX 3080,24850,"1,003",320,999.00,24.87,78,Desktop
+Radeon RX 6800 XT,23372,"1,078",300,859.00,27.21,78,Desktop
+GeForce RTX 3070 Ti,23363,"1,003",290,749.99,31.15,81,Desktop
+RTX A5000,22866,984,230,2631.20,8.69,99,Workstation
+RTX A6000,22121,832,300,4999.99,4.42,74,Workstation
+GeForce RTX 3070,22091,969,220,629.99,35.07,100,Desktop
+GeForce RTX 2080 Ti,21797,940,250,998.59,21.83,87,Desktop
+RTX A4500,21545,892,,2134.64,10.09,,Unknown
+Radeon RX 6800,20667,"1,030",250,758.99,27.23,83,Desktop
+GeForce RTX 3060 Ti,20208,961,200,599.99,33.68,101,Desktop
+TITAN RTX,20168,844,280,2794.99,7.22,72,Workstation
+Quadro RTX 6000,19692,837,295,6300.00,3.13,67,Workstation
+GeForce RTX 2080 SUPER,19519,934,250,683.99,28.54,78,Desktop
+TITAN Xp,19507,992,,,,,Unknown
+GeForce RTX 3080 Ti Laptop GPU,19403,769,,,,,Unknown
+Quadro RTX 8000,19126,801,260,4741.49,4.03,74,Workstation
+Radeon RX 6700 XT,18989,"1,015",230,529.99,35.83,83,Desktop
+RTX A4000,18987,936,140,1233.98,15.39,136,Workstation
+TITAN V,18815,845,250,1999.99,9.41,75,Desktop
+Radeon PRO W6800,18802,914,,2194.99,8.57,,Unknown
+GeForce RTX 2080,18730,917,250,633.03,29.59,75,Desktop
+TITAN Xp COLLECTORS EDITION,18721,924,250,,,75,Desktop
+GeForce RTX 3070 Ti Laptop GPU,18489,719,,,,,Unknown
+NVIDIA TITAN Xp,18280,812,250,1645.00,11.11,73,Desktop
+GeForce GTX 1080 Ti,18280,934,250,604.15,30.26,73,Desktop
+GeForce RTX 2070 SUPER,18166,896,215,613.80,29.60,84,Desktop
+Quadro GV100,17675,841,250,8999.00,1.96,71,Workstation
+TITAN V CEO Edition,16987,"1,086",250,,,68,Desktop
+GeForce RTX 3060,16958,951,170,329.00,51.55,100,Desktop
+Radeon RX 5700 XT,16892,955,225,694.94,24.31,75,Desktop
+Radeon Pro VII,16853,720,,,,,Unknown
+Radeon VII,16766,788,300,1899.95,8.82,56,Desktop
+Radeon RX 5700 XT 50th Anniversary,16650,965,235,,,71,Desktop
+GeForce RTX 3080 Laptop GPU,16522,662,115,,,144,Mobile
+GeForce RTX 2060 SUPER,16512,881,175,528.89,31.22,94,Desktop
+RTX A4000 Laptop GPU,16507,547,140,,,118,"Mobile, Workstation"
+RTX A5000 Laptop GPU,16272,640,165,,,99,"Mobile, Workstation"
+Quadro RTX 5000,16260,763,230,,,71,Workstation
+Tesla V100-SXM2-16GB,16235,406,,,,,Unknown
+Quadro GP100,16203,858,235,,,69,Workstation
+GeForce RTX 2070,16076,832,175,627.44,25.62,92,Desktop
+Miracast display port driver V3,15909,604,,,,,Unknown
+RadeonT RX 6850M,15899,823,,,,,Unknown
+Radeon RX 6600 XT,15850,"1,002",160,399.99,39.63,99,Desktop
+Quadro P6000,15811,773,250,3250.00,4.87,63,Workstation
+Quadro RTX 4000,15510,904,160,899.00,17.25,97,Workstation
+GeForce GTX 1080,15263,890,180,442.79,34.47,85,Desktop
+GeForce RTX 3070 Laptop GPU,15241,652,115,,,133,Mobile
+GeForce RTX 2080 (Mobile),15107,812,150,,,101,Mobile
+Radeon Pro W5700,15085,908,205,1649.99,9.14,74,Desktop
+Quadro RTX 5000 (Mobile),14832,705,110,,,135,"Mobile, Workstation"
+Radeon Pro Vega II,14737,827,,,,,Unknown
+Radeon RX 5700,14728,926,180,899.95,16.37,82,Desktop
+Radeon RX Vega 64,14638,810,295,799.99,18.30,50,Desktop
+Radeon Pro Vega 64X,14630,948,,,,,Unknown
+GeForce GTX 1070 Ti,14496,876,180,389.00,37.27,81,Desktop
+GeForce RTX 2070 Super with Max-Q Design,14261,685,80,,,178,Mobile
+Radeon PRO W6600,14211,"1,006",,,,,Unknown
+Radeon Pro WX 8200,14109,824,230,1599.39,8.82,61,Desktop
+GeForce RTX 2080 Super with Max-Q Design,14019,622,80,,,175,Mobile
+GeForce RTX 2060,13952,752,160,389.99,35.78,87,Desktop
+Quadro RTX 5000 with Max-Q Design,13892,606,80,,,174,"Mobile, Workstation"
+Radeon RX 6600,13892,947,,,,,Unknown
+GeForce GTX 980 Ti,13865,854,250,723.81,19.16,55,Desktop
+Radeon RX 5600 XT,13835,914,150,545.00,25.39,92,Desktop
+Radeon Vega Frontier Edition,13748,753,350,1679.99,8.18,39,Desktop
+RTX A2000 12GB,13687,"1,018",,,,,Unknown
+GeForce RTX 2080 with Max-Q Design,13680,574,90,2099.99,6.51,152,Mobile
+NVIDIA TITAN X,13659,912,250,608.10,22.46,55,Desktop
+Radeon RX Vega 56,13649,785,210,752.99,18.13,65,Desktop
+Quadro RTX 4000 with Max-Q Design,13621,600,80,,,170,Mobile
+GeForce GTX 1070,13482,857,150,342.55,39.36,90,Desktop
+RTX A3000 Laptop GPU,13263,473,130,,,102,"Mobile, Workstation"
+Tesla T10,13263,624,,,,,Unknown
+RTX A2000,13260,943,,845.99,15.67,,Unknown
+Radeon Pro WX 9100,13241,772,230,,,58,Desktop
+GeForce GTX TITAN X,13173,843,250,1096.99,12.01,53,Desktop
+Quadro RTX 4000 (Mobile),12986,590,110,,,118,Mobile
+Radeon Pro V520 MxGPU,12852,546,,,,,Unknown
+GeForce GTX 1660 SUPER,12731,823,125,329.99,38.58,102,Desktop
+GeForce RTX 3050,12715,909,,,,,Unknown
+GeForce RTX 3060 Laptop GPU,12677,551,115,497.99,25.46,110,Mobile
+Radeon Pro 5700 XT,12536,831,130,,,96,Desktop
+Radeon Pro Vega 64,12401,836,,,,,Unknown
+Radeon Pro Vega 56,12386,860,,,,,Desktop
+GeForce RTX 2070 (Mobile),12354,601,115,,,107,Mobile
+Quadro P5200 with Max-Q Design,12322,581,,,,,Unknown
+Quadro M6000 24GB,12263,774,250,,,49,Workstation
+Quadro P5200,12144,667,,,,,Mobile
+GeForce RTX 2070 with Max-Q Design,12062,506,80,,,151,Mobile
+Radeon RX 6700S,11989,829,,,,,Unknown
+Quadro P5000,11976,701,180,1868.99,6.41,67,Workstation
+Quadro P4200 with Max-Q Design,11869,583,,,,,Workstation
+Radeon Pro 5700,11844,829,130,,,91,Desktop
+GeForce GTX 1660 Ti,11795,702,120,349.99,33.70,98,Desktop
+GeForce GTX 1660,11695,796,120,399.99,29.24,97,Desktop
+Tesla M40 24GB,11657,372,,,,,Unknown
+GeForce GTX 1080 with Max-Q Design,11507,731,110,,,105,Mobile
+Radeon Pro Vega 48,11504,821,,,,,Unknown
+Radeon RX 6700M,11499,550,,,,,Unknown
+Quadro P4000,11421,820,105,556.19,20.54,109,Workstation
+Quadro M6000,11396,788,250,1099.98,10.36,46,Workstation
+GeForce RTX 2060 (Mobile),11354,540,80,,,142,Mobile
+GeForce GTX 980,11237,814,165,247.35,45.43,68,Desktop
+Quadro RTX 3000,11122,533,80,,,139,"Mobile, Workstation"
+Tesla T4,11113,567,,4853.98,2.29,,Unknown
+Radeon RX 5600,11029,935,150,,,74,Desktop
+Radeon Pro SSG,10497,601,,2410.15,4.36,,Unknown
+Radeon Instinct MI25 MxGPU,10466,727,,,,,Unknown
+GeForce GTX 1070 (Mobile),10465,603,,,,,Mobile
+Radeon Pro 5600M,10200,702,50,,,204,Mobile
+GeForce GTX 1660 Ti (Mobile),10176,507,50,,,204,Mobile
+RTX A2000 Laptop GPU,10147,452,95,,,107,"Mobile, Workstation"
+Tesla M40,10116,364,,600.00,16.86,,Unknown
+Radeon R9 Fury X,10088,875,,,,,Unknown
+GeForce GTX 1060,10069,762,120,279.99,35.96,84,Desktop
+GeForce GTX 1650 SUPER,10034,761,100,441.05,22.75,100,Desktop
+GeForce GTX 1070 with Max-Q Design,10030,466,90,,,111,Mobile
+RTX A3000 12GB Laptop GPU,9975,459,,,,,Unknown
+Quadro P4200,9827,607,100,,,98,Workstation
+Radeon R9 Fury + Fury X,9741,811,275,449.99,21.65,35,Desktop
+GeForce RTX 2060 with Max-Q Design,9740,434,65,,,150,Mobile
+GeForce GTX 1060 3GB,9728,779,120,305.00,31.90,81,Desktop
+GeForce GTX 970,9688,781,145,237.99,40.71,67,Desktop
+Radeon RX 590,9665,810,175,549.99,17.57,55,Desktop
+Radeon R9 Fury,9551,791,,443.10,21.56,,Unknown
+Radeon R9 390X,9503,840,275,,,35,Desktop
+Quadro P2200,9485,971,75,577.17,16.43,126,Workstation
+Radeon Ryzen 9 4900HSS,9460,417,,,,,Unknown
+GeForce RTX 3050 Ti Laptop GPU,9452,415,80,,,118,Mobile
+Radeon RX 6500 XT,9444,910,,199.99,47.23,,Unknown
+GeForce GTX 780 Ti,9311,626,250,339.99,27.39,37,Desktop
+Radeon Pro W5500,9269,896,125,480.99,19.27,74,Desktop
+Quadro M5000,9261,679,150,499.00,18.56,62,Workstation
+Quadro P3200 with Max-Q Design,9241,557,,,,,Unknown
+Radeon RX 5500 XT,9188,824,130,449.00,20.46,71,Desktop
+GeForce GTX TITAN Z,9188,648,375,1515.00,6.07,25,Desktop
+GeForce GTX TITAN Black,9140,616,250,524.99,17.41,37,Desktop
+Radeon RX 6600M,9094,698,,339.99,26.75,,Unknown
+Quadro P4000 with Max-Q Design,9082,700,80,,,114,Mobile
+GeForce RTX 3050 Laptop GPU,9032,417,80,379.99,23.77,113,Mobile
+Radeon R9 390,9008,816,275,,,33,Desktop
+Radeon RX 6800M,8949,643,145,,,62,Mobile
+Radeon RX 580,8906,772,185,349.00,25.52,48,Desktop
+Radeon Ryzen 7 4800HS,8841,426,,,,,Unknown
+Radeon RX 5500,8816,864,150,,,59,Desktop
+Radeon R9 290X,8793,787,,,,,Unknown
+Quadro RTX 3000 with Max-Q Design,8754,350,60,,,146,Mobile
+GeForce GTX 1060 5GB,8704,680,120,487.99,17.84,73,Desktop
+Radeon RX 480,8674,779,150,339.99,25.51,58,Desktop
+Quadro P3200,8663,510,,389.30,22.25,,Unknown
+GeForce GTX 1660 Ti with Max-Q Design,8645,378,60,,,144,Mobile
+Radeon RX590 GME,8627,704,175,,,49,Desktop
+Radeon R9 295X2,8619,804,500,499.10,17.27,17,Desktop
+Radeon Ryzen 9 4900HS,8572,378,,,,,Unknown
+GeForce GTX Titan,8556,660,250,745.00,11.48,34,Desktop
+Radeon Ryzen 9 5900HS,8428,509,,,,,Unknown
+Radeon R9 290,8409,789,,,,,Unknown
+Radeon R9 290X / 390X,8389,699,290,319.99,26.22,29,Desktop
+Radeon Pro Duo,8323,715,350,1199.06,6.94,24,Desktop
+Radeon Pro 5500 XT,8298,628,,,,,Unknown
+15FF,8229,538,,,,,Unknown
+GeForce GTX 1060 (Mobile),8160,444,80,,,102,Mobile
+Radeon R9 290 / 390,8150,695,275,380.00,21.45,30,Desktop
+Quadro K6000,8107,556,225,392.00,20.68,36,Workstation
+Radeon RX 470/570,8069,726,120,388.99,20.74,67,Desktop
+GeForce GTX 780,8022,601,250,279.99,28.65,32,Desktop
+GeForce RTX 2050,8007,380,,,,,Unknown
+Radeon Ryzen 5 4600HS,7942,447,,,,,Unknown
+Quadro M5500,7915,698,150,,,53,"Mobile, Workstation"
+GeForce GTX 1060 with Max-Q Design,7907,430,80,,,99,Mobile
+T1200 Laptop GPU,7883,369,,,,,Unknown
+T1000,7828,831,,376.87,20.77,,Unknown
+Radeon Pro WX 7100,7821,787,130,1047.99,7.46,60,Workstation
+GeForce GTX 1650,7805,592,75,209.00,37.35,104,Desktop
+Radeon RX 580X,7798,885,185,,,42,Desktop
+Tesla M60,7770,563,,787.90,9.86,,Unknown
+Radeon RX 580 2048SP,7767,669,,,,,Unknown
+T1000 8GB,7760,890,,,,,Unknown
+Radeon Pro 580,7753,943,,,,,Unknown
+FirePro W9100,7719,790,275,1729.99,4.46,28,Workstation
+Radeon RX 5300,7610,854,100,,,76,Desktop
+Radeon Pro 580X,7540,698,150,,,50,Desktop
+Radeon Pro 5300,7521,663,,,,,Unknown
+Tesla M6,7509,441,,199.00,37.73,,Unknown
+GeForce GTX 1650 Ti,7487,399,55,,,136,Mobile
+Ryzen 7 5800HS with Radeon Graphics,7391,522,,,,,Unknown
+FirePro W8100,7327,759,220,704.00,10.41,33,Workstation
+RadeonT RX 5300,7321,809,,,,,Unknown
+GeForce GTX 980M,7317,514,100,289.99,25.23,73,Mobile
+Tesla P100-PCIE-16GB,7225,572,,,,,Unknown
+Quadro T2000,7168,479,,528.35,13.57,,Mobile
+Radeon RX 5600M,7157,537,150,,,48,Mobile
+Quadro P2000,7098,693,75,542.00,13.10,95,Workstation
+Radeon RX 6400,7026,938,,159.99,43.92,,Unknown
+Ryzen 7 4800HS with Radeon Graphics,6999,355,,,,,Unknown
+GeForce GTX 1650 (Mobile),6968,384,50,,,139,Mobile
+Quadro M5000M,6929,487,100,546.92,12.67,69,"Mobile, Workstation"
+Quadro T2000 with Max-Q Design,6868,455,,,,,Mobile
+Radeon Pro 5500M,6762,682,85,,,80,Unknown
+Radeon RX Vega M GH,6734,833,,,,,Unknown
+T600 Laptop GPU,6724,334,,,,,Unknown
+GeForce GTX 970XM FORCE,6706,725,,,,,Unknown
+Radeon R9 285,6680,597,,,,,Unknown
+Quadro M4000,6641,688,120,362.00,18.35,55,Workstation
+Quadro T1000 with Max-Q Design,6588,412,,,,,Mobile
+Quadro P3000,6571,461,75,,,88,"Mobile, Workstation"
+Quadro M4000M,6529,471,100,254.91,25.62,65,"Mobile, Workstation"
+Quadro T1000,6513,448,,441.99,14.74,,Mobile
+T600,6509,738,,249.00,26.14,,Unknown
+GeForce GTX 1650 Ti with Max-Q Design,6341,338,35,,,181,Mobile
+Radeon Pro 570,6336,697,,,,,Unknown
+GeForce GTX 1050 Ti,6313,651,75,189.99,33.23,84,Desktop
+Radeon R9 280X,6285,692,250,,,25,Desktop
+FirePro S7150,6276,866,,1697.99,3.70,,Unknown
+Radeon R9 380,6273,675,190,89.99,69.72,33,Desktop
+Radeon R9 380X,6188,670,190,349.99,17.68,33,Desktop
+FirePro W9000,6138,720,274,845.00,7.26,22,Workstation
+Radeon Pro WX Vega M GL,6049,777,65,,,93,Mobile
+GeForce GTX 960,6041,671,120,172.00,35.13,50,Desktop
+P106-100,5967,339,,,,,Unknown
+GRID P100-16Q,5944,757,,,,,Unknown
+GeForce GTX 1050 Ti (Mobile),5918,323,,,,,Mobile
+Radeon PRO W6400,5915,621,,,,,Unknown
+GeForce GTX 770,5892,551,230,249.00,23.66,26,Desktop
+GeForce GTX 1650 with Max-Q Design,5882,318,35,,,168,Mobile
+Radeon Pro 5300M,5839,636,85,,,69,Unknown
+A16,5797,56,,,,,Unknown
+Quadro K5200,5780,501,150,415.00,13.93,39,Workstation
+GeForce GTX 970M,5774,407,75,209.99,27.50,77,Mobile
+Radeon Pro WX 7130,5721,695,130,,,44,Mobile
+Quadro M3000M,5678,432,75,159.95,35.50,76,"Mobile, Workstation"
+Tesla K20m,5675,377,,,,,Unknown
+Radeon R9 280,5668,679,250,,,23,Desktop
+GeForce GTX 690,5654,458,300,280.99,20.12,19,Desktop
+A40-12Q,5573,198,,,,,Unknown
+Radeon HD 7990,5565,766,375,399.99,13.91,15,Desktop
+Radeon R9 285 / 380,5549,655,190,485.00,11.44,29,Desktop
+GeForce GTX 680,5534,528,195,399.00,13.87,28,Desktop
+GRID M60-8A,5523,211,,,,,Unknown
+Radeon Pro WX 5100,5510,820,75,550.95,10.00,73,Workstation
+Tesla K20Xm,5428,329,,,,,Unknown
+GeForce GTX 760 Ti OEM,5427,694,,,,,Unknown
+GeForce GTX 950,5392,641,90,141.99,37.98,60,Desktop
+GeForce GTX 1050 Ti with Max-Q Design,5363,362,,,,,Mobile
+FirePro S10000,5315,493,,,,,Unknown
+GeForce GTX 670,5303,523,170,193.98,27.34,31,Desktop
+Radeon HD 7970 / R9 280X,5247,730,250,246.99,21.25,21,Desktop
+Radeon HD 8990,5214,658,375,,,14,Desktop
+Radeon Ryzen 7 4800H,5208,495,,,,,Unknown
+GeForce GTX 760 Ti,5205,555,170,297.50,17.50,31,Desktop
+FirePro W7100,5175,667,150,389.30,13.29,35,Workstation
+Q12U-1,5164,600,,,,,Unknown
+Radeon R9 M295X,5150,832,125,1449.00,3.55,41,Mobile
+Radeon Pro Vega 20,5116,544,,,,,Unknown
+GeForce GTX 1050,5089,475,75,203.10,25.06,68,Desktop
+GeForce MX550,5089,424,,,,,Unknown
+FirePro S9000,5059,561,,,,,Unknown
+Ryzen 9 5900HS with Radeon Graphics,5049,576,,,,,Unknown
+T550 Laptop GPU,4999,355,,,,,Unknown
+Radeon R9 M395,4991,725,125,,,40,Mobile
+EIZO Quadro MED-XN51LP,4955,812,,,,,Unknown
+Barco MXRT 7600,4943,442,,602.59,8.20,,Unknown
+Radeon R9 270X,4921,607,180,326.50,15.07,27,Desktop
+FirePro S9050,4901,369,,,,,Unknown
+GRID RTX6000P-6Q,4777,192,,,,,Unknown
+Radeon R9 M395X,4775,762,125,,,38,Mobile
+GeForce GTX 760,4775,523,170,149.00,32.05,28,Desktop
+Radeon HD 7950 / R9 280,4764,691,200,259.98,18.33,24,Desktop
+Radeon Sky 500,4736,551,,,,,Unknown
+GRID P40-24Q,4727,653,,,,,Unknown
+Radeon R9 370,4722,781,150,159.99,29.51,31,Desktop
+Radeon Pro Vega 16,4682,672,,,,,Unknown
+Radeon HD 7870,4661,587,175,176.00,26.49,27,Desktop
+Quadro P2000 with Max-Q Design,4597,533,,,,,Unknown
+B8DKMDAP,4557,534,,,,,Unknown
+GeForce GTX 580,4537,456,244,139.92,32.43,19,Desktop
+Radeon Pro 465,4537,562,,,,,Unknown
+Radeon R7 370,4477,595,150,,,30,Desktop
+Radeon HD 7870 XT,4469,661,185,,,24,Desktop
+Quadro P1000,4467,659,47,213.20,20.95,95,Workstation
+GeForce GTX 1050 (Mobile),4461,292,,,,,Mobile
+GRID M60-1B,4456,556,,,,,Unknown
+P104-100,4449,114,,299.99,14.83,,Unknown
+Citrix Indirect Display Adapter,4446,700,,,,,Unknown
+GRID P6-4Q,4429,586,,,,,Unknown
+GeForce GTX 660 Ti,4368,450,150,144.00,30.33,29,Desktop
+Quadro M2200,4342,385,55,249.99,17.37,79,"Mobile, Workstation"
+GRID GTX P40-6,4340,277,,,,,Unknown
+FirePro W7000 Adapter,4339,692,,,,,Unknown
+Quadro K4200,4336,502,105,249.00,17.42,41,Workstation
+Barco MXRT 7500,4319,762,,299.00,14.45,,Unknown
+GRID M60-2Q,4315,516,,,,,Unknown
+Radeon R9 270,4306,567,,,,,Unknown
+GRID P40-2Q,4287,633,,,,,Unknown
+GRID T4-8Q,4283,89,,,,,Unknown
+GRID RTX6000P-4Q,4283,76,,,,,Unknown
+FirePro W7000,4275,551,150,278.05,15.38,29,Workstation
+GeForce GTX 680MX,4270,730,122,,,35,Mobile
+Radeon R9 270 / R7 370,4259,645,150,213.16,19.98,28,Desktop
+GRID M60-1Q,4250,596,,,,,Unknown
+GeForce GTX 775M,4208,696,,,,,Unknown
+FirePro S7000,4166,615,150,246.54,16.90,28,Workstation
+GRID V100D-8Q,4155,518,,,,,Unknown
+FirePro W8000,4137,570,189,573.00,7.22,22,Workstation
+Radeon RX 460,4114,570,75,166.81,24.67,55,Desktop
+GeForce GTX 480,4109,447,250,169.99,24.18,16,Desktop
+Radeon HD 7800-serie,4029,708,,,,,Unknown
+Radeon RX 5500M,4009,414,85,,,47,Mobile
+GeForce GTX 660,4003,476,140,167.95,23.84,29,Desktop
+Quadro M2000,3963,567,75,264.24,15.00,53,Workstation
+GRID RTX8000-4Q,3960,81,,,,,Unknown
+GRID P6-2Q,3925,337,,,,,Unknown
+GeForce GTX 750 Ti,3919,498,60,88.11,44.48,65,Desktop
+GeForce GTX 570,3902,466,219,149.99,26.02,18,Desktop
+Quadro K5000,3900,435,122,249.00,15.67,32,Workstation
+T400 4GB,3887,696,,,,,Unknown
+GRID M60-8Q,3883,339,,,,,Unknown
+Radeon HD 8970M,3876,807,100,139.99,27.69,39,Mobile
+Quadro K2200M,3876,432,,124.95,31.02,,Unknown
+GeForce GTX 880M,3875,347,130,,,30,Mobile
+GRID RTX8000P-2Q,3843,84,,,,,Unknown
+GRID P100-8Q,3841,481,,,,,Unknown
+GRID M60-4Q,3831,483,,,,,Workstation
+Radeon HD 7850,3828,550,130,169.99,22.52,29,Desktop
+GeForce GTX 965M,3823,338,60,,,64,Mobile
+GeForce GTX 1050 with Max-Q Design,3785,297,,,,,Mobile
+Radeon HD 7970M,3774,541,75,,,50,Mobile
+Radeon Pro WX 4100,3766,690,50,499.99,7.53,75,Desktop
+GeForce GTX 780M,3754,386,122,499.00,7.52,31,Mobile
+GeForce MX450,3742,295,,,,,Unknown
+Radeon Pro 560X,3677,711,,,,,Unknown
+Quadro P620,3639,575,40,236.49,15.39,91,Workstation
+T400,3623,561,,156.99,23.08,,Unknown
+Radeon RX 560,3593,506,80,225.91,15.91,45,Desktop
+T500,3593,292,,,,,Unknown
+GRID RTX8000-2Q,3574,86,,,,,Unknown
+GRID M6-8Q,3568,618,,,,,Unknown
+GeForce GTX 680M KY_Bullet Edition,3568,581,,,,,Unknown
+Radeon RX 5300M,3561,366,85,,,42,Mobile
+Quadro K2200,3541,534,68,268.30,13.20,52,Workstation
+Quadro M2000M,3539,342,55,213.16,16.60,64,"Mobile, Workstation"
+Tesla C2050,3515,493,,269.99,13.02,,Unknown
+Quadro 7000,3505,397,204,,,17,Workstation
+Tesla M10,3490,522,,2695.00,1.30,,Unknown
+Radeon Pro 560,3475,724,,,,,Unknown
+Radeon Pro 460,3452,679,,,,,Unknown
+Tesla C2050 / C2070,3428,568,238,,,14,Workstation
+GeForce GTX 960M,3418,245,65,1169.00,2.92,53,Mobile
+Radeon R9 M470X,3400,552,75,,,45,Mobile
+GeForce GTX 750,3399,480,55,219.99,15.45,62,Desktop
+GRID K520,3399,174,,149.99,22.66,,Workstation
+GeForce GTX 870M,3379,293,110,,,31,Mobile
+Radeon R9 M290X,3375,453,100,,,34,Mobile
+Radeon E8870PCIe,3368,708,,,,,Unknown
+Radeon HD8970M,3368,663,,,,,Unknown
+GRID P40-2B,3354,633,,,,,Unknown
+GRID M10-1Q,3351,556,,,,,Unknown
+Quadro M1200,3339,311,45,,,74,"Mobile, Workstation"
+GeForce GTX 650 Ti BOOST,3330,452,134,,,25,Desktop
+Quadro P600,3324,482,40,325.99,10.20,83,Workstation
+Radeon RX Vega M GL,3315,506,,,,,Unknown
+GeForce GTX 590,3307,470,365,435.00,7.60,9,Desktop
+Quadro K5100M,3266,418,100,1108.84,2.95,33,Workstation
+GeForce 770M,3245,500,,176.99,18.34,,Unknown
+GRID M10-4Q,3223,486,,,,,Unknown
+Radeon R9 M485X,3204,492,,,,,Unknown
+Radeon RX 560X,3181,487,75,,,42,Desktop
+GRID T4-4Q,3181,83,,,,,Unknown
+RadeonT RX 5500M,3165,336,,,,,Unknown
+FirePro V7000,3161,668,,,,,Unknown
+FirePro W7170M,3161,418,,,,,Unknown
+Radeon R7 260X,3147,506,115,139.99,22.48,27,Desktop
+GeForce GTX 470,3146,381,215,59.99,52.45,15,Desktop
+Radeon Pro 555,3140,659,,1049.00,2.99,,Unknown
+Radeon Ryzen 9 5900HX,3125,792,,,,,Unknown
+Tesla C2075,3118,589,,646.00,4.83,,Unknown
+Radeon Pro 455,3112,705,,449.00,6.93,,Unknown
+Tesla C2070,3101,494,247,604.00,5.13,13,Workstation
+Radeon HD 7790,3090,459,85,139.99,22.07,36,Desktop
+Intel G35 Express,3090,384,,,,,Unknown
+GeForce GTX 680M,3076,348,100,135.99,22.62,31,Mobile
+FirePro W5000,3057,592,75,184.00,16.62,41,Workstation
+GeForce GTX 560 Ti,3056,416,170,129.99,23.51,18,Desktop
+GeForce GTX 860M,3043,226,45,114.00,26.70,68,Mobile
+EIZO MED-X5000,3038,405,,,,,Unknown
+Radeon R7 360,3034,495,100,145.99,20.78,30,Desktop
+Radeon R9 360,3031,460,85,133.89,22.64,36,Desktop
+GRID T4-2Q,3031,79,,,,,Unknown
+Radeon R9 M390X,3020,507,100,,,30,Mobile
+Radeon R9 260,3018,643,,,,,Unknown
+Radeon HD 6990,3013,630,375,498.49,6.04,8,Desktop
+Quadro M1000M,2986,336,40,85.99,34.73,75,"Mobile, Workstation"
+Ryzen 9 5900HX with Radeon Graphics,2967,799,,,,,Unknown
+FirePro W5100,2957,541,75,125.99,23.47,39,Workstation
+GRID K260Q,2949,361,,,,,Workstation
+Radeon R9 M380,2930,617,,,,,Mobile
+Radeon R7 260,2891,559,95,89.99,32.13,30,Desktop
+Ryzen 7 PRO 4700G with Radeon Graphics,2879,712,,,,,Unknown
+Quadro K1200,2873,575,45,204.00,14.09,64,Workstation
+Radeon HD 6970,2863,430,250,149.99,19.09,11,Desktop
+GeForce MX350,2854,243,,,,,Unknown
+Radeon Pro V340 MxGPU,2853,118,,,,,Unknown
+Quadro M620,2845,422,30,,,95,"Mobile, Workstation"
+GRID K280Q,2839,371,,,,,Workstation
+FirePro W4300,2834,740,50,239.99,11.81,57,Workstation
+Ryzen 7 5800H with Radeon Graphics,2833,789,,,,,Unknown
+Custom GPU 0405,2832,489,,,,,Unknown
+FirePro 3D V9800,2811,556,225,2499.00,1.13,12,Workstation
+GeForce GTX 770M,2785,327,75,138.00,20.19,37,Mobile
+Intel Iris Xe,2782,338,,,,,Unknown
+Radeon Ryzen 7 5700G,2780,851,,,,,Unknown
+Radeon Ryzen 7 PRO 5750GE,2770,866,,,,,Unknown
+Radeon Ryzen 7 5800H,2758,748,,,,,Unknown
+Quadro K4100M,2756,352,100,261.29,10.55,28,Workstation
+Radeon Ryzen 9 5900H,2754,837,,,,,Unknown
+Quadro K5000M,2753,363,100,508.91,5.41,28,Workstation
+Radeon Ryzen 5 4600H,2746,565,,,,,Unknown
+GRID K2,2736,319,,4449.99,0.61,,Workstation
+FirePro V9800,2726,655,,474.00,5.75,,Unknown
+Radeon Pro 450,2722,619,,,,,Unknown
+Radeon RX 550,2717,484,50,157.74,17.23,54,Desktop
+Ryzen 9 4900H with Radeon Graphics,2713,691,,,,,Unknown
+GeForce GTX 560,2709,417,150,205.00,13.22,18,Desktop
+Ryzen 7 5700G with Radeon Graphics,2709,846,,,,,Unknown
+GRID T4-1Q,2702,84,,,,,Unknown
+Barco MXRT 5500,2701,510,,299.00,9.04,,Unknown
+Quadro K4000,2699,419,80,270.00,10.00,34,Workstation
+Radeon Ryzen 5 5600H,2695,689,,,,,Unknown
+Quadro 6000,2688,458,204,4092.38,0.66,13,Workstation
+Radeon Ryzen 9 4900H,2685,673,,,,,Unknown
+GeForce GTX 465,2681,454,200,195.00,13.75,13,Desktop
+Ryzen 7 Pro 4750G with Radeon Graphics,2681,702,,,,,Unknown
+Ryzen 7 5700GE with Radeon Graphics,2675,894,,,,,Unknown
+FirePro M6100 FireGL V,2656,519,,,,,Unknown
+GRID M10-2Q,2653,75,,,,,Unknown
+Radeon HD 6950,2649,421,200,139.99,18.93,13,Desktop
+FirePro R5000,2646,625,,109.99,24.06,,Unknown
+GRID P6-4A,2639,42,,,,,Unknown
+MONSTER GeForce GTX 675M,2637,686,,,,,Unknown
+Intel UHD 770,2615,460,,,,,Unknown
+Radeon Pro,2614,681,,185.35,14.11,,Unknown
+Radeon Pro WX 3100,2612,491,50,,,52,Workstation
+Ryzen 7 PRO 5750GE with Radeon Graphics,2612,876,,,,,Unknown
+GRID M10-8Q,2606,557,,,,,Unknown
+Radeon Ryzen 7 PRO 4750G,2604,707,,,,,Unknown
+GeForce GTX 950M,2602,219,75,567.00,4.59,35,Mobile
+Ryzen 5 5600GE with Radeon Graphics,2601,886,,,,,Unknown
+GRID T4-2B,2601,62,,,,,Unknown
+Ryzen 5 5600G with Radeon Graphics,2595,822,,,,,Unknown
+Ryzen 7 PRO 5750G with Radeon Graphics,2590,894,,,,,Unknown
+Radeon Ryzen 7 4700G,2580,732,,,,,Unknown
+GeForce GTX 850M,2575,224,40,,,64,Mobile
+Ryzen 7 PRO 4750GE with Radeon Graphics,2549,683,,,,,Unknown
+GeForce MX330,2546,234,,,,,Unknown
+Radeon Ryzen 5 5600G,2545,815,,,,,Unknown
+GeForce GT 1030,2544,449,30,109.99,23.14,85,Desktop
+GRID K240Q,2541,212,,,,,Workstation
+Intel UHD P630,2540,326,,,,,Unknown
+Radeon HD 6850 X2,2534,373,,,,,Unknown
+Ryzen 9 5980HS with Radeon Graphics,2533,830,,,,,Unknown
+GeForce GTX 650 Ti,2528,400,110,93.05,27.17,23,Desktop
+FireStream 9370,2528,763,225,,,11,Workstation
+N18E-Q1,2525,547,,,,,Unknown
+GeForce MX250,2514,250,,,,,Unknown
+Ryzen 5 PRO 5650G with Radeon Graphics,2513,873,,,,,Unknown
+Radeon Ryzen 7 4700GE,2507,732,,,,,Unknown
+Ryzen 5 PRO 5650GE with Radeon Graphics,2505,865,,,,,Unknown
+Ryzen 7 4700GE with Radeon Graphics,2496,761,,,,,Unknown
+GeForce GTX 950A,2483,282,,,,,Unknown
+Ryzen 7 5800U with Radeon Graphics,2466,729,,,,,Unknown
+Radeon Pro WX 3200,2455,478,65,216.99,11.32,38,Mobile
+Ryzen 7 PRO 5850U with Radeon Graphics,2439,742,,,,,Unknown
+FirePro 3D V8800,2437,632,208,424.99,5.74,12,Workstation
+Radeon Ryzen 5 PRO 4650G,2417,704,,,,,Unknown
+GeForce GTX 960A,2410,631,,,,,Unknown
+Ryzen 3 4300GE with Radeon Graphics,2402,687,,,,,Unknown
+P106-090,2402,104,,,,,Unknown
+Radeon RX Vega 11 PRD,2401,601,,,,,Unknown
+Ryzen 5 Pro 4650G with Radeon Graphics,2395,675,,,,,Unknown
+Ryzen 3 5300GE with Radeon Graphics,2386,840,,,,,Unknown
+Ryzen 5 5600H with Radeon Graphics,2386,730,,,,,Unknown
+GeForce GTX 580M,2373,455,100,248.68,9.54,24,Mobile
+Radeon RX 550X,2370,508,50,,,47,Desktop
+Radeon Ryzen 5 PRO 5650GE,2362,814,,,,,Unknown
+GeForce GTX 485M,2359,479,100,,,24,Mobile
+Ryzen 7 4800U with Radeon Graphics,2343,570,,,,,Unknown
+Ryzen 3 PRO 5350G with Radeon Graphics,2341,830,,,,,Unknown
+Ryzen 3 PRO 5350GE with Radeon Graphics,2340,821,,,,,Unknown
+GeForce GTX 675MX,2338,377,100,,,23,Mobile
+Radeon Ryzen 7 PRO 5850U,2333,684,,,,,Unknown
+GRID M10-2B,2333,201,,,,,Unknown
+Radeon Ryzen 7 5800U,2320,686,,,,,Unknown
+GeForce MX150,2310,218,25,59.29,38.96,92,Mobile
+FirePro V7900,2309,324,150,190.00,12.16,15,Workstation
+GRID M10-1B,2309,417,,,,,Unknown
+Radeon Ryzen 3 4300GE,2305,685,,,,,Unknown
+Ryzen 5 PRO 4400G with Radeon Graphics,2305,599,,,,,Unknown
+Radeon Ryzen 7 Microsoft Surface Edition,2298,540,,,,,Unknown
+GeForce GTX 460,2289,381,150,89.99,25.44,15,Desktop
+Radeon R9 M470,2288,324,75,,,31,Mobile
+Ryzen 7 5700U with Radeon Graphics,2288,601,,,,,Unknown
+Radeon Ryzen 7 4800U,2272,595,,,,,Unknown
+Radeon Pro Ryzen 7 PRO 5850U,2271,650,,,,,Unknown
+Radeon HD 6970M,2270,656,75,215.99,10.51,30,Mobile
+Radeon R7 250X,2268,637,95,194.00,11.70,24,Desktop
+Radeon HD 8950,2267,423,225,,,10,Desktop
+Radeon HD 5870,2266,410,228,295.00,7.68,10,Desktop
+Quadro K3100M,2262,327,75,399.95,5.66,30,Workstation
+Radeon HD 5970,2249,393,294,179.99,12.50,8,Desktop
+Quadro K620,2246,472,45,2029.99,1.11,50,Workstation
+FirePro V8800,2223,471,,198.00,11.23,,Unknown
+Ryzen 3 5300G with Radeon Graphics,2223,805,,,,,Unknown
+GRID P100-1B,2223,544,,,,,Unknown
+Radeon HD 6870,2222,397,151,275.00,8.08,15,Desktop
+Radeon HD 7770,2204,471,80,300.00,7.35,28,Desktop
+Radeon Ryzen 7 PRO 4750GE,2200,652,,,,,Unknown
+Ryzen 3 Pro 4350G with Radeon Graphics,2190,663,,,,,Unknown
+Ryzen 7 4700G with Radeon Graphics,2186,671,,,,,Unknown
+Radeon Ryzen 5 4600G,2186,651,,,,,Unknown
+RadeonT R7 450,2184,930,,,,,Unknown
+Ryzen 5 PRO 5650U with Radeon Graphics,2183,738,,,,,Unknown
+Ryzen 3 PRO 4350GE with Radeon Graphics,2180,694,,,,,Unknown
+GeForce GTX 745,2174,469,55,284.95,7.63,40,Desktop
+Intel Iris Pro P580,2168,573,,,,,Unknown
+Radeon Ryzen 3 PRO 4350G,2162,639,,,,,Unknown
+Radeon Ryzen 5 PRO 5650G,2161,757,,,,,Unknown
+Ryzen 5 5600U with Radeon Graphics,2160,673,,,,,Unknown
+Ryzen 7 Extreme Edition,2157,559,,,,,Unknown
+Radeon Ryzen 7 PRO 5750G,2153,771,,,,,Unknown
+Radeon Ryzen Embedded V2718,2149,605,,,,,Unknown
+Radeon RX Vega 11,2137,535,,1002.00,2.13,,Desktop
+Radeon Ryzen 5 PRO 5650U,2137,679,,,,,Unknown
+Radeon Ryzen 7 4850U Mobile,2137,519,,,,,Unknown
+Quadro P520,2126,253,,1499.00,1.42,,Unknown
+Ryzen 7 4800H with Radeon Graphics,2113,585,,,,,Unknown
+Radeon TM R9 A360,2105,718,,,,,Unknown
+FirePro M5100,2102,800,,,,,Workstation
+Radeon Ryzen 5 Microsoft Surface Edition,2092,514,,,,,Unknown
+GeForce GTX 560 SE,2087,413,150,89.99,23.19,14,Desktop
+GRID M6-1Q,2069,380,,,,,Unknown
+Ryzen 5 4600G with Radeon Graphics,2061,679,,,,,Unknown
+Quadro 5000M,2059,426,100,,,21,Workstation
+GeForce GTX 480M,2050,536,100,,,21,Mobile
+Radeon Ryzen 7 4700U,2044,559,,,,,Unknown
+Radeon Ryzen 5 PRO 4650GE,2038,644,,,,,Unknown
+FirePro V7800,2033,290,,190.00,10.70,,Unknown
+Ryzen 7 4700U with Radeon Graphics,2033,553,,,,,Unknown
+Ryzen 7 PRO 4750U with Radeon Graphics,2028,548,,,,,Unknown
+Radeon Ryzen 7 PRO 4750U,2023,566,,,,,Unknown
+Radeon R9 M385,2017,230,70,,,29,Mobile
+Radeon Ryzen 5 5600U,2014,641,,,,,Unknown
+Radeon Pro W5500M,2010,533,85,,,24,Mobile
+Quadro M600M,2007,446,30,251.99,7.97,67,"Mobile, Workstation"
+Ryzen 5 PRO 4500U with Radeon Graphics,2007,564,,,,,Unknown
+Radeon R9 350,2006,552,60,299.00,6.71,33,Desktop
+GeForce GT 645,2005,443,,,,,Unknown
+GeForce GTX 460 v2,2004,459,160,199.99,10.02,13,Desktop
+Ryzen 5 5500U with Radeon Graphics,2000,563,,,,,Unknown
+Intel Iris Pro 580,1992,371,,,,,Unknown
+Quadro 5000,1982,376,152,2368.90,0.84,13,Workstation
+Radeon R7 + R7 350 Dual,1982,552,,,,,Unknown
+Quadro M520,1981,234,25,,,79,"Mobile, Workstation"
+Radeon HD 6850,1979,425,127,85.00,23.29,16,Desktop
+Ryzen 5 PRO 4650GE with Radeon Graphics,1976,649,,,,,Unknown
+GeForce GTX 460 SE,1973,359,150,159.99,12.34,13,Desktop
+GeForce GTX 765M,1972,277,65,186.30,10.59,30,Mobile
+Intel Iris Xe MAX,1972,315,,,,,Unknown
+Radeon R7 450,1966,573,65,299.00,6.58,30,Desktop
+Radeon HD 5850,1965,404,151,288.99,6.80,13,Desktop
+Radeon R7 + HD 7700 Dual,1962,498,,,,,Unknown
+Radeon R9 M275X,1962,434,,,,,Unknown
+Intel UHD ReleaseInternal,1959,293,,,,,Unknown
+Radeon 550,1958,501,,99.99,19.59,,Unknown
+Radeon HD 7660D + HD 7700 Dual,1958,495,,,,,Unknown
+GeForce GTX 470M,1953,413,50,,,39,Mobile
+Ryzen 5 4600U with Radeon Graphics,1951,577,,,,,Unknown
+Quadro K4000M,1948,351,100,254.00,7.67,19,Workstation
+FirePro M6100,1944,338,,,,,Workstation
+GeForce 945M,1944,256,,,,,Unknown
+Ryzen 5 4600H with Radeon Graphics,1938,573,,,,,Unknown
+Radeon Pro WX 4150,1934,413,50,612.03,3.16,39,Mobile
+Radeon R9 M385X,1929,285,75,,,26,Mobile
+GeForce GTX 675M,1925,318,100,,,19,Mobile
+Radeon RX 570X,1923,750,120,279.99,6.87,16,Desktop
+GeForce GTX 570M,1922,356,75,,,26,Mobile
+Radeon HD 7560D + 7700 Dual,1919,518,,,,,Unknown
+GeForce GTX 670MX,1905,335,75,,,25,Mobile
+Matrox C680 PCIe x16,1903,700,,,,,Unknown
+Ryzen 3 4300G with Radeon Graphics,1902,650,,,,,Unknown
+Radeon HD 7700-serie,1899,533,,,,,Unknown
+GeForce MX130,1895,195,,,,,Unknown
+Radeon HD 8670D + HD 7700 Dual,1892,446,,,,,Unknown
+Quadro 5010M,1891,366,100,235.95,8.02,19,Workstation
+GeForce MX230,1883,219,,,,,Unknown
+Radeon Pro WX 4130,1880,395,50,,,38,Mobile
+FirePro 3D V7800,1867,562,138,599.99,3.11,14,Workstation
+GeForce GTX 645,1857,432,64,,,29,Desktop
+GeForce 945A,1852,716,,,,,Unknown
+Intel Iris Plus,1849,316,,,,,Unknown
+Radeon Vega 11,1846,509,,,,,Unknown
+Radeon R9 M375X,1842,392,,,,,Mobile
+FirePro M5100 FireGL V,1839,867,,,,,Unknown
+GRID M60-0B,1838,764,,,,,Workstation
+Radeon HD 8570D + HD 7700 Dual,1834,466,,,,,Unknown
+MxGPU,1826,479,,,,,Unknown
+FirePro M6000,1820,776,,325.99,5.58,,Workstation
+Matrox C900 PCIe x16,1812,761,,,,,Unknown
+Ryzen 5 4500U with Radeon Graphics,1812,538,,,,,Unknown
+RadeonT RX 560X,1809,676,,,,,Unknown
+GeForce GTX 555,1807,485,150,,,12,Desktop
+RadeonT 540X,1804,436,,,,,Unknown
+Radeon Ryzen 5 4500U,1802,549,,,,,Unknown
+Radeon Ryzen 5 4600U,1802,533,,,,,Unknown
+Radeon RX Vega 11 Processor,1800,461,,,,,Unknown
+Radeon HD 8870M / R9 M270X / M370X,1799,679,,,,,Unknown
+Ryzen 3 PRO 4200G with Radeon Graphics,1798,705,,,,,Unknown
+Embedded Radeon E9173,1798,368,,,,,Unknown
+Intel Iris 650,1794,764,,,,,Unknown
+Radeon RX 540,1792,399,,,,,Desktop
+Radeon HD 8670D + 7700 Dual,1788,572,,,,,Unknown
+Ryzen 3 PRO 4200GE with Radeon Graphics,1783,587,,,,,Unknown
+GeForce GTX 670M,1775,321,75,,,24,Mobile
+Intel UHD 750,1774,335,,,,,Unknown
+Intel Iris Plus 655,1771,369,,,,,Unknown
+GeForce GTX 650,1768,346,64,109.98,16.08,28,Desktop
+Radeon Pro WX 2100,1755,398,35,,,50,Mobile
+FirePro W600,1751,631,75,414.99,4.22,23,Workstation
+Intel UHD P750,1743,495,,,,,Unknown
+Intel Iris Plus 645,1742,405,,,,,Unknown
+Radeon R9 M360,1740,431,,,,,Unknown
+Radeon HD 5830,1734,382,175,258.99,6.70,10,Desktop
+Ryzen 3 5400U with Radeon Graphics,1734,668,,,,,Unknown
+Radeon RX Vega11,1717,448,,,,,Unknown
+Radeon Ryzen 3 PRO 4200GE,1712,600,,,,,Unknown
+Radeon HD 6900M,1709,345,,,,,Unknown
+FirePro M6000 Mobility Pro,1708,320,,,,,Unknown
+Radeon Ryzen 5 PRO 4650U,1698,535,,,,,Unknown
+Radeon HD 7750,1696,398,55,99.99,16.97,31,Desktop
+Ryzen 5 PRO 4650U with Radeon Graphics,1696,526,,,,,Unknown
+Radeon RX Vega 10,1693,388,,,,,Unknown
+GeForce GTX 760M,1691,240,55,,,31,Mobile
+Qualcomm Adreno 8cx Gen 3,1670,169,,,,,Unknown
+Radeon Vega 9,1669,442,,,,,Unknown
+Radeon R7 M380,1668,534,,,,,Unknown
+Intel Iris Pro P6300,1653,552,,,,,Unknown
+Radeon HD HD7850M,1651,686,,,,,Unknown
+Radeon HD 8870M,1638,629,,,,,Mobile
+Quadro K3000M,1626,360,75,407.56,3.99,22,Workstation
+Ryzen 3 5300U with Radeon Graphics,1625,557,,,,,Unknown
+Radeon E8860,1625,528,,,,,Unknown
+Radeon R7 M465X,1623,440,,,,,Unknown
+Ryzen 7 2700U with Radeon Vega,1617,442,,,,,Unknown
+Quadro P400,1613,427,30,201.17,8.02,54,Workstation
+Quadro K2000D,1613,396,51,339.99,4.75,32,Workstation
+Radeon HD 6790,1612,370,150,294.00,5.49,11,Desktop
+GeForce GT 755M,1609,306,50,,,32,Mobile
+Seria Radeon HD 7700,1603,201,,,,,Unknown
+FirePro M4000,1596,410,,72.83,21.92,,Workstation
+Radeon Ryzen 3 4300G,1595,588,,,,,Unknown
+Radeon Vega 8,1593,421,,126.86,12.56,,"Desktop, Mobile"
+FirePro M4000 Mobility Pro,1591,466,,,,,Unknown
+Intel UHD,1582,267,,,,,Unknown
+Radeon R9 M275X / M375,1574,467,50,,,31,Mobile
+Intel Iris Plus 650,1574,380,,,,,Mobile
+Quadro K2000,1566,371,51,294.00,5.33,31,Workstation
+RadeonT RX 640,1565,220,,,,,Unknown
+Radeon Vega 10,1557,385,,,,,Unknown
+GeForce GTX 550 Ti,1556,363,116,99.99,15.57,13,Desktop
+Ryzen 3 PRO 5450U with Radeon Graphics,1555,644,,,,,Unknown
+Firepro W5170M,1555,399,,,,,"Mobile, Workstation"
+Radeon HD 7560D + HD 6670 Dual,1554,652,,,,,Unknown
+Radeon RX Vega 8,1552,385,,,,,Unknown
+Intel UHD 730,1552,330,,,,,Unknown
+GeForce GTX 285,1549,117,204,119.99,12.92,8,Desktop
+Radeon HD 8470D + HD 7500 Dual,1545,465,,,,,Unknown
+Ryzen 3 PRO 4300U with Radeon Graphics,1542,539,,,,,Unknown
+FirePro W4100,1541,535,50,184.00,8.38,31,Workstation
+FirePro V8700,1538,527,,157.88,9.75,,Unknown
+Ryzen 3 PRO 4450U with Radeon Graphics,1538,562,,,,,Unknown
+Radeon RX 640,1536,277,50,,,31,"Desktop, Mobile"
+Radeon HD 4890,1532,103,190,89.99,17.04,8,Desktop
+GeForce GT 740,1528,344,64,236.99,6.45,24,Desktop
+Radeon Ryzen 3 PRO 4450U,1518,559,,,,,Unknown
+FirePro W6150M,1515,314,,,,,Unknown
+Quadro P500,1508,247,,,,,Unknown
+Radeon HD 7870M,1507,556,45,,,33,Mobile
+Ryzen 5 2500U with Radeon Vega,1503,388,,,,,Unknown
+GeForce 940MX,1502,171,,,,,Unknown
+Radeon HD 6670 + 7660D Dual,1492,483,,,,,Unknown
+Quadro 4000,1489,366,142,978.99,1.52,10,Workstation
+Radeon R9 255,1484,395,,344.16,4.31,,Desktop
+Radeon HD 7660D + HD 6670 Dual,1484,515,,,,,Unknown
+Radeon R9 M365X,1481,446,50,,,30,Mobile
+GeForce MX110,1468,195,,,,,Unknown
+Radeon Vega 10 Mobile,1465,338,,,,,Unknown
+Radeon Ryzen 3 PRO 4350GE,1463,574,,,,,Unknown
+Ryzen 5 PRO 4400GE with Radeon Graphics,1441,563,,,,,Unknown
+Radeon Vega 8 Mobile,1438,349,,,,,Unknown
+Radeon HD 8470D + HD 6670 Dual,1435,512,,,,,Unknown
+Intel Iris Pro Graphics 6200,1429,563,,,,,Unknown
+Radeon 550X,1429,273,,,,,Unknown
+GeForce 845M,1429,233,,,,,Mobile
+Radeon HD 7560D + 7670 Dual,1426,445,,,,,Unknown
+Radeon R7 M370,1417,676,,,,,Mobile
+GeForce GTX 660M,1414,271,50,78.99,17.91,28,Mobile
+Radeon Ryzen 5 4600GE,1411,467,,,,,Unknown
+Radeon Pro WX 4170,1409,427,50,,,28,Mobile
+Radeon Ryzen 3 PRO 5350G,1407,632,,,,,Unknown
+Radeon Ryzen 3 5300G,1405,643,,,,,Unknown
+GeForce GTX 275,1400,106,219,431.72,3.24,6,Desktop
+Radeon 540X,1397,264,,,,,Unknown
+Radeon HD 4870,1390,72,150,79.99,17.39,9,Desktop
+Radeon HD 7560D + HD 7670 Dual,1380,463,,,,,Unknown
+Radeon R7 PRO A12-8870,1375,541,,,,,Unknown
+Radeon HD 7850M,1372,566,40,,,34,Mobile
+Radeon R9 M370X,1366,346,50,889.00,1.54,27,Mobile
+FirePro M40003,1364,652,,,,,Unknown
+Radeon HD 8670D + 6670 Dual,1361,568,,,,,Unknown
+Radeon HD 5770,1350,328,108,189.99,7.11,13,Desktop
+Ryzen 3 4300U with Radeon Graphics,1348,493,,,,,Unknown
+Quadro K2100M,1347,281,55,415.99,3.24,24,Workstation
+Radeon HD 7560D + HD 7700 Dual,1346,497,,,,,Unknown
+Intel Iris 550,1343,307,,,,,Unknown
+FireStream 9270,1341,473,160,,,8,Workstation
+FirePro W5130M,1340,307,,,,,Unknown
+Intel Iris Plus 640,1332,343,,,,,Mobile
+GeForce GTS 450,1321,303,106,79.99,16.52,12,Desktop
+Radeon HD 8670D + HD 7600 Dual,1317,472,,,,,Unknown
+FirePro M5950,1314,574,,,,,Workstation
+GeForce GT 750M,1313,239,50,,,26,Mobile
+Radeon HD 4870 X2,1309,565,286,,,5,Desktop
+Radeon Ryzen 3 4300U,1309,486,,,,,Unknown
+Radeon R7 PRO A8-8670E,1309,442,,,,,Unknown
+Quadro 4000M,1306,256,100,232.06,5.63,13,Workstation
+Radeon HD 8790M,1305,751,,,,,Mobile
+Tesla M2070-Q,1305,444,,,,,Unknown
+GeForce 930MX,1302,191,17,,,77,Mobile
+TENSOR 1.0 Driver Intel HD 630,1299,873,,,,,Unknown
+Radeon Ryzen Embedded V2748,1296,503,,,,,Unknown
+Radeon Vega 6,1294,353,,1799.99,0.72,,Unknown
+Intel UHD 630,1293,305,,,,,Unknown
+Radeon R7 A370,1281,742,,,,,Unknown
+Radeon R7 A10-7870K,1280,273,,,,,Unknown
+Radeon 540,1272,272,,,,,Unknown
+FirePro 3D V8750,1271,542,154,1230.99,1.03,8,Workstation
+FirePro V5900,1270,352,75,86.00,14.78,17,Workstation
+GeForce GTX 560M,1266,243,75,,,17,Mobile
+Radeon HD 8570D + HD 6670 Dual,1260,537,,,,,Unknown
+Radeon HD 7560D + HD 7600 Dual,1258,457,,,,,Unknown
+Intel Iris 540,1258,327,,,,,Unknown
+Quadro FX 5800,1247,134,189,274.00,4.55,7,Workstation
+Radeon 630,1244,223,,,,,Unknown
+Quadro 2000 D,1239,594,,,,,Unknown
+Radeon HD 8570D + 6570 Dual,1239,459,,,,,Unknown
+Radeon HD 7660D + 6670 Dual,1238,524,,,,,Unknown
+Radeon HD 7560D + HD 6570 Dual,1237,528,,,,,Unknown
+Intel HD P630,1237,351,,,,,Unknown
+GeForce GPU,1236,164,,,,,Mobile
+Radeon R7 + R5 340 Dual,1234,471,,,,,Unknown
+Radeon R7 + R7 250 Dual,1232,576,,,,,Unknown
+FirePro 3D V5800,1231,339,74,204.00,6.04,17,Workstation
+Radeon HD 6770,1231,313,108,264.99,4.65,11,Desktop
+GeForce GTX 260,1221,88,202,79.99,15.27,6,Desktop
+Radeon HD 8670D + HD 6670 Dual,1221,541,,,,,Unknown
+Radeon HD 7730,1216,402,47,232.70,5.23,26,Desktop
+Radeon HD 8790M / R9 M290X,1210,694,,,,,Unknown
+FirePro 3D V8700,1206,515,151,170.07,7.09,8,Workstation
+N16P-GX,1204,803,,,,,Unknown
+Radeon HD 7660D + 7540D Dual,1204,547,,,,,Unknown
+Radeon R9 M270X,1204,306,,,,,Mobile
+Intel HD P530,1202,277,,,,,Unknown
+GeForce GT 650M,1198,233,45,,,27,Mobile
+GeForce GTX 460M,1197,246,50,,,24,Mobile
+Radeon HD 7750M,1191,693,28,,,43,Mobile
+Radeon R7 +8G,1190,460,,,,,Unknown
+FirePro V5800,1185,339,,53.00,22.37,,Unknown
+Radeon Ryzen 3 5400U,1182,594,,,,,Unknown
+GeForce GT 640,1181,285,65,109.99,10.74,18,Desktop
+GeForce GTX 280,1181,121,236,522.78,2.26,5,Desktop
+GeForce 840A,1179,266,,,,,Unknown
+GeForce GTX 295,1170,150,289,159.99,7.32,4,Desktop
+Radeon R7 Opteron X3421,1168,328,,,,,Unknown
+FireStream 9250,1164,465,150,,,8,Workstation
+Barco MXRT 5400,1161,457,,203.00,5.72,,Unknown
+Intel Coffee Lake UHD,1158,918,,,,,Unknown
+Quadro K620M,1156,157,,,,,Unknown
+Radeon HD 5750,1155,336,86,69.99,16.52,13,Desktop
+Radeon R7 250,1150,295,75,189.97,6.06,15,Desktop
+Radeon 625,1150,210,,,,,Unknown
+GeForce GT 745A,1144,748,,,,,Unknown
+GeForce 940A,1144,348,,,,,Unknown
+Radeon Ryzen 3 PRO 5450U,1143,555,,,,,Unknown
+NVS 810,1141,313,,624.99,1.83,,Unknown
+Radeon HD 8850M / R9 M265X,1139,741,,,,,Unknown
+Radeon R7 A10-9700E RADEON,1137,346,,,,,Unknown
+Radeon HD 4850 X2,1132,542,250,,,5,Desktop
+Radeon HD 7560D + 6670 Dual,1130,501,,,,,Unknown
+Radeon R7 + R7 200 Dual,1128,310,,,,,Unknown
+Radeon R7 FX-9830P RADEON,1127,235,,,,,Unknown
+Radeon HD 8650G + 7700M Dual,1126,399,,,,,Unknown
+Radeon HD 7660D + 7500 Dual,1121,500,,,,,Unknown
+Intel HD 630,1118,269,,,,,Unknown
+Radeon R7 PRO A12-9800,1117,334,,,,,Unknown
+Radeon R9 M275,1114,569,,699.99,1.59,,Mobile
+Radeon R7 430,1109,416,,199.99,5.55,,Unknown
+GeForce 940M,1106,154,33,,,34,Mobile
+Intel UHD 710,1106,307,,,,,Unknown
+Quadro 2100M,1100,765,,,,,Unknown
+Radeon HD 7660D + 6570 Dual,1100,551,,,,,Unknown
+Quadro M500M,1097,186,30,,,37,"Mobile, Workstation"
+Radeon R5 PRO A6-9500 2C+6G,1096,353,,,,,Unknown
+GeForce GT 545,1095,342,,55.59,19.71,,Unknown
+GeForce GTX 850M - MODDED,1091,819,,,,,Unknown
+GeForce 920MX,1087,149,,,,,Unknown
+Firepro W4190M,1085,194,,,,,Unknown
+Quadro K1100M,1081,250,45,322.99,3.35,24,Workstation
+GeForce 930A,1081,391,,,,,Unknown
+MIRRORV3,1080,421,,,,,Unknown
+Barco MXRT 5450,1079,478,,199.99,5.40,,Unknown
+Radeon HD 8450G + 8600/8700M Dual,1070,381,,,,,Unknown
+FirePro M4170,1067,290,,,,,Unknown
+GeForce 840M,1066,147,30,,,36,Mobile
+"Radeon R5 PRO A6-8570 R5, 8 COMPUTE CORES 2C+6G",1063,249,,,,,Unknown
+Mobility Radeon HD 5870,1061,207,50,,,21,Mobile
+Radeon HD 7660D + 7670 Dual,1061,494,,,,,Unknown
+Radeon HD 7520G + 7700M Dual,1060,331,,,,,Unknown
+Firepro M4100,1059,623,,,,,Workstation
+GeForce GTX 760A,1059,476,,,,,Unknown
+GeForce GT 745M,1055,172,45,,,23,Mobile
+OPAL XT/GL,1053,640,,,,,Unknown
+Radeon HD 7670A,1050,702,,,,,Unknown
+GeForce GTX 850A,1049,551,,,,,Unknown
+Radeon R7 PRO A8-9600,1049,482,,,,,Unknown
+Radeon 535,1048,203,,,,,Unknown
+Radeon R7 A12-9730P RADEON,1047,283,,,,,Unknown
+Radeon R7 + R7 240 Dual,1045,374,,,,,Unknown
+Radeon HD 8570D + 6670 Dual,1039,505,,,,,Unknown
+Radeon R7 M460,1038,223,,,,,Unknown
+Intel UHD Graphics 620,1036,247,,,,,Desktop
+Radeon HD 8570D + HD 8570 Dual,1032,520,,,,,Unknown
+Radeon HD 8600/8700M,1029,554,,,,,Unknown
+Radeon R7 + R5 330 Dual,1028,531,,,,,Unknown
+Radeon Vega 3 Mobile,1028,310,,,,,Unknown
+Radeon R7 M350,1027,230,,,,,Unknown
+Quadro K2000M,1026,256,55,144.04,7.13,19,Workstation
+Radeon R9 A375,1024,232,,,,,Unknown
+Quadro 3000M,1023,323,75,69.99,14.63,14,Workstation
+Radeon HD 8670D + R7 240 Dual,1020,525,,,,,Unknown
+Intel Iris Pro 5200,1020,407,,,,,Unknown
+RadeonT R5 430,1016,524,,,,,Unknown
+Radeon HD 6700M,1016,523,,,,,Unknown
+Radeon R5 A6-9500E 2C+4G,1014,438,,,,,Unknown
+GeForce 930M,1011,153,,,,,Unknown
+Radeon HD 7690M XT,1009,552,25,,,40,Mobile
+Radeon HD 6750,1005,304,86,79.99,12.57,12,Desktop
+GeForce 830A,1004,736,,,,,Unknown
+Radeon HD 7690M,1003,576,20,,,50,Mobile
+Radeon HD 7660G + HD 7500/7600 7500/7600 Dual,1002,347,,,,,Unknown
+"Radeon R5 PRO A6-9500 R5, 8 COMPUTE CORES 2C+6G",1000,231,,,,,Unknown
+Radeon HD 8570D + R7 200 Dual,999,401,,,,,Unknown
+Radeon HD 7660G + HD 7500M/7600M Dual,999,323,,,,,Unknown
+FirePro M4150,999,207,,,,,Unknown
+Radeon R5 340,996,370,,,,,Unknown
+Radeon HD 7640G + HD 8750M Dual,996,293,,,,,Unknown
+Radeon HD 8570,990,308,66,98.68,10.04,15,Desktop
+Radeon R7 A12-9800 RADEON,989,288,,,,,Unknown
+Quadro 2000D,988,324,,140.00,7.06,,Unknown
+Radeon HD 7560D + 7570 Dual,985,434,,,,,Unknown
+Radeon HD 8690M,984,768,,,,,Unknown
+Intel HD 530,983,247,,,,,Unknown
+Radeon HD 7560D + 7560D Dual,982,420,,,,,Unknown
+Radeon R7 A10-7850K,981,286,95,,,10,Desktop
+Quadro FX 4800,978,106,150,204.00,4.80,7,Workstation
+Radeon R5 A10-9630P 4C+6G,977,270,,,,,Unknown
+GeForce 830M,976,136,25,,,39,Mobile
+Radeon R7 A10-9700 RADEON,975,239,,,,,Unknown
+FirePro V4900,974,318,75,149.99,6.50,13,Workstation
+Radeon HD 8670D + 8570 Dual,974,419,,,,,Unknown
+Radeon HD 8850M,973,502,,,,,Mobile
+Radeon R6 A10-9600P 4C+6G,970,336,,,,,Unknown
+Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D,966,351,,,,,Unknown
+Radeon HD 6770M,964,572,,,,,Mobile
+Radeon R7 M465,964,342,,,,,Unknown
+Radeon HD 8570D + R7 240 Dual,963,489,,,,,Unknown
+Radeon R7 PRO A12-8870E,962,312,,,,,Unknown
+Radeon R7 M270DX,961,233,,,,,Unknown
+GeForce GT 645M,958,170,32,,,30,Mobile
+Radeon R7 A10 PRO-7850B,958,403,,,,,Unknown
+Radeon R6 Opteron X3418,955,399,,,,,Unknown
+Radeon R7 A265,954,737,,,,,Unknown
+Radeon HD 4850,953,110,110,378.00,2.52,9,Desktop
+FirePro W4170M,952,223,,,,,Unknown
+Qualcomm Adreno 690 GPU,951,81,,,,,Unknown
+Radeon HD 8670D + R7 200 Dual,949,506,,,,,Unknown
+Radeon HD 8570 + HD 7660D Dual,949,467,,,,,Unknown
+Quadro CX,947,454,,149.95,6.32,,Unknown
+Radeon R7 A8-7500,947,336,,,,,Unknown
+Radeon R7 M260X,946,175,,,,,Mobile
+Radeon R7 PRO A10-8850B,945,552,,,,,Unknown
+Radeon HD 7640G + 7690M Dual,945,325,,,,,Unknown
+Radeon HD 6670/7670,945,320,,,,,Unknown
+Radeon 530,945,181,,,,,Unknown
+zxcvIntel HD 620,943,208,,,,,Unknown
+Quadro 2000,942,294,62,213.23,4.42,15,Workstation
+Radeon HD 7660D + R7 240 Dual,941,453,,,,,Unknown
+Radeon R7 A12-9800E RADEON,940,257,,139.19,6.76,,Unknown
+Radeon R7 PRO A12-9800E,939,250,,,,,Unknown
+Radeon R5 430,938,313,,59.00,15.92,,Unknown
+Radeon HD 6750M,937,487,,,,,Mobile
+Radeon HD 7560D + HD 8570 Dual,935,425,,,,,Unknown
+Radeon R7 PRO A10-9700E,932,234,,529.00,1.76,,Unknown
+Radeon HD 7660G + 7730M Dual,931,392,,,,,Unknown
+Radeon R7 240 + HD 8670D Dual,930,471,,,,,Unknown
+Radeon R7 340,930,357,,,,,Unknown
+Radeon R7 PRO A10-8770,930,241,,,,,Unknown
+Radeon R9 M265X,929,212,,,,,Mobile
+Radeon. HD 7730M,928,678,,,,,Unknown
+Intel Iris Pro 6100,925,548,,,,,Unknown
+Radeon R9 M280X,922,272,75,,,12,Mobile
+Intel HD Graphics 620,922,218,,,,,Unknown
+Radeon R7 240 + HD 8570D Dual,917,352,,,,,Unknown
+GRID M10-0Q,913,613,,,,,Unknown
+Radeon R7 M445,912,182,,744.00,1.23,,Unknown
+GRID K220Q,912,539,,,,,Workstation
+Radeon R7 A8-8650,912,499,,,,,Unknown
+Radeon R7 A10-7860K,912,228,,,,,Unknown
+Radeon 6750M,911,570,,,,,Unknown
+GRID M6-0B,911,278,,,,,Workstation
+Intel Iris 6100,907,314,,,,,Unknown
+GeForce GT 640M,906,183,32,,,28,Mobile
+Radeon HD 4770,905,172,80,59.99,15.10,11,Desktop
+Radeon HD 8550G + 7600M Dual,901,395,,,,,Unknown
+Barco MXRT 2600,900,649,,199.00,4.52,,Unknown
+Barco MXRT 7400,900,682,,99.00,9.10,,Unknown
+Radeon R7 + R5 Dual,897,496,,,,,Unknown
+Radeon R7 PRO A10-8770E,897,233,,,,,Unknown
+7900 MOD - Radeon HD 6550D,892,536,,,,,Unknown
+FirePro W2100,890,327,26,59.00,15.09,34,Workstation
+Radeon Vega 3,889,309,,2677.99,0.33,,Unknown
+Intel UHD 620,888,662,,,,,Unknown
+Radeon R7 + R5 435 Dual A10-9700 RADEON,885,480,,,,,Unknown
+Radeon R7 A10-8750,885,243,,,,,Unknown
+Radeon HD 8650G + 7670M Dual,883,379,,,,,Unknown
+Radeon R7 M365X,883,234,,,,,Unknown
+Radeon R7 PRO A12-8830B,882,341,,,,,Unknown
+Radeon HD 7660G + HD 7730M Dual,881,329,,,,,Unknown
+GeForce GT 445M,880,250,35,,,25,Mobile
+"Radeon R5 A6-9500 RADEON R5, 8 COMPUTE CORES 2C+6G",878,200,,,,,Unknown
+Radeon E6760,876,485,,239.99,3.65,,Unknown
+LMIMIRR,874,515,,,,,Unknown
+GeForce 920A,871,242,,,,,Unknown
+Radeon R7 G,869,532,,,,,Unknown
+Radeon HD 8570D + HD 6570 Dual,868,506,,,,,Unknown
+Mobility Radeon HD 4850,866,472,,,,,Mobile
+Intel HD 520,866,211,,,,,Unknown
+"Radeon R5 PRO A6-8570E R5, 6 COMPUTE CORES 2C+4G",866,210,,,,,Unknown
+Radeon R7 A8-7670K,865,310,,,,,Unknown
+Radeon HD 8750M,863,212,,,,,Mobile
+Radeon R7 240,862,258,30,109.99,7.84,29,Desktop
+Radeon HD 8470D + HD 6450 Dual,862,590,,,,,Unknown
+Radeon R7 M440,862,180,,,,,Unknown
+Radeon HD 4830,860,81,95,59.99,14.34,9,Desktop
+Radeon HD 8550G + HD 7600M Dual,854,350,,,,,Unknown
+FirePro 3D V4800,853,324,69,159.99,5.33,12,Workstation
+Radeon R7 A8-7500 4C+6G,853,390,,,,,Unknown
+Radeon R5 A6-9500 2C+6G,853,249,,,,,Unknown
+GeForce GT 635,852,242,,66.94,12.73,,Unknown
+Radeon HD 8500M/8700M,852,503,,,,,Unknown
+Intel HD 6000,851,277,,,,,Unknown
+Intel UHD 617,848,270,,,,,Unknown
+Radeon R5 PRO A6-8570 2C+6G,847,292,,,,,Unknown
+Radeon R5 435,840,235,,,,,Unknown
+Radeon 620,839,202,,,,,Unknown
+FireGL V8600,838,406,,,,,Workstation
+Radeon HD 8470D + 6570 Dual,837,454,,,,,Unknown
+Radeon HD 8670D + R5 235 Dual,836,518,,,,,Unknown
+Radeon HD 6650A,835,418,,,,,Unknown
+Radeon 520,833,216,,89.99,9.26,,Unknown
+Radeon HD 7560D + 6570 Dual,833,476,,,,,Unknown
+Radeon HD 7520G + HD 7500/7600 Dual,832,355,,,,,Unknown
+Radeon HD 8650G + 8600/8700M Dual,831,374,,,,,Unknown
+Radeon HD 7660G + 7600M Dual,831,341,,,,,Unknown
+Intel HD 5200,830,653,,,,,Unknown
+GRID M60-0Q,827,423,,,,,Unknown
+3DP Edition,826,931,,1159.99,0.71,,Unknown
+Radeon HD 7640G N HD 7640G + HD 7600M N HD 7600M D,824,262,,,,,Unknown
+Radeon HD 3850 X2,822,422,349,,,2,Desktop
+Radeon R7 M260DX,822,210,,,,,Unknown
+Radeon HD 7540D + 7500 Dual,821,471,,,,,Unknown
+Radeon HD 8650G + HD 7600M Dual,819,346,,,,,Unknown
+Radeon HD 8550G + HD 8750M Dual,819,336,,,,,Unknown
+Radeon R7 A10 Extreme Edition,816,286,,,,,Unknown
+GeForce GT 730M,815,173,33,,,25,Mobile
+Radeon 535DX,813,199,,,,,Unknown
+Radeon HD 7670,812,301,66,,,12,Desktop
+GeForce GT 730,811,238,49,109.99,7.38,17,Desktop
+Radeon HD 8670D + 7000 Dual,811,488,,,,,Unknown
+GRID K1,810,463,,395.00,2.05,,Workstation
+Radeon R5 A6-7480,810,217,,,,,Unknown
+Radeon R8 M445DX,806,179,,,,,Unknown
+Radeon HD 8550G + 8600/8700M Dual,802,336,,,,,Unknown
+Radeon HD 8650G + HD 8790M Dual,799,404,,,,,Unknown
+Radeon R7 A8-9600 RADEON,798,194,,,,,Unknown
+GeForce 9800 GX2,797,518,197,195.00,4.09,4,Desktop
+Radeon HD 8650G N HD 8650G + HD 8600/8700M Dual,796,322,,,,,Unknown
+Radeon R5 M435,796,179,,,,,Unknown
+Radeon HD 8550G + 8750M Dual,795,321,,,,,Unknown
+Radeon HD 8650G + 8750M Dual,786,381,,,,,Unknown
+Radeon HD 5670,784,279,64,67.00,11.71,12,Desktop
+Radeon R7 A8-7600,782,210,,,,,Unknown
+Radeon R7 A365,781,763,,,,,Unknown
+Radeon R7 PRO A6-9500 2C+6G,781,439,,,,,Unknown
+Radeon R7 A10-7890K,780,241,,,,,Unknown
+Quadro FX 3800,779,100,108,259.13,3.01,7,Workstation
+Radeon HD 8650G + HD 8750M Dual,778,345,,,,,Unknown
+GeForce GT 740M,778,143,,,,,Mobile
+GRID P40-4Q,777,621,,,,,Unknown
+Radeon HD 7660G + HD 7700M Dual,777,168,,,,,Unknown
+Radeon HD 7640G + 7500M/7600M Dual,775,317,,,,,Unknown
+Quadro K420,774,280,41,269.00,2.88,19,Workstation
+GeForce GT 340,774,469,69,52.99,14.62,11,Desktop
+RadeonT Vega 3,774,391,,,,,Unknown
+Radeon R7 FX-8800P,774,184,,,,,Unknown
+Quadro K1000M,773,244,45,69.95,11.05,17,Workstation
+Quadro 2000M,773,249,55,229.74,3.37,14,Workstation
+Mobility Radeon HD 5000,773,429,,,,,Unknown
+Radeon HD 8650G N HD 8650G + HD 8570M Dual,773,368,,,,,Unknown
+Radeon HD 7600M + 7600M Dual,773,317,,,,,Unknown
+Radeon R7 A10-8850,773,277,,,,,Unknown
+Radeon R7 PRO A10-9700,771,212,,,,,Unknown
+Radeon R5 PRO A6-9500E 2C+4G,770,288,,,,,Unknown
+Quadro K600,769,263,41,60.24,12.77,19,Workstation
+Radeon HD 4810,769,425,95,,,8,Desktop
+GeForce 9800 GTX,769,366,140,74.99,10.26,5,Desktop
+GeForce 730A,769,205,,,,,Unknown
+GeForce 825M,768,293,33,,,23,Mobile
+GeForce GT 440,765,238,65,225.00,3.40,12,Desktop
+Mobility Radeon HD 5850,763,403,31,,,25,Mobile
+Radeon HD 8650G + HD 8600/8700M Dual,763,356,,,,,Unknown
+Radeon R9 M375,763,172,,,,,Mobile
+Radeon HD 6450 + 8470D Dual,762,486,,,,,Unknown
+Radeon HD 7660G + HD 7500/7600 Dual,760,369,,,,,Unknown
+Intel UHD 615,759,197,,,,,Unknown
+Radeon R7 A12-9720P RADEON,758,186,,365.48,2.08,,Unknown
+Radeon HD 7660G + HD 8500M Dual,758,355,,,,,Unknown
+Radeon HD 8650G + HD 8600M N HD 8600M Dual,757,413,,,,,Unknown
+Radeon HD 7660G + 7700M Dual,757,311,,,,,Unknown
+Intel Iris 5100,757,277,,,,,Unknown
+Radeon R7 PRO A10-9700B,757,259,,,,,Unknown
+Radeon R7 PRO A10-8750B,757,224,,,,,Unknown
+Quadro 1100M,755,734,,,,,Unknown
+Radeon HD 7640G + 7450M Dual,754,353,,,,,Unknown
+Radeon HD 8570D + HD 7000 Dual,753,465,,,,,Unknown
+Radeon R7 A8-7680,752,210,,,,,Unknown
+Radeon HD 6650M,751,230,,,,,Mobile
+IncrediblE HD 4600,749,735,,,,,Unknown
+Radeon M535DX,749,288,,,,,Unknown
+Radeon R7 A10-7700K,749,227,,,,,Unknown
+Radeon HD 7660G + HD 8600/8700M Dual,747,365,,,,,Unknown
+Radeon HD 7640G + 7650M Dual,747,188,,,,,Unknown
+Radeon HD 8670D + R5 330 Dual,746,494,,,,,Unknown
+Radeon HD 7660G + 7610M Dual,745,323,,,,,Unknown
+Radeon HD 6670,744,236,66,68.99,10.80,11,Desktop
+Radeon R5 235 + HD 7560D Dual,743,441,,,,,Unknown
+Radeon HD 7660G + 7670M Dual,743,347,,,,,Unknown
+GeForce GT 730A,742,714,,,,,Unknown
+Radeon HD 8650G + 7600M Dual,741,404,,,,,Unknown
+Radeon R8 M365DX,740,336,,,,,Unknown
+Radeon R7 PRO A8-8650B,740,192,,,,,Unknown
+Intel Poison Ivy,738,783,,,,,Unknown
+Radeon HD 7670M + 7670M Dual,738,294,,,,,Unknown
+Radeon R5 235 + HD 8570D Dual,737,486,,,,,Unknown
+Radeon R7 M270,733,167,,,,,Unknown
+Radeon R5 A10-9620P 4C+6G,731,196,,,,,Unknown
+NVS 510,729,276,35,139.99,5.21,21,Workstation
+Intel UHD 610,729,180,,,,,Unknown
+Radeon HD 7550M/7650M,728,524,13,,,56,Mobile
+GRID K140Q,727,457,,,,,Workstation
+Radeon R7 FX-9800P RADEON,726,197,,530.00,1.37,,Unknown
+Radeon HD 6800M,726,229,,,,,Unknown
+GeForce 720A,724,690,,,,,Unknown
+Intel HD 615,723,187,,,,,Unknown
+GeForce 920M,723,119,,,,,Unknown
+Radeon HD 8650G + R5 M200 Dual,722,323,,,,,Unknown
+Radeon HD 7660G N HD 7660G + HD 7600M N HD 7600M D,722,292,,,,,Unknown
+Radeon R7 PRO A12-9800B,722,197,,,,,Unknown
+Asus GTX 650 FML II EC-EGPU,720,534,,,,,Unknown
+Radeon HD 7540D + 6570 Dual,719,469,,,,,Unknown
+Mobility Radeon HD 4870,719,416,,,,,Mobile
+Radeon HD 8670D + HD 7000 Dual,718,403,,,,,Unknown
+"Radeon R5 PRO A8-9600B R5, 10 COMPUTE CORES 4C+6G",718,181,,,,,Unknown
+Radeon HD 8470D + 6450 Dual,717,558,,,,,Unknown
+Radeon HD 8650G + HD 8570M Dual,716,317,,,,,Unknown
+"Radeon R5 A10-9600P RADEON R5, 10 COMPUTE CORES 4C",715,146,,,,,Unknown
+Intel HD 5600,712,595,,,,,Unknown
+Radeon HD 7660G + HD 8670M Dual,711,325,,,,,Unknown
+Quadro K610M,708,239,30,240.00,2.95,24,Workstation
+Radeon HD 3870 X2,708,224,165,,,4,Desktop
+Radeon HD 6550A,707,609,,,,,Unknown
+Radeon HD 7660G + HD 7670M Dual,706,317,,,,,Unknown
+Radeon HD 7640G + 7600M Dual,705,294,,,,,Unknown
+Radeon HD 7660G N HD 7660G + HD 7670M Dual,704,318,,,,,Unknown
+Radeon HD 7640G + HD 7600M Dual,704,277,,,,,Unknown
+Tesla K40m,704,21,,,,,Unknown
+Radeon R7 A12-9700P RADEON,703,165,,435.92,1.61,,Unknown
+Radeon R7 A8-7650K,703,208,,,,,Unknown
+GeForce GT 740A,701,393,,,,,Unknown
+Radeon HD 7570M/HD 7670M,699,555,25,,,28,Mobile
+TRINITY DEVASTATOR MOBILE,699,335,,,,,Unknown
+Radeon R5 PRO A10-8730B 4C+6G,695,201,,,,,Unknown
+Radeon R5 PRO A6-9500B 2C+4G,693,323,,,,,Unknown
+Radeon R7 A10-7800,691,197,,,,,Unknown
+Radeon HD 7640G + 7700M Dual,690,324,,,,,Unknown
+Radeon R7E,690,208,,,,,Unknown
+Radeon R5 PRO A6-8530B 2C+4G,689,354,,,,,Unknown
+Radeon HD 7640G + 8600/8700M Dual,688,308,,,,,Unknown
+GeForce GT 555M,686,124,30,177.20,3.88,23,Mobile
+Radeon HD 8650G + R5 M230 Dual,686,374,,,,,Unknown
+Radeon HD 8550D,685,357,,,,,Unknown
+Radeon HD 6630M,684,390,,,,,Mobile
+GeForce GT 630,683,207,50,147.01,4.65,14,Desktop
+GRID P40-3Q,681,603,,,,,Unknown
+Radeon HD 8650G N HD 8650G + HD 8600M N HD 8600M D,679,347,,,,,Unknown
+Radeon HD 7640G N HD 7640G + HD 7670M Dual,679,305,,,,,Unknown
+GeForce GTS 160M,678,308,60,,,11,Mobile
+Radeon HD 7640G + HD 8670M Dual,677,249,,,,,Unknown
+Quadro FX 4700 X2,676,509,,,,,Unknown
+Radeon R7 A360,676,346,,,,,Unknown
+Radeon HD 8610G + R5 M200 Dual,676,291,,,,,Unknown
+GeForce GT 530,675,227,50,49.00,13.79,14,Desktop
+GeForce GTX 285M,675,246,75,,,9,Mobile
+GeForce GT 640M LE,672,166,32,849.99,0.79,21,Mobile
+Intel HD 610,672,156,,,,,Unknown
+Radeon R8 M535DX,670,182,,,,,Unknown
+FirePro M7740,665,415,,,,,Workstation
+Radeon HD 7640G + HD 8500M N HD 8500M Dual,665,311,,,,,Unknown
+Quadro 500M,664,588,35,275.14,2.41,19,Workstation
+Radeon HD 8550G + 8690M Dual,664,260,,,,,Unknown
+FirePro V3900,661,242,50,238.44,2.78,13,Workstation
+FireGL V7700,660,422,,69.99,9.43,,Workstation
+Radeon HD 5600/5700,660,273,,,,,Unknown
+Radeon HD 2900 XT,659,397,215,,,3,Desktop
+Radeon R5 PRO A8-9600B 4C+6G,658,224,,,,,Unknown
+Radeon HD 8730M,658,186,,,,,Mobile
+GeForce GT 140,657,225,105,,,6,Desktop
+Radeon R6,655,147,15,,,44,"Desktop, Mobile"
+GeForce GTS 360M,654,71,38,,,17,Mobile
+Radeon HD 7640G + 8750M Dual,654,305,,,,,Unknown
+Radeon HD 8650G + 8570M Dual,654,282,,,,,Unknown
+Radeon HD 8550G + HD 8600/8700M Dual,654,170,,,,,Unknown
+Professional HD Driver,653,555,,,,,Unknown
+Radeon HD 7520G + HD 8750M Dual,651,289,,,,,Unknown
+SUMO 9640,650,398,,,,,Unknown
+Radeon R5 M430,648,516,,,,,Unknown
+FireStream 9170,647,493,,,,,Unknown
+Radeon HD 6670 + 6670 Dual,646,552,,,,,Unknown
+Radeon HD 8610G + HD 8500M Dual,645,274,,,,,Unknown
+Radeon HD 7640G + 7670M Dual,644,294,,,,,Unknown
+Radeon HD 7540D + HD 6450 Dual,643,444,,,,,Unknown
+Radeon R7 PRO A12-8800B,642,201,,,,,Unknown
+Radeon R7 M340,642,151,,,,,Mobile
+GeForce 8800 Ultra,638,372,171,,,4,Desktop
+Radeon HD 8450G + 8750M Dual,637,299,,,,,Unknown
+Radeon HD 7640G + 7400M Dual,637,286,,,,,Unknown
+Radeon R5 PRO A6-8570E 2C+4G,637,268,,,,,Unknown
+GeForce GT 710,636,214,25,102.99,6.19,25,Desktop
+GeForce 9800 S,635,427,,,,,Unknown
+Radeon HD 8650G + 8670M Dual,635,355,,,,,Unknown
+Radeon HD 7730M,634,218,25,,,25,Mobile
+NVS 5400M,634,184,35,,,18,Workstation
+Matrox C420 LP PCIe x16,634,457,,,,,Unknown
+Radeon HD 8650G + HD 7670M Dual,634,305,,,,,Unknown
+Radeon HD 7660D + HD 7000 Dual,633,465,,,,,Unknown
+Radeon HD 7610M,632,479,20,,,32,Mobile
+GeForce 9800 GTX/9800 GTX+,631,139,141,89.99,7.02,4,Desktop
+Radeon HD 7660G + 7470M Dual,630,351,,,,,Unknown
+Radeon HD 7640G + HD 7700M N HD 7700M Dual,630,272,,,,,Unknown
+Radeon HD 8510G + HD 8500M Dual,629,191,,,,,Unknown
+Quadro FX 3800M,628,68,100,,,6,Workstation
+GRID K160Q,628,262,,,,,Workstation
+Radeon HD 2900 PRO,627,397,200,,,3,Desktop
+Radeon HD 7640G + 7500/7600 Dual,627,293,,,,,Unknown
+GeForce GT 820M,627,153,,,,,Unknown
+Intel HD 4600,626,315,45,,,14,Desktop
+Radeon HD 8650G + 8500M Dual,626,351,,,,,Unknown
+"Radeon R5 A10-9620P RADEON R5, 10 COMPUTE CORES 4C",626,165,,,,,Unknown
+Radeon R7 A8 PRO-7600B,626,156,,,,,Unknown
+Intel HD P4600/P4700,624,367,,,,,Unknown
+Radeon R5 A6-8500P,624,209,,,,,Unknown
+Radeon HD 7520G + HD 8600/8700M Dual,623,291,,,,,Unknown
+GeForce 810A,622,319,,,,,Unknown
+Intel HD 515,622,190,,,,,Unknown
+GeForce GTX 280M,621,440,75,,,8,Mobile
+GeForce GTS 240,621,212,120,64.99,9.57,5,Desktop
+Radeon HD 7640G + HD 7400M Dual,621,297,,,,,Unknown
+Radeon HD 8570 + 8670D Dual,620,496,,,,,Unknown
+Radeon HD 8550G + R5 M200 Dual,619,276,,,,,Unknown
+Radeon R5 A10-9600P 4C+6G,619,146,,,,,Unknown
+GeForce GTS 250,618,92,150,69.99,8.84,4,Desktop
+Intel HD 510,618,159,,,,,Unknown
+Radeon HD 8550G + 8600M Dual,617,321,,,,,Unknown
+Radeon HD 7500G + 7500M/7600M Dual,616,308,,,,,Unknown
+FireGL V7600,615,488,,,,,Workstation
+Radeon HD 7660G + HD 7600M Dual,615,116,,,,,Unknown
+Radeon HD 7570,614,268,44,102.49,6.00,14,Desktop
+Radeon HD 8650G + 8600M Dual,613,370,,,,,Unknown
+Radeon HD 8550G N HD 8550G + HD 8600M N HD 8600M D,611,116,,,,,Unknown
+Quadro K510M,610,550,30,,,20,Workstation
+7900 MOD - Radeon HD 6520G,610,323,,,,,Unknown
+Radeon HD 8610G + 8500M Dual,610,298,,,,,Unknown
+Radeon HD 7640G + HD 8500M Dual,607,305,,,,,Unknown
+GeForce GT 720,606,196,19,99.99,6.06,32,Desktop
+Radeon HD 8650G + HD 8600M Dual,606,378,,,,,Unknown
+"Radeon R5 A6-9400 RADEON R5, 6 COMPUTE CORES 2C+4G",605,271,,,,,Unknown
+Intel HD P4600,604,963,,,,,Unknown
+GeForce GT 430,602,191,49,139.99,4.31,12,Desktop
+Radeon HD 8550G + 8500M Dual,602,304,,,,,Unknown
+GeForce GT 720A,600,221,,,,,Unknown
+Radeon HD 8610G + 8670M Dual,599,356,,,,,Unknown
+Quadro 1000M,598,201,45,54.50,10.99,13,Workstation
+"Radeon R5 PRO A10-8730B R5, 10 COMPUTE CORES 4C+6G",598,152,,,,,Unknown
+GeForce 8800 GTX,597,105,155,119.99,4.98,4,Desktop
+Radeon HD 8510G + 8500M Dual,596,260,,,,,Unknown
+Radeon R5 M330,595,519,18,,,33,Mobile
+Radeon HD 7640G + 7470M Dual,595,301,,,,,Unknown
+GeForce GT 735M,594,131,,,,,Mobile
+Radeon HD 8550G + HD 8600M Dual,593,322,,,,,Unknown
+GeForce 8800 GTS 512,591,109,135,,,4,Desktop
+Radeon HD 7520G + 7600M Dual,591,362,,,,,Unknown
+Radeon HD 7640G + HD 7700M Dual,589,277,,,,,Unknown
+Radeon HD 7660G + 7400M Dual,588,326,,,,,Unknown
+Radeon HD 8610G + 8600M Dual,588,320,,,,,Unknown
+Radeon HD 7520G + 7610M Dual,588,317,,,,,Unknown
+Radeon HD 7660G + 8670M Dual,587,333,,,,,Unknown
+Radeon HD 7640G + HD 8600/8700M Dual,586,298,,,,,Unknown
+Radeon HD 8650G + HD 8670M Dual,585,320,,,,,Unknown
+Radeon HD 7640G + 8500M Dual,585,308,,,,,Unknown
+Radeon HD 7520G + 7500/7600 Dual,582,379,,,,,Unknown
+Intel HD 5500,581,234,,,,,Unknown
+GeForce GT 550M,580,126,32,,,18,Mobile
+"Radeon R5 A10-9630P RADEON R5, 10 COMPUTE CORES 4C",580,175,,,,,Unknown
+Radeon HD 8550G + 8670M Dual,579,334,,,,,Unknown
+Radeon HD 8450G + R5 M230 Dual,578,298,,,,,Unknown
+GeForce 910M,578,150,,,,,Unknown
+Radeon HD 7620G + 8670M Dual,577,322,,,,,Unknown
+Radeon HD 8610G + HD 8670M Dual,577,282,,,,,Unknown
+Radeon R5 A240,576,802,,,,,Unknown
+Intel Skylake HD DT GT2,576,402,,,,,Unknown
+Radeon R7 M265,576,170,,,,,Mobile
+Radeon HD 3870,575,82,106,69.99,8.22,5,Desktop
+Radeon R5 420,574,230,,39.95,14.39,,Unknown
+Radeon HD 7520G + HD 7700M Dual,574,389,,,,,Unknown
+Radeon HD 7520G N HD 7520G + HD 7500/7600 7500/760,574,386,,,,,Unknown
+Radeon HD 8450G + HD 8670M Dual,574,377,,,,,Unknown
+Intel i gfx-driver-ci-master-9938 DCH-I,572,194,,,,,Unknown
+Radeon R6 M255DX,572,106,,,,,Unknown
+"Radeon R6 PRO A8-8600B R6, 10 Compute Cores 4C+6G",571,151,,,,,Unknown
+Radeon R6 + R7 M265DX Dual,570,328,,,,,Unknown
+GeForce GTS 250M,569,69,28,,,20,Mobile
+Radeon HD 7560D + 6450 Dual,568,490,,,,,Unknown
+GeForce 820A,568,162,,,,,Unknown
+Radeon HD 6610M,565,527,,,,,Unknown
+Radeon HD 7650A,564,311,,262.00,2.15,,Unknown
+GeForce GT 635M,563,173,35,,,16,Mobile
+Radeon HD 7560D + R5 235 Dual,563,397,,,,,Unknown
+Intel HD 5000,562,231,,625.00,0.90,,Unknown
+Quadro FX 5600,561,168,,295.00,1.90,,Unknown
+Radeon R7 A10 PRO-7800B,561,289,,,,,Unknown
+Radeon HD 7640G + R5 M200 Dual,559,249,,,,,Unknown
+Radeon HD 7640G + 8670M Dual,558,316,,,,,Unknown
+Radeon HD 8550G + HD 8500M Dual,558,301,,,,,Unknown
+Radeon HD 7640G + 8570M Dual,558,274,,,,,Unknown
+Radeon HD 7600G + HD 7500M/7600M Dual,555,244,,,,,Unknown
+GF117,554,446,,,,,Unknown
+Radeon R7 M360,552,151,,,,,Mobile
+Radeon R7 7850A10-7850K,551,506,,,,,Unknown
+GeForce 615,551,412,,,,,Unknown
+FireGL V8650,550,637,,298.99,1.84,,Workstation
+GeForce GT 630M,549,151,33,,,17,Mobile
+Radeon R5 M335,548,577,,,,,Mobile
+Radeon HD 8670D,548,189,,,,,Unknown
+Mobility Radeon HD 3870,547,288,,,,,Mobile
+FirePro 3D V5700,546,517,58,319.99,1.71,9,Workstation
+Radeon HD 8550G + HD 8670M Dual,546,315,,,,,Unknown
+Quadro 600,545,225,40,76.00,7.18,14,Workstation
+FirePro 3D V7750,545,468,76,350.00,1.56,7,Workstation
+Radeon HD 8450G + 8600M Dual,545,356,,,,,Unknown
+Radeon HD 7520G + HD 7400M Dual,544,315,,,,,Unknown
+Mobility Radeon HD 5570,544,246,,,,,Unknown
+Quadro FX 2700,543,465,,,,,Unknown
+Radeon HD 7600G + HD 8670M Dual,543,241,,,,,Unknown
+GeForce GT 240,542,78,69,160.97,3.37,8,Desktop
+Radeon HD 7520G + 7470M Dual,542,345,,,,,Unknown
+Radeon R6 A10-8700P,541,141,,,,,Unknown
+KV SPECTRE LITE MOBILE 25W,538,291,,,,,Unknown
+Radeon R6 PRO A10-8700B 4C+6G,538,146,,,,,Unknown
+GeForce 9800 GTX+,538,128,,,,,Unknown
+Radeon HD 7560D + HD 7000 Dual,534,423,,,,,Unknown
+NVS 5200M,533,193,35,,,15,Workstation
+GRID K180Q,533,113,,,,,Workstation
+Radeon HD 8550G + 8570M Dual,532,307,,,,,Unknown
+RADEON HD6530D,531,327,,,,,Unknown
+Radeon R6 PRO A8-8600B 4C+6G,531,158,,,,,Unknown
+Radeon HD 8550G + HD 8570M Dual,529,260,,,,,Unknown
+Radeon HD 7640G + 6400M Dual,526,279,,,,,Unknown
+Radeon HD 7600G N HD 7600G + HD ON HD Dual,526,244,,,,,Unknown
+"Radeon R6 PRO A10-8700B R6, 10 Compute Cores 4C+6G",526,146,,,,,Unknown
+Radeon HD 8650D,525,398,,,,,Unknown
+Radeon HD 7660D + R5 235 Dual,523,386,,,,,Unknown
+Radeon HD 7520G + 7670M Dual,523,323,,,,,Unknown
+GeForce GT 435M,521,208,35,,,15,Mobile
+Intel HD 4400,521,283,,,,,Unknown
+Radeon HD 8670M,520,488,,,,,Mobile
+MCT USB3.0 External Device,520,129,,,,,Unknown
+Radeon R5 240,519,191,50,85.00,6.11,10,Desktop
+GeForce 8800 GT,519,85,125,69.99,7.42,4,Desktop
+Radeon HD 7640G + HD 7670M Dual,518,97,,,,,Unknown
+IncrediblE HD 4000,517,520,,,,,Unknown
+GeForce GT 425M,516,175,23,,,22,Mobile
+Intel HD P4000,516,636,,,,,Unknown
+Radeon R5 330,513,200,30,339.99,1.51,17,Desktop
+A10-8700P,513,302,,,,,Unknown
+Radeon 6600M,513,143,,,,,Unknown
+Mobility Radeon HD 4830,511,285,,,,,Mobile
+GeForce 820M,510,111,15,,,34,Mobile
+Radeon HD 7640G + 7610M Dual,510,309,,,,,Unknown
+Radeon HD 7600G + HD 7550M Dual,509,202,,,,,Unknown
+Radeon R5 PRO A6-8500B 2C+4G,508,416,,,,,Unknown
+Radeon HD 7620G + 8600M Dual,508,294,,,,,Unknown
+Radeon HD 7620G + HD 8670M Dual,507,267,,,,,Unknown
+GeForce 9600 GT,505,60,95,64.99,7.77,5,Desktop
+GeForce GTS 150M,504,407,,,,,Mobile
+Radeon HD 7660D,503,182,100,,,5,Desktop
+Radeon HD 8450G + HD 8750M Dual,503,323,,,,,Unknown
+TRINITY SCRAPPER MOBILE,498,280,,,,,Unknown
+Radeon R7 M265DX,498,138,,,,,Unknown
+SUMO 964A,497,403,,,,,Unknown
+Radeon HD 7500G + 7550M Dual,497,263,,,,,Unknown
+Radeon HD 6570,496,193,44,63.81,7.78,11,Desktop
+ASUS EAH4870x2,496,539,,,,,Unknown
+Radeon HD 7520G + HD 7670M Dual,495,295,,,,,Unknown
+Radeon R5 M255,495,142,,,,,Mobile
+GeForce GT 540M,493,86,32,87.95,5.61,15,Mobile
+GeForce GT625M,493,170,,,,,Unknown
+Radeon HD8530M,490,438,,,,,Unknown
+Radeon Vega 2,490,247,,,,,Unknown
+Radeon HD 8670D N HD 8670D + HD 8670D Dual,488,526,,,,,Unknown
+Mobility Radeon HD 5730,487,144,26,,,19,Mobile
+Radeon R4E,487,366,,,,,Unknown
+Radeon HD 8550G + R5 M230 Dual,487,211,,,,,Unknown
+Radeon HD 7520G + 7400M Dual,486,280,,,,,Unknown
+Radeon HD 7670M,484,123,20,629.99,0.77,24,Mobile
+GeForce 9800 GT,480,94,125,74.99,6.41,4,Desktop
+Quadro K500M,480,184,,,,,Unknown
+Radeon HD 8610G + HD 8600M Dual,480,156,,,,,Unknown
+"Radeon R5 PRO A6-9500B R5, 6 COMPUTE CORES 2C+4G",479,141,,,,,Unknown
+Radeon HD 8650G,479,135,,,,,Unknown
+Mobility Radeon HD 5000 Serisi,478,305,,,,,Unknown
+Mobility Radeon HD 3870 X2,477,187,,,,,Mobile
+Radeon R5 M315,476,205,,,,,Unknown
+Radeon HD 7660G,475,129,,,,,Unknown
+Radeon HD 8450G + 8670M Dual,474,414,,,,,Unknown
+Radeon HD 7640G + HD 8570M Dual,474,196,,,,,Unknown
+Radeon R6 A8-8600P,474,151,,,,,Unknown
+Radeon HD 5570,473,177,39,163.99,2.89,12,Desktop
+FirePro 3D V3800,472,507,43,149.99,3.15,11,Workstation
+Radeon HD 7560D,471,168,100,,,5,Desktop
+Radeon HD 8570D + R5 235 Dual,470,470,,,,,Unknown
+Radeon R5 M420,470,164,,,,,Unknown
+Quadro FX 1800M,469,73,45,,,10,Workstation
+Radeon HD 7600G + 8500M/8700M Dual,469,257,,,,,Unknown
+GeForce 800M,468,388,,,,,Unknown
+Quadro FX 3700M,467,117,75,925.00,0.50,6,Workstation
+Quadro FX 3600M,466,365,70,,,7,Workstation
+GeForce GT 720M,466,116,,,,,Mobile
+Radeon HD 7660D + 7470 Dual,465,491,,,,,Unknown
+SUMO 9644,465,386,,,,,Unknown
+Radeon HD 8690A,465,128,,,,,Unknown
+Radeon HD 7550M,464,403,13,,,36,Mobile
+FirePro V5700,464,469,,188.06,2.47,,Unknown
+Mobility Radeon HD 4670,463,375,,,,,Mobile
+GeForce 8800M GTX,462,175,65,,,7,Mobile
+GeForce 9800M GTX,461,117,75,328.50,1.41,6,Mobile
+GeForce 9800M GS,460,109,60,,,8,Mobile
+Radeon HD 7660G + HD 7600M N HD 7600M Dual,460,297,,,,,Unknown
+GeForce GT 525M,459,95,20,,,23,Mobile
+GeForce 705M,455,455,,,,,Unknown
+Radeon HD 7520G + 7650M Dual,453,345,,,,,Unknown
+Radeon R7 M260,452,117,,799.00,0.57,,Mobile
+Radeon HD 8450G + HD 8600M Dual,452,326,,,,,Unknown
+HIS DIGITAL HD 4650 AGP,452,190,,,,,Unknown
+GeForce 710A,451,258,33,,,14,Desktop
+Radeon HD 7620G N HD 7620G + HD 8600M N HD 8600M D,451,238,,,,,Unknown
+Intel HD Family,451,189,,,,,Unknown
+Mobility Radeon HD 5650,450,143,15,,,30,Mobile
+Radeon HD 7650M,450,69,20,,,23,Mobile
+GeForce 710M,449,116,12,,,37,Mobile
+Radeon HD 7520G + HD 7600M Dual,447,150,,,,,Unknown
+Radeon HD 7640G,447,122,,,,,Unknown
+PHDGD Ivy 5,445,497,,,,,Unknown
+Radeon HD 7660G + 8600M Dual,445,360,,,,,Unknown
+Radeon HD 7570M,444,197,13,,,34,Mobile
+GeForce GT 320,444,92,43,32.69,13.59,10,Desktop
+Radeon HD 8350G,443,332,35,,,13,Mobile
+GeForce GT 710M,443,123,,,,,Unknown
+Radeon HD 7620G + HD 8600M Dual,442,267,,,,,Unknown
+GeForce 8800 GTS,440,56,146,79.99,5.50,3,Desktop
+Qualcomm Adreno 680 GPU,439,81,,,,,Unknown
+Quadro 410,436,218,38,129.00,3.38,11,Workstation
+Quadro FX 4600,436,202,134,333.25,1.31,3,Workstation
+GeForce GT 625M,435,210,15,,,29,Mobile
+Radeon HD 8410G,435,263,,,,,Unknown
+Radeon HD 7600G + HD Dual,435,158,,,,,Unknown
+Radeon HD 8570D,433,154,,,,,Unknown
+Quadro FX 2800M,432,80,75,190.00,2.28,6,Workstation
+Radeon HD 3850 AGP,432,92,75,,,6,Desktop
+Radeon R5 M240,432,247,,,,,Unknown
+GeForce GT 620M,430,129,15,,,29,Mobile
+GeForce 800A,428,224,,,,,Unknown
+GeForce 9800M GT,424,130,65,,,7,Mobile
+Radeon HD 7640G + HD 7500/7600 Dual,423,301,,,,,Unknown
+Radeon HD 7600G + 7550M Dual,423,247,,,,,Unknown
+RADEON HD6410D,422,296,,,,,Unknown
+Radeon HD 7640G N HD 7640G + HD 8570M Dual,422,287,,,,,Unknown
+GeForce GT 330,421,119,,39.99,10.55,,Unknown
+Radeon HD 8570M,421,164,,,,,Unknown
+Intel 4th Generation Haswell HD,419,734,,,,,Unknown
+GeForce GT 420M,418,83,23,,,18,Mobile
+Radeon R5 M320,418,137,,,,,Unknown
+Radeon HD 6550D,416,149,100,,,4,Desktop
+Radeon HD 8610G,414,121,,,,,Unknown
+GeForce GT 420,411,187,50,155.00,2.65,8,Desktop
+GeForce GTX 260M,411,59,65,,,6,Mobile
+Radeon HD 3850,410,43,75,,,5,Desktop
+Radeon HD 7470M,407,393,7,,,58,Mobile
+GeForce GTS 350M,407,113,28,,,15,Mobile
+Radeon HD 7640G + HD 7600M N HD 7600M Dual,406,198,,,,,Unknown
+Quadro FX 1800,405,90,59,135.00,3.00,7,Workstation
+RADEON E4690,405,347,,,,,Unknown
+Radeon HD 7600G + 7500M/7600M Dual,405,210,,,,,Unknown
+FirePro M2000,405,206,,,,,Workstation
+Radeon HD 8550G,403,116,,,,,Unknown
+Mobility Radeon HD 4650,401,320,,,,,Mobile
+GeForce 810M,401,71,,,,,Unknown
+GeForce GT 335M,399,49,28,,,14,Mobile
+Radeon HD 8500M,397,115,,,,,Unknown
+Radeon R5 Opteron X3216,394,182,,,,,Unknown
+Radeon R5 M230,390,139,,,,,Mobile
+IncrediblE HD,389,427,,,,,Unknown
+Radeon HD 7600G + 7450M Dual,389,221,,,,,Unknown
+Intel HD 5300,388,186,,,,,Unknown
+GeForce 7900 GTX,387,165,,,,,Desktop
+Quadro FX 3700,384,158,78,213.27,1.80,5,Workstation
+Radeon HD 5550,383,187,39,54.99,6.97,10,Desktop
+Radeon HD 4670,383,50,59,142.96,2.69,6,Desktop
+GeForce 8800M GTS,382,159,50,,,8,Mobile
+GeForce 9800M GTS,378,135,75,,,5,Mobile
+Radeon HD 6490M,377,514,,1193.03,0.32,,Mobile
+Radeon HD 7520G + 8750M Dual,376,388,,,,,Unknown
+Radeon HD 7600G + 6400M Dual,376,257,,,,,Unknown
+PHDGD Ivy 4,374,434,,,,,Unknown
+Radeon HD 8570D + HD8490 Dual,374,380,,,,,Unknown
+Intel UHD 605,369,112,,,,,Unknown
+GeForce GT 610M / GT 620M / GT 710M / GT 720M / GT,368,824,,,,,Unknown
+Matrox Millennium P690 PCIe x16,366,295,,,,,Unknown
+Radeon HD 7620G,366,113,,,,,Unknown
+Radeon HD4670,365,585,,,,,Unknown
+Mobility Radeon HD 3850,365,248,,,,,Mobile
+GeForce GT 620,364,162,30,154.00,2.37,12,Desktop
+Radeon HD 7520G N HD 7520G + HD 7600M N HD 7600M D,364,263,,,,,Unknown
+Radeon HD 7660G + HD 8600M Dual,363,337,,,,,Unknown
+Radeon HD 8470D,362,145,,,,,Unknown
+Radeon HD 8510G,361,105,,,,,Unknown
+Radeon HD 8450G,360,148,,,,,Unknown
+Quadro FX 2700M,357,74,65,99.95,3.58,5,Workstation
+Radeon HD 6620G,355,107,45,,,8,Mobile
+Radeon HD 7500G + HD 7500M/7600M Dual,355,265,,,,,Unknown
+GeForce GT 705,354,180,29,296.76,1.20,12,Desktop
+Mobility Radeon HD 565v,353,318,,,,,Mobile
+Radeon HD 6480M,353,282,,,,,Unknown
+Radeon HD 7580D,350,430,,,,,Unknown
+GeForce 9600 GSO,349,118,84,49.99,7.00,4,Desktop
+GeForce GT 130,347,143,75,151.34,2.30,5,Desktop
+GeForce 9600 GSO 512,345,111,90,,,4,Desktop
+GeForce 7950 GT,344,189,,203.99,1.69,,Desktop
+FirePro 3D V3750,341,467,48,50.88,6.71,7,Workstation
+FireGL V5600,341,445,,225.00,1.52,,Workstation
+Radeon HD 8310E,340,187,,,,,Unknown
+Radeon HD 7660D + HD 7400 Dual,339,448,,,,,Unknown
+Intel HD 505,339,95,,,,,Unknown
+Radeon HD 8570D + HD 8470 Dual,338,416,,,,,Unknown
+FirePro RG220,335,552,35,650.18,0.52,10,Workstation
+Radeon HD 7540D,335,125,65,,,5,Desktop
+GeForce 8800 GS,332,154,105,,,3,Desktop
+Intel HD 4000,332,187,,1592.95,0.21,,Unknown
+FirePro V3800,332,188,,124.99,2.66,,Unknown
+Radeon R5 310,331,545,,499.00,0.66,,Unknown
+Radeon R4,331,101,,396.99,0.84,,Unknown
+Radeon HD 7500G,330,114,,,,,Unknown
+Radeon HD 7450M,329,441,7,,,47,Mobile
+GeForce GT 625,329,194,30,,,11,Desktop
+Radeon R5 235,329,176,35,60.13,5.47,9,Desktop
+Radeon HD 7600G + HD 7400M Dual,328,147,,,,,Unknown
+Intel UHD 600,328,98,,,,,Unknown
+GeForce 9700M GTS,325,106,60,,,5,Mobile
+Radeon HD 6530D,325,138,100,,,3,Desktop
+GeForce GT 120 / 9500 GT,324,327,,,,,Unknown
+Radeon E6460,323,225,,,,,Unknown
+GeForce GT 230,321,80,,43.99,7.32,,Unknown
+RADEON HD6370D,320,312,,,,,Unknown
+Radeon HD 7600G,320,99,,,,,Unknown
+GeForce 240M GT,319,434,,,,,Unknown
+Radeon HD 8280,319,141,,,,,Unknown
+Mobility Radeon HD 560v,318,366,,,,,Mobile
+Radeon HD 7470,316,177,27,81.37,3.89,12,Desktop
+Radeon HD 7520G + 8600/8700M Dual,311,329,,,,,Unknown
+Radeon HD 7420G,311,121,,,,,Unknown
+Radeon HD 7520G,311,111,,,,,Unknown
+Radeon HD 8370D,310,151,,,,,Unknown
+Quadro FX 3500M,306,309,45,99.99,3.06,7,Workstation
+GeForce 605,304,179,,136.83,2.23,,Unknown
+Radeon R3,303,97,,,,,Unknown
+GeForce GT 610,302,127,29,139.99,2.16,10,Desktop
+Radeon R1E,301,179,,,,,Unknown
+Radeon HD 6520G,300,84,45,,,7,Mobile
+Radeon R5E,300,106,,,,,Unknown
+Intel Q965/Q963 Express,299,58,,,,,Unknown
+GeForce GT 520,297,126,29,304.00,0.98,10,Desktop
+Intel HD P3000,296,104,,,,,Unknown
+Intel HD 500,294,81,,,,,Unknown
+GeForce 9600M GT / GeForce GT 220M,293,291,,,,,Unknown
+GRID K120Q,293,278,,,,,Workstation
+GeForce GT 520MX,292,56,20,,,15,Mobile
+Radeon HD 2900 GT,292,344,150,,,2,Desktop
+Quadro FX 3500,291,106,80,68.98,4.23,4,Workstation
+GeForce 610M,291,103,,,,,Unknown
+IncrediblE HD 3000,291,18,,,,,Unknown
+GeForce 7800 GTX,290,196,86,71.60,4.06,3,Desktop
+GeForce GT 520M,288,74,12,29.95,9.62,24,Mobile
+Radeon HD 7450A,288,385,,,,,Unknown
+GeForce 7950 Xtreme,287,288,,,,,Unknown
+GeForce GT 415M,286,221,12,,,24,Mobile
+NVS 315,286,187,19.5,69.99,4.09,15,Workstation
+Radeon HD 7480D,285,117,65,,,4,Desktop
+Mobility Radeon HD 5165,284,362,35,,,8,Mobile
+Mobile Intel HD,284,164,,479.98,0.59,,Unknown
+Radeon HD 2600 XT,282,371,45,159.00,1.78,6,Desktop
+Radeon R5 235X,280,210,18,,,16,Desktop
+GeForce 9600 GS,279,52,,,,,Desktop
+Radeon HD 6370M,275,401,11,,,25,Mobile
+Radeon HD 8400E,272,123,,,,,Unknown
+GeForce 9650M GS,270,328,29,,,9,Mobile
+GeForce Go 7900 GTX,270,264,45,,,6,Mobile
+Radeon HD 8280G,269,130,,,,,Unknown
+Radeon HD 5470,268,298,,,,,Unknown
+Radeon HD 7400G,267,109,,,,,Unknown
+Qualcomm Adreno 630 GPU,267,89,,,,,Unknown
+Mobility Radeon HD 550v,266,398,,,,,Mobile
+GeForce GT 120M,265,272,23,,,12,Mobile
+Radeon HD 8490,264,173,35,89.99,2.94,8,Desktop
+GeForce Go 7950 GTX,263,283,45,,,6,Mobile
+Radeon HD 6450A,260,208,,,,,Unknown
+Radeon HD 6480G,259,78,45,,,6,Mobile
+GeForce 7900 GT,258,160,,199.00,1.30,,Desktop
+Radeon HD 8400,258,78,,,,,Unknown
+GeForce 510,256,199,25,69.99,3.67,10,Desktop
+Radeon HD 8470,256,172,35,,,7,Desktop
+Intel HD 3000,256,47,,945.00,0.27,,Unknown
+NVS 4200M,256,75,,399.00,0.64,,Workstation
+Radeon HD 6370D,254,147,65,,,4,Desktop
+Quadro NVS 510M,253,317,45,,,6,Workstation
+GeForce 7900 GS,253,68,,,,,Desktop
+Radeon HD 8330,251,68,,,,,Unknown
+GeForce 410M,249,129,12,,,21,Mobile
+Radeon HD 7640G + 8600M Dual,249,217,,,,,Unknown
+GeForce 7900 GT/GTO,247,469,,,,,Desktop
+GeForce GT 415,247,363,,,,,Unknown
+CARRIZO 9874,246,69,,,,,Unknown
+GeForce 7800 GT,244,273,,80.00,3.05,,Desktop
+Radeon HD 6410D,242,120,65,,,4,Desktop
+Quadro FX 5500,242,394,96,1999.00,0.12,3,Workstation
+Radeon HD 8330E,242,95,,,,,Unknown
+NVS 310,241,179,19.5,62.06,3.90,12,Workstation
+Radeon HD 8280E,241,82,,,,,Unknown
+Radeon R2,240,68,,,,,Unknown
+Radeon HD 8240,240,62,,,,,Unknown
+Radeon HD4650,239,99,,152.90,1.57,,Unknown
+Radeon HD 7640G + R5 M230 Dual,238,75,,,,,Unknown
+Mobility Radeon HD 5470,236,362,13,,,18,Mobile
+Quadro FX 4500 X2,236,653,,,,,Unknown
+Radeon HD 4550,235,429,20,156.00,1.51,12,Desktop
+Mobility Radeon HD 3670,232,331,,,,,Mobile
+Radeon E6465,231,354,,,,,Unknown
+Radeon R2E,229,100,,,,,Unknown
+Radeon HD 6470M,227,104,,569.99,0.40,,Mobile
+Quadro FX 4500,226,143,109,169.00,1.34,2,Workstation
+GT 430,223,325,,142.88,1.56,,Unknown
+Radeon R5 230,221,255,,81.10,2.74,,Unknown
+Radeon HD 7340M,221,160,,,,,Unknown
+Radeon HD 7450,220,147,18,49.99,4.42,12,Desktop
+HD6450,220,417,,108.20,2.04,,Unknown
+A6 Micro-6500T Quad-Core APU with RadeonR4,220,127,,,,,Unknown
+Radeon HD 4650,219,39,48,69.99,3.13,5,Desktop
+Mobility FireGL V5725,219,405,,,,,Workstation
+GeForce 320M,218,69,20,,,11,Mobile
+Quadro FX 880M,218,80,35,,,6,Workstation
+Quadro FX 2500M,217,272,45,17.50,12.45,5,Workstation
+GeForce 9700M GT,216,156,45,,,5,Mobile
+Radeon HD 6320 Graphic,216,159,,,,,Unknown
+Mobility Radeon. HD 5470,215,398,13,,,17,Mobile
+Mobility Radeon HD 5450,214,320,11,,,19,Mobile
+Intel HD 2000,213,456,,,,,Unknown
+Intel 2nd Generation SandyBridge HD,212,342,,,,,Unknown
+Radeon HD 2600 PRO,211,337,35,188.44,1.12,6,Desktop
+GeForce GT 220,211,56,58,39.99,5.28,4,Desktop
+WinFast GT 610,211,558,,,,,Unknown
+GeForce Go 7600 GT,210,125,,,,,Mobile
+GeForce GT 330M,209,57,23,,,9,Mobile
+GeForce Go 7800 GTX,209,239,65,,,3,Mobile
+Radeon HD 4650 AGP,207,156,,,,,Unknown
+Radeon HD 8250,207,63,,,,,Unknown
+Intel i gfx-driver-ci-master-9938,206,47,,,,,Unknown
+GeForce GT 240M,205,61,23,,,9,Mobile
+Intel 2nd Generation SandyBridge HD 3000,205,555,,,,,Unknown
+Barco MXRT 1450,205,520,,,,,Unknown
+Radeon R3E,205,90,,,,,Unknown
+Radeon HD 6380G,204,97,35,399.99,0.51,6,Mobile
+Quadro NVS 290,204,59,,59.00,3.47,,Unknown
+GeForce 7600 GT,203,101,,199.00,1.02,,Desktop
+GeForce GT 230M,201,47,23,,,9,Mobile
+GeForce 7950 GX2,201,413,,54.99,3.67,,Desktop
+Radeon HD 6450,199,120,18,89.00,2.25,11,Desktop
+RADEON HD7450,199,215,,22.25,8.95,,Unknown
+Mobility Radeon HD 545v,199,270,,,,,Mobile
+GeForce G200,199,156,,,,,Unknown
+Radeon HD 6320M,198,151,,,,,Unknown
+Quadro FX 770M,197,92,35,527.00,0.38,6,Workstation
+Radeon HD 7340G,196,146,,,,,Unknown
+GeForce 6800 GS,195,121,,,,,Desktop
+Radeon HD 7350,193,248,19.1,,,10,Desktop
+Intel Infoshock HD,193,393,,,,,Unknown
+Radeon HD 8210E,193,202,,,,,Unknown
+Radeon HD 6430M,192,106,,,,,Mobile
+Mobility Radeon HD 2600 XT,191,329,,,,,Mobile
+Mobility Radeon HD 4550,191,290,,,,,Mobile
+NVS 5100M,190,87,35,,,5,Workstation
+Radeon HD 8210,190,50,,,,,Unknown
+Quadro FX 1500,189,105,65,115.01,1.65,3,Workstation
+Mobility Radeon HD 540v,188,382,,,,,Unknown
+GeForce 505,186,587,,115.06,1.62,,Unknown
+Quadro FX 380,185,151,34,72.50,2.56,5,Workstation
+Quadro FX 1600M,185,211,50,149.90,1.24,4,Workstation
+Quadro FX 3450/4000 SDI,185,130,,,,,Workstation
+Mobility Radeon HD 5430,181,330,7,,,26,Mobile
+Barco MXRT 7100,180,659,,,,,Unknown
+Radeon HD 7310G,180,119,,,,,Unknown
+FireGL V3600,179,399,,160.99,1.12,,Workstation
+Radeon HD 6230,179,254,,,,,Unknown
+FirePro 3D V3700,178,466,32,84.99,2.10,6,Workstation
+GeForce 7800 GS,177,199,,,,,Desktop
+GeForce Go 7900 GS,176,254,20,,,9,Mobile
+GeForce GT 120,174,91,50,29.99,5.82,3,Desktop
+Mobility Radeon HD 530v,174,353,,,,,Mobile
+Radeon HD 7310 - Carte graphique,174,120,,,,,Unknown
+Quadro FX 1700M,172,135,50,,,3,Workstation
+Quadro FX 1500M,171,275,45,,,4,Workstation
+FirePro 2460,170,352,17,83.99,2.03,10,Workstation
+GeForce GT 325M,170,52,23,,,7,Mobile
+Radeon HDG 4670,170,197,,,,,Unknown
+GeForce 9200,170,31,,,,,Unknown
+Mobility Radeon HD 2600,167,267,,,,,Mobile
+Radeon HD 7310M,166,127,,,,,Unknown
+Intel HD manual-gen9_2015-133271,165,119,,,,,Unknown
+Radeon HD 8350,164,233,4.4,99.81,1.65,37,Desktop
+VIA/S3G C-645/640 GPU,163,122,,,,,Unknown
+GeForce 8600 GTS,161,35,75,241.99,0.67,2,Desktop
+GeForce 315,159,66,33,32.99,4.83,5,Desktop
+GeForce 7600 GS,157,55,,175.00,0.90,,Desktop
+GeForce 9500 GS,157,66,,,,,Unknown
+Radeon HD 7340,156,57,,552.69,0.28,,Unknown
+GeForce 9200M GE,156,79,,,,,Unknown
+Quadro FX 570,155,140,38,115.00,1.36,4,Workstation
+Quadro FX 580,155,59,40,130.00,1.19,4,Workstation
+Radeon HD 4300/4500 Serisi,155,347,,,,,Unknown
+GeForce 8200,153,163,,,,,Unknown
+Radeon HD 8180,152,55,,,,,Unknown
+Radeon X1950 CrossFire Edition,151,466,,,,,Desktop
+GeForce 305M,150,149,14,,,11,Mobile
+Radeon HD 3650 AGP,150,155,,185.00,0.81,,Unknown
+Radeon HD 3670,150,62,,,,,Unknown
+Radeon HD 6320,148,45,45,554.99,0.27,3,Mobile
+Quadro FX 3450,148,235,83,119.99,1.24,2,Workstation
+Mobility Radeon HD 4350,148,369,,,,,Unknown
+FirePro 2270,147,195,17,134.00,1.10,9,Workstation
+GeForce Go 7700,147,232,,,,,Mobile
+ZX Chrome 645/640 GPU,147,220,,,,,Unknown
+GeForce GT 130M,146,35,23,,,6,Mobile
+Quadro 400,146,67,32,211.00,0.69,5,Workstation
+GeForce G100,146,56,,19.99,7.33,,Unknown
+Radeon X1900 GT,145,409,75,,,2,Desktop
+S3 5400EW,145,9,,,,,Unknown
+GeForce 6800 GT,142,212,,,,,Desktop
+Intel Q45/Q43 Express Chipset,142,29,,,,,Unknown
+Intel Q35 Express,142,28,,,,,Unknown
+Radeon HD 6300M,141,116,,,,,Unknown
+EG PARK,141,7,,,,,Unknown
+RADEON HD 6350,140,171,19.1,59.00,2.39,7,Desktop
+Radeon X1800 GTO,140,415,48,,,3,Desktop
+Radeon HD 4290,140,442,,,,,Desktop
+nForce 760i SLI,140,379,,,,,Unknown
+Radeon HD 6290M,140,92,,,,,Unknown
+NVS 2100M,139,221,14,,,10,Workstation
+Intel Haswell HD - GT2,139,630,,,,,Unknown
+GeForce 6800 Ultra,138,153,,,,,Desktop
+Radeon HD 5450,137,149,19.1,94.96,1.45,7,Desktop
+GeForce 9650M GT,137,62,23,117.30,1.17,6,Mobile
+Radeon X1900 CrossFire Edition,137,507,100,,,1,Desktop
+GeForce 6600 GT,137,67,,64.95,2.11,,Desktop
+GeForce Go 6800 Ultra,137,198,,,,,Mobile
+Quadro FX 380 LP,135,128,28,,,5,Workstation
+GeForce 9500 GT,135,40,50,85.99,1.57,3,Desktop
+GeForce 7300 GT,135,39,,149.99,0.90,,Desktop
+Mobility Radeon HD 4330,135,377,,,,,Mobile
+Radeon R5 220,134,112,19,85.26,1.58,7,Desktop
+EAH5450,134,216,,109.99,1.22,,Unknown
+Mobility Radeon HD 4570,134,26,,75.90,1.78,,Mobile
+GeForce 7650 GS,134,335,,,,,Unknown
+GeForce 9800 GT 1024MB,134,315,,,,,Unknown
+Mobility Radeon X1900,134,287,,,,,Mobile
+GeForce G102M,133,137,,,,,Unknown
+GeForce 9600M GT,132,39,23,78.20,1.69,6,Mobile
+RadeonT,132,40,,,,,Unknown
+Mobility Radeon HD 3650,130,48,,73.53,1.77,,Mobile
+MOBILITY RADEON X1800,130,247,,,,,Mobile
+RADEON X800 SE,129,384,,,,,Desktop
+Radeon HD 7310,129,45,,,,,Unknown
+GeForce 8400 GS,128,32,40,85.97,1.49,3,Desktop
+FireGL V7300,128,322,,1189.99,0.11,,Workstation
+GeForce 9300 / nForce 730i,128,367,,,,,Unknown
+GeForce 6800 XT,128,150,,,,,Desktop
+Quadro NVS 320M,127,109,20,,,6,Workstation
+All-in-Wonder X1900,127,445,,,,,Unknown
+GeForce Go 7600,127,220,,,,,Mobile
+GeForce 205,126,309,30.5,,,4,Desktop
+GeForce 9300,126,385,,59.00,2.15,,Unknown
+Radeon HD 3300,126,373,,,,,Unknown
+Quadro FX 380M,124,124,25,,,5,Workstation
+GeForce 8700M GT,124,97,29,,,4,Mobile
+Quadro FX 1400,124,152,70,245.01,0.51,2,Workstation
+M76M,124,279,,,,,Unknown
+Seria Mobility Radeon HD 3400,124,148,,,,,Unknown
+Matrox G200e WDDM 2.0,123,801,,,,,Unknown
+Intel Haswell HD - GT1,123,492,,,,,Unknown
+Radeon HD 7290M,123,90,,,,,Unknown
+GeForce G210M,122,36,14,,,9,Mobile
+Radeon HD 6310,122,39,45,,,3,Mobile
+GeForce 405,122,60,,24.64,4.96,,Unknown
+Radeon HD 4250,122,408,,,,,Desktop
+GeForce GT 220M,121,92,14,,,9,Mobile
+GeForce 9500M G,121,172,20,,,6,Mobile
+GeForce 310,121,61,30.5,108.35,1.12,4,Desktop
+Radeon HD 2400,120,298,,88.20,1.37,,Unknown
+Extreme AX850 PRO,120,218,,,,,Unknown
+Qualcomm Adreno 540 GPU,120,52,,,,,Unknown
+GeForce 9600M GS,119,67,20,,,6,Mobile
+Qualcomm Adreno 618 GPU,119,61,,,,,Unknown
+Radeon HD 3450,118,29,25,89.00,1.33,5,Desktop
+Radeon HD 2400 XT,118,357,25,,,5,Desktop
+RV530 PRO,118,386,,,,,Unknown
+FireMV 2260,117,488,15,88.08,1.33,8,Workstation
+Quadro FX 1700,117,44,42,350.14,0.34,3,Workstation
+Mobile Intel 45 Express-Chipsatzfamilie,117,270,,,,,Unknown
+GeForce 315M,116,52,14,,,8,Mobile
+GeForce 8600 GT,116,63,47,196.00,0.60,2,Desktop
+PHDGD Quantic C3,116,351,,,,,Unknown
+FireGL V7200,116,348,,,,,Workstation
+Radeon X1700 Targa Edition,116,255,,,,,Unknown
+Radeon X1600 XT,115,356,42,,,3,Desktop
+GeForce 8500 GT,115,39,45,,,3,Desktop
+Radeon HD 7290,115,51,,,,,Unknown
+NVS 3100M,114,42,14,,,8,Workstation
+Radeon HD 2400 Pro,114,346,20,,,6,Desktop
+GeForce Go 7800,114,209,35,,,3,Mobile
+FireGL V5200,114,348,,133.40,0.86,,Workstation
+RADEON X800 GTO,114,162,,,,,Desktop
+NVS 300,113,60,17.5,62.97,1.81,6,Workstation
+Quadro FX 560,113,360,30,150.25,0.76,4,Workstation
+Radeon X1950 Pro,112,318,66,,,2,Desktop
+GeForce 6800,112,258,,559.29,0.20,,Desktop
+FirePro 2260,112,431,,,,,Unknown
+Intel HD Modded,112,303,,,,,Unknown
+Sapphire RADEON X800 GT,112,274,,,,,Unknown
+GeForce 9200M GS,111,55,13,,,9,Mobile
+GeForce 310M,111,27,14,,,8,Mobile
+Quadro FX 570M,111,49,45,,,2,Workstation
+GeForce 9300 GS,111,95,,59.95,1.85,,Desktop
+Radeon HD 4200,111,372,,,,,Desktop
+Mobility Radeon HD 3400 Serisi,111,239,,,,,Unknown
+GeForce 9400,111,99,,,,,Unknown
+FireGL V7350,110,344,,119.42,0.93,,Workstation
+Radeon HD 2600 Pro AGP,110,137,,,,,Unknown
+Radeon HD 6290,109,34,45,,,2,Mobile
+Radeon HD 4270,109,303,,,,,Unknown
+GeForce 6800 LE,109,166,,,,,Desktop
+VIA/S3G Chrome 645/640 GPU,109,161,,,,,Unknown
+XFX Radeon HD 4650 AGP,109,138,,,,,Unknown
+Radeon HD 4330,109,42,,,,,Unknown
+Quadro FX 370 LP,108,481,25,,,4,Workstation
+GeForce G105M,107,46,,,,,Unknown
+GeForce GT 320M,106,41,14,,,8,Mobile
+Radeon X1950 GT,106,279,57,,,2,Desktop
+Radeon Infoshock 3000,106,475,,,,,Unknown
+GeForce Go 6800,106,205,,,,,Mobile
+GeForce 9400 GT,105,60,50,159.99,0.66,2,Desktop
+GeForce9400M,105,161,,,,,Unknown
+Quadro FX 3400/4400,104,239,101,,,1,Workstation
+GeForce 9450,104,342,,,,,Unknown
+M880G with Mobility Radeon HD 4250,104,270,,,,,Unknown
+Mobility Radeon X1700,104,228,,,,,Mobile
+GeForce 9500M GS,103,74,20,,,5,Mobile
+GeForce G210,103,52,,122.12,0.85,,Unknown
+GeForce 9500M,103,320,,101.20,1.02,,Unknown
+FireGL V3400,103,353,,,,,Workstation
+Radeon HD 4350,102,34,20,102.24,1.00,5,Desktop
+Quadro FX 370 Low Profile,102,492,,,,,Unknown
+Mobility Radeon HD 2400 XT,102,246,,,,,Mobile
+GeForce 6800 GS/XT,102,196,,,,,Desktop
+Quadro FX 4000,101,78,142,,,1,Workstation
+GeForce 8300,101,168,,22.68,4.48,,Unknown
+Quadro FX Go1400,101,223,,,,,Unknown
+Intel Media Accelerator HD,99,40,,,,,Unknown
+GeForce 8400M GS,98,47,11,78.20,1.25,9,Mobile
+Radeon X1600 Pro,98,273,41,,,2,Desktop
+Radeon 3000,98,414,,319.00,0.31,,Unknown
+Mobility Radeon HD 4250,98,280,,,,,Mobile
+Mobility Radeon HD 3430,98,260,,,,,Mobile
+Quadro NVS 130M,97,190,10,,,10,Workstation
+GeForce 210,97,39,30.5,54.92,1.77,3,Desktop
+GeForce 9300GE,97,367,,97.20,1.01,,Unknown
+RADEON X800 XT,97,271,,,,,Desktop
+ION LE,97,96,,,,,Unknown
+Mobility Radeon HD serie 4200,96,227,,,,,Unknown
+Radeon HD 3000,95,264,,,,,Unknown
+GeForce 6700 XL,95,243,,,,,Unknown
+Radeon HD 6250,94,32,35,,,3,Mobile
+Matrox G200eW3 WDDM 2.0,94,316,,,,,Unknown
+MEDION RADEON X740XL,94,228,,,,,Unknown
+Quadro FX 370M,93,334,20,,,5,Workstation
+Mobility Radeon HD 3470,93,250,,,,,Mobile
+Mobility Radeon HD 3470 Hybrid X2,93,206,,,,,Unknown
+Quadro NVS 150M,92,327,10,,,9,Workstation
+GeForce 9300M GS,92,33,13,43.42,2.12,7,Mobile
+FireGL V5100,92,250,,114.96,0.81,,Workstation
+nForce 780a SLI,92,425,,,,,Unknown
+Mobility Radeon HD 4270,92,282,,,,,Mobile
+M880G with Mobility Radeon HD 4200,92,260,,,,,Unknown
+Mobility Radeon X1600,92,236,,,,,Mobile
+GeForce 8600 GS,91,100,47,,,2,Desktop
+GeForce G205M,91,294,,,,,Unknown
+RADEON X600XT,91,258,,,,,Unknown
+Mobility Radeon HD 3450,91,247,,,,,Mobile
+Mobility Radeon HD 4200,90,260,,,,,Mobile
+GeForce 8600M GT,89,42,20,108.10,0.82,4,Mobile
+Radeon HD 3470,89,95,30,109.65,0.82,3,Desktop
+Mobility Radeon HD 2400,89,212,,,,,Mobile
+GeForce 6610 XL,88,288,,,,,Unknown
+GeForce 6600,87,69,,264.00,0.33,,Desktop
+GeForce 7500 LE,87,82,,,,,Desktop
+Quadro FX 360M,86,308,17,,,5,Workstation
+Intel G33/G31 Express,86,25,,,,,Desktop
+Quadro FX 350,85,378,21,,,4,Workstation
+ION,85,20,,229.99,0.37,,Unknown
+GeForce 9300M G,84,242,13,,,6,Mobile
+Radeon X1650 Pro,84,241,44,160.89,0.53,2,Desktop
+GeForce 9300 GE,84,54,,22.99,3.66,,Desktop
+RADEON X800 GT,84,423,,,,,Desktop
+Radeon X1300 PRO,84,313,,,,,Unknown
+FireGL V3200,84,236,,,,,Workstation
+ALL-IN-WONDER X800 GT,84,186,,,,,Unknown
+Quadro FX 370,83,385,35,125.00,0.67,2,Workstation
+nForce 750a SLI,83,351,,,,,Unknown
+GeForce 999 GTX,83,138,,,,,Unknown
+Intel G41 Express Chipset,83,24,,,,,Unknown
+Radeon HD 3200,82,227,,,,,Unknown
+GeForce 8400,81,160,,589.99,0.14,,Unknown
+nForce 980a/780a SLI,81,367,,,,,Unknown
+GeForce 9100,81,345,,,,,Unknown
+GeForce 9300 SE,81,344,,,,,Unknown
+RADEON X850 XT,81,326,,,,,Desktop
+Mobility Radeon 4100,81,265,,,,,Unknown
+RADEON X850 XT Platinum Edition,81,261,,,,,Desktop
+Mobility Radeon X2500,81,235,,,,,Mobile
+MOBILITY FireGL V5000,81,223,,,,,Workstation
+RADEON X800 XT Platinum Edition,81,170,,,,,Desktop
+GeForce 7300 GS,81,57,,,,,Desktop
+Quadro FX 540,80,294,35,59.99,1.35,2,Workstation
+GeForce 8100 / nForce 720a,79,308,,,,,Unknown
+RADEON X800GT,79,264,,,,,Unknown
+GeForce 7300 LE,77,85,,32.00,2.43,,Desktop
+Quadro NVS 160M,76,46,12,,,6,Workstation
+Radeon HD 2350,76,262,20,,,4,Desktop
+Quadro NVS 295,75,73,23,63.00,1.19,3,Workstation
+RADEON X700 PRO,75,302,,,,,Desktop
+M860G with Mobility Radeon 4100,75,203,,,,,Unknown
+Intel G45/G43 Express Chipset,74,30,24,,,3,Desktop
+Radeon X1650 GTO,74,384,,,,,Unknown
+GeForce 7350 LE,74,281,,,,,Unknown
+GeForce 9400M,74,102,,,,,Unknown
+GeForce 8600M GS,73,57,20,,,4,Mobile
+Radeon 3100,73,228,,225.99,0.33,,Unknown
+FireMV 2450,73,610,,,,,Unknown
+Mobility Radeon HD 4300 Serisi,73,216,,,,,Unknown
+RADEON X800 PRO/GTO,73,181,,,,,Desktop
+RADEON X700,72,248,,,,,Desktop
+RADEON X850 PRO,72,157,,,,,Desktop
+GeForce 8200M G,71,72,19.2,,,4,Mobile
+FireGL V7100,71,223,,328.67,0.22,,Workstation
+Radeon X1650 SE,71,358,,,,,Unknown
+RADEON X700 SE,71,348,,,,,Desktop
+MEDION RADEON 9800 XXL,71,187,,,,,Unknown
+M880G with Mobility Radeon HD 4225,71,183,,,,,Unknown
+FireGL V3300,70,326,,,,,Workstation
+Diamond X1300-PCIE 256MB,70,286,,,,,Unknown
+Radeon X550XTX,70,240,,,,,Unknown
+GeForce 9100M G,70,54,,,,,Unknown
+Quadro FX 3000,69,178,,166.61,0.41,,Workstation
+Quadro NVS 420,69,186,,150.00,0.47,,Unknown
+BASICDISPLAY,69,691,,,,,Unknown
+Radeon X1600 Pro / X1300XT,69,285,,,,,Unknown
+RADEON X800 XL,69,271,,,,,Desktop
+GeForce Go 6600,69,209,,,,,Mobile
+FireGL V3350,68,336,,,,,Workstation
+GeForce 8400 SE,68,290,,,,,Unknown
+Intel B43 Express Chipset,68,188,,,,,Unknown
+GeForce 9400M G,67,61,12,,,6,Mobile
+256MB RADEON X600,67,252,,160.49,0.42,,Unknown
+Matrox G200eR WDDM 2.0,67,457,,,,,Unknown
+Intel G45/G43/G41 Express Chipset,67,318,,,,,Unknown
+Quadro NVS 135M,66,74,10,,,7,Workstation
+Radeon X1550,66,253,27,155.00,0.43,2,Desktop
+GeForce 8300 GS,66,314,40,,,2,Desktop
+MOBILITY RADEON X700,66,200,,,,,Mobile
+128MB DDR Radeon 9800 Pro,66,175,,,,,Unknown
+Mobility Radeon HD 4225,66,174,,,,,Mobile
+GeForce G 105M,65,32,14,,,5,Mobile
+GeForce Go 7400,65,112,,,,,Mobile
+Quadro NVS 450,64,154,,159.00,0.40,,Unknown
+RADEON X800 PRO,64,190,,,,,Desktop
+M71-M,64,141,,,,,Unknown
+GeForce 8400M GT,63,68,14,,,5,Mobile
+Quadro FX 550,63,325,25,287.82,0.22,3,Workstation
+MOBILITY FireGL V3200,62,238,,,,,Workstation
+128 DDR Radeon 9800 Pro,62,191,,,,,Unknown
+Mobility Radeon HD 3410,62,130,,,,,Mobile
+Intel HD manual-15.28-1861,62,72,,,,,Unknown
+GeForce G 103M,61,37,14,,,4,Mobile
+SAPPHIRE Radeon X1550,61,285,,,,,Unknown
+Radeon 2100,59,286,,174.29,0.34,,Unknown
+Matrox G200e WDDM 1.2,59,505,,,,,Unknown
+GeForce FX 5950 Ultra,59,274,,,,,Desktop
+MOBILITY RADEON X700 XL,59,189,,,,,Unknown
+FireGL X1,59,167,,,,,Unknown
+RADEON 9800 PRO,59,153,,,,,Desktop
+GeForce 8400M G,58,241,10,,,6,Mobile
+Radeon X1300,58,237,,95.78,0.61,,Desktop
+GeForce 6800 XE,58,166,,,,,Unknown
+RADEON 9800,57,191,,325.00,0.18,,Desktop
+Intel Q45/Q43 Express-Chipsatz,57,352,,,,,Unknown
+Intel - Express Chipset Q45/Q43,57,336,,,,,Unknown
+Intel G41 Express-Chipsatz,57,267,,,,,Unknown
+Mobile Intel 965 Express,57,17,,,,,Unknown
+Intel - Express Chipset G41,56,325,,,,,Unknown
+RADEON X550XT,56,224,,,,,Unknown
+RADEON X600 256MB HyperMemory,56,210,,,,,Desktop
+RADEON 9800 XT,56,160,,,,,Desktop
+RADEON 9700 PRO,53,149,,,,,Desktop
+FireGL V3100,52,275,,,,,Workstation
+Radeon Xpress 1300,52,266,,,,,Unknown
+GeForce Go 7300,52,114,,,,,Mobile
+FirePro 2450,51,482,36,89.99,0.57,1,Workstation
+Matrox G200eh WDDM 1.2,51,448,,,,,Unknown
+RADEON E2400,51,287,,,,,Unknown
+GeForce 6600 LE,51,234,,,,,Desktop
+GeForce FX Go5700,51,171,,,,,Unknown
+GeForce 7100 GS,51,133,,,,,Desktop
+Matrox G200eW WDDM 1.2,50,397,,,,,Unknown
+RADEON X550,50,266,,,,,Desktop
+Mobility Radeon HD 2300,50,211,,,,,Mobile
+MOBILITY RADEON X600,50,209,,,,,Mobile
+128MB RADEON X600 SE,49,229,,56.18,0.87,,Unknown
+Radeon X1050,49,245,,,,,Desktop
+MOBILITY RADEON X600 SE,49,233,,,,,Unknown
+Radeon X1600,49,209,,,,,Unknown
+GeForce 7300 SE/7200 GS,49,40,,,,,Workstation
+Quadro NVS 140M,48,99,10,,,5,Workstation
+Mobility Radeon X2300,48,263,,,,,Mobile
+Mobility Radeon X2300 HD,48,244,,,,,Unknown
+Quadro NVS 110M,47,236,10,,,5,Workstation
+Radeon X1550 64-bit,47,257,,,,,Unknown
+SAPPHIRE RADEON 9600 ATLANTIS,47,149,,,,,Unknown
+Quadro NVS 120M,46,274,10,,,5,Workstation
+MOBILITY RADEON 9800,46,110,,,,,Mobile
+FireMV 2250,45,290,,104.00,0.44,,Unknown
+Matrox G200eR WDDM 1.2,45,210,,,,,Unknown
+GeForce Go 7200,45,199,,,,,Mobile
+Matrox G200eh WDDM 2.0,45,123,,,,,Unknown
+GeForce 6200 TurboCache,45,78,,,,,Unknown
+Quadro FX 350M,44,132,15,,,3,Workstation
+Mobile Intel 4 Express-Chipsatzfamilie,44,251,,,,,Unknown
+MOBILITY FireGL V5200,44,248,,,,,Workstation
+Mobile Intel serie 4 Express,44,232,,,,,Unknown
+GeForce Go 6600 TE/6200 TE,44,223,,,,,Unknown
+128 DDR Radeon 9700 TX w/TV-Out,44,152,,,,,Unknown
+Mobility Radeon X1400,42,226,,,,,Mobile
+Radeon Xpress 1250,42,197,,,,,Unknown
+RADEON 9600 PRO,42,163,,,,,Desktop
+Matrox M9138 LP PCIe x16,42,160,,,,,Unknown
+Mobile Intel 45 Express,42,33,,,,,Unknown
+GeForce FX 5900 Ultra,41,170,,,,,Desktop
+RADEON 9500 PRO / 9700,41,157,,,,,Unknown
+Matrox G200eh,40,449,,,,,Unknown
+Gigabyte RADEON X300,40,209,,,,,Unknown
+Radeon Xpress 1300M,40,195,,,,,Unknown
+GeForce FX 5700,40,173,,,,,Desktop
+MOBILITY FIREGL T2,40,171,,,,,Workstation
+GeForce FX 5900XT,40,134,,,,,Desktop
+S3 Chrome 430 ULP,39,310,,,,,Unknown
+Mobility Radeon X1350,39,274,,,,,Mobile
+GeForce 7300 SE,39,251,,,,,Desktop
+Mobility Radeon X1300,39,222,,,,,Mobile
+MOBILITY RADEON 9600/9700,39,165,,,,,Mobile
+GIGABYTE RADEON 9600 PRO,39,129,,,,,Unknown
+GeForce 7050 / nForce 620i,39,129,,,,,Unknown
+Matrox G200eW,39,107,,,,,Unknown
+Quadro NVS 285,38,185,,169.86,0.23,,Unknown
+Quadro NVS 285 128MB,38,313,,55.00,0.70,,Unknown
+GeForce 6500,38,300,,,,,Desktop
+Mobile Intel - famiglia Express Chipset 45,38,264,,,,,Unknown
+RADEON X300SE,38,242,,,,,Unknown
+Quadro NVS 440,37,358,,228.87,0.16,,Unknown
+Radeon X1250,37,199,,,,,Unknown
+256MB DDR Radeon 9800 XT,37,192,,,,,Unknown
+GeForce 6200SE TurboCache,37,146,,,,,Unknown
+GeForce 7050 / nForce 630i,37,145,,,,,Unknown
+FireMV 2200 PCIe,36,259,,89.99,0.40,,Workstation
+RADEON 9500,36,173,,40.50,0.90,,Desktop
+Matrox G200eR,36,400,,,,,Unknown
+CONNECT 3D RADEON X300,36,191,,,,,Unknown
+MOBILITY RADEON 9600,36,172,,,,,Mobile
+Quadro FX 1100,35,178,,212.99,0.17,,Workstation
+GeForce 6200,35,58,,99.99,0.35,,Desktop
+Radeon Xpress 1200,35,192,,,,,Unknown
+RADEON 9600 XT,35,147,,,,,Desktop
+GeForce 7100 / nForce 630i,35,67,,,,,Desktop
+Quadro FX 1300,34,276,55,,,1,Workstation
+RADEON 9550,34,145,,291.74,0.12,,Desktop
+GeForce PCX 5750,34,310,,,,,Desktop
+Quadro FX 1000,34,266,,,,,Workstation
+GeForce PCX 5900,34,258,,,,,Desktop
+GeForce FX 5900,34,188,,,,,Desktop
+Radeon Xpress 1100,34,187,,,,,Unknown
+GeForce FX 5700 Ultra,34,126,,,,,Desktop
+GeForce 7025 / nForce 630a,34,17,,,,,Unknown
+GeForce 7150 / nForce 630i,33,254,,,,,Unknown
+Mobility Radeon X1450,33,205,,,,,Mobile
+MOBILITY RADEON X300,33,204,,,,,Mobile
+MOBILITY FIREGL T2/T2e,33,171,,,,,Workstation
+GeForce FX 5700VE,33,161,,,,,Desktop
+GeForce 6150 LE,33,30,,,,,Unknown
+S3 Chrome S27 DDR3,33,7,,,,,Unknown
+GeForce 6200 A-LE,32,192,,,,,Desktop
+Radeon X1200,32,169,,,,,Unknown
+Matrox M9148 LP PCIe x16,32,135,,,,,Unknown
+GeForce FX 5900ZT,32,129,,,,,Desktop
+Intel Media Accelerator,32,78,,,,,Unknown
+GeForce 6200 LE,31,89,,41.24,0.75,,Desktop
+Red Hat QXL controller,31,270,,,,,Unknown
+Radeon X1270,31,169,,,,,Unknown
+OpenXT Display Driver,30,485,,,,,Unknown
+All-in-Wonder X1800XL,30,283,,,,,Unknown
+FireGL T2-128,30,178,,,,,Workstation
+MOBILITY RADEON 9550,30,166,,,,,Mobile
+GeForce 7050 PV / nForce 630a,30,109,,,,,Unknown
+Radeon Xpress 1150,29,192,,,,,Unknown
+RADEON XPRESS 200,29,188,,,,,Unknown
+Radeon 9550 / X1050,29,150,,,,,Unknown
+GeForce 6150SE nForce 430,29,21,,,,,Unknown
+Matrox M9128 LP PCIe x16,28,47,,,,,Unknown
+MOBILITY FireGL V5250,27,252,,,,,Workstation
+MOBILITY RADEON XPRESS 200,27,176,,,,,Unknown
+MOBILITY RADEON 9700,27,158,,,,,Mobile
+RADEON 9600SE,27,143,,,,,Unknown
+GeForce 6100,27,44,,,,,Unknown
+GeForce 7100 / nForce 620i,26,229,,,,,Unknown
+Radeon Xpress 1270,26,191,,,,,Unknown
+RADEON 9600 PRO Family,26,148,,,,,Unknown
+PHDGD Sapphire GR for Mobile Intel 965,25,243,,,,,Unknown
+GeForce 6100 nForce 400,25,242,,,,,Unknown
+GeForce 6100 nForce 420,25,234,,,,,Unknown
+RADEON 9600 Family,25,150,,,,,Unknown
+Matrox M9125 PCIe x16,25,138,,,,,Unknown
+Matrox M9120 Plus LP PCIe x16,25,27,,,,,Unknown
+GeForce 6150SE,24,266,,,,,Unknown
+GeForce Go 6400,24,212,,,,,Mobile
+Mobile Intel 965 Express-Chipsatzfamilie,24,203,,,,,Unknown
+GeForce 7050 / nForce 610i,24,148,,,,,Unknown
+GeForce FX 5700LE,24,147,,,,,Desktop
+MOBILITY RADEON 9600 PRO TURBO,24,137,,,,,Unknown
+GeForce 6100 nForce 405,24,108,,,,,Unknown
+Intel G965 Express,24,39,,,,,Unknown
+Matrox M9140 LP PCIe x16,23,390,,,,,Unknown
+Quadro NVS 210S,23,265,,,,,Unknown
+GeForce 6100 nForce 430,23,249,,,,,Unknown
+ALL-IN-WONDER 9800,23,139,,,,,Unknown
+RADEON 9800 SE,23,131,,,,,Desktop
+GeForce 7200 GS,23,98,,,,,Desktop
+RADEON XPRESS 200M,22,176,,,,,Unknown
+RADEON A9800XT,22,145,,,,,Unknown
+GeForce 6150,21,250,,329.00,0.07,,Unknown
+9xx Soldiers sans frontiers Sigma 2,21,253,,,,,Unknown
+Quadro NVS 210S / GeForce 6150LE,20,272,,,,,Unknown
+PHDGD Solo 2 x64,20,183,,,,,Unknown
+Matrox M9120 PCIe x16,19,870,,,,,Unknown
+GeForce Go 6150,19,92,,,,,Unknown
+S3 Chrome S25 DDR2,18,252,,,,,Unknown
+QXL KMDOD,18,203,,,,,Unknown
+GeForce 7150M / nForce 630M,18,194,,,,,Unknown
+RADEON XPRESS 200 CROSSFIRE,18,164,,,,,Unknown
+Quadro FX 2000,18,146,,,,,Workstation
+RADEON 9600 TX Family,18,138,,,,,Unknown
+Mobile Intel965 Express,17,264,,,,,Unknown
+GeForce FX Go 5600,17,186,,,,,Mobile
+GeForce Go 6100,17,181,,,,,Unknown
+GeForce FX 5600 Ultra,17,122,,,,,Desktop
+GeForce FX Go5650,16,211,,,,,Unknown
+GRID V100-8Q,16,149,,,,,Unknown
+NV44,15,251,,,,,Unknown
+GeForce Go 6200,15,204,,,,,Mobile
+Quadro FX 500/600 PCI,14,203,,,,,Unknown
+Radeon HD 2400 PCI,14,86,,,,,Unknown
+Intel 82945G Express,14,13,,,,,Unknown
+GeForce 7000M,13,239,,,,,Mobile
+GeForce 7000M / nForce 610M,12,188,,,,,Unknown
+GeForce FX 5600,12,168,,,,,Desktop
+GeForce FX Go5300,12,159,,,,,Unknown
+GeForce FX 5200 Ultra,12,138,,,,,Desktop
+RGH Drivers v3,11,312,,,,,Unknown
+FireMV 2400 PCIe,11,283,,,,,Workstation
+GeForce FX 5200SE,11,194,,,,,Unknown
+PHDGD Solo 1.2.0 x86,11,169,,,,,Unknown
+Familia Intel Q33 Express Chipset,10,168,,,,,Unknown
+MOBILITY IGP 9000/9100,10,125,,,,,Unknown
+Master X3100 Driver,10,79,,,,,Unknown
+GeForce FX 5600XT,9,166,,,,,Unknown
+ASUS A7000,9,164,,,,,Unknown
+Matrox Parhelia 256MB,9,140,,,,,Unknown
+VIA Chrome9 HD IGP,9,59,,,,,Unknown
+GeForce FX 5500,8,152,,153.97,0.05,,Desktop
+Quadro NVS 280 PCI,8,261,,130.00,0.06,,Unknown
+Intel Q35 Embedded,8,303,,,,,Unknown
+Intel 82945G Express-Chipsatzfamilie,8,240,,,,,Unknown
+GeForce FX Go 5200,8,190,,,,,Mobile
+GeCube RADEON 7000,8,144,,,,,Unknown
+Mobile Intel 965 Express - BR-0907-0461 v1839,8,124,,,,,Unknown
+GeForce FX 5200,7,154,,129.00,0.06,,Desktop
+GeForce FX 5200LE,7,170,,42.99,0.16,,Unknown
+GeForce FX 5100,7,247,,,,,Unknown
+Famille de jeu de puces Express Intel 946GZ,7,230,,,,,Unknown
+ASUS V9520-X V62.11,7,208,,,,,Unknown
+GeForce4 Ti 4400,7,170,,,,,Unknown
+Quadro FX 500/FX 600,7,151,,,,,Unknown
+MOBILITY RADEON 9000 IGP,7,143,,,,,Unknown
+Intel US15 Embedded Media and Controller,7,67,,,,,Unknown
+Matrox Millennium P690 Plus LP PCIe x16,6,251,,,,,Unknown
+Quadro4 380 XGL,6,225,,,,,Unknown
+GeForce4 MX Integrated GPU,6,198,,,,,Unknown
+GeForce PCX 5300,6,197,,,,,Desktop
+GeForce4 Ti 4800 SE,6,187,,,,,Unknown
+RADEON 9100 Family,6,163,,,,,Unknown
+MOBILITY RADEON 7000 IGP,6,151,,,,,Unknown
+GeForce2 Ultra,6,147,,,,,Desktop
+RADEON 8500 Family,6,146,,,,,Unknown
+RADEON IGP 350M,6,136,,,,,Unknown
+Quadro NVS 55/280 PCI,6,116,,,,,Unknown
+V9560XT V62.11,6,86,,,,,Unknown
+Intel Media Accelerator 600,6,58,,,,,Unknown
+Quadro4 980 XGL,5,181,,341.43,0.01,,Unknown
+GeForce4 Ti 4600,5,173,,53.99,0.10,,Desktop
+GeForce 256,5,201,,42.04,0.12,,Unknown
+Matrox Millennium P650 PCIe 128,5,287,,,,,Unknown
+Matrox Parhelia APVe,5,275,,,,,Unknown
+VIA/S3G UniChromeII,5,225,,,,,Unknown
+Mobile Intel 945GM Express,5,223,,,,,Unknown
+Mobile Intel 945GM/GU Express,5,223,,,,,Unknown
+64MB DDR GeForce3 Ti 200,5,218,,,,,Unknown
+Intel 82915G Express,5,206,,,,,Unknown
+GeForce4 448 Go,5,199,,,,,Unknown
+GeForce4 Ti 4800,5,190,,,,,Unknown
+Quadro 280 NVS PCIe,5,185,,,,,Unknown
+GeForce4 420 Go 32M,5,168,,,,,Unknown
+SAPPHIRE RADEON 9000 ATLANTIS PRO,5,158,,,,,Unknown
+GeForce4 440 Go 64M,5,156,,,,,Unknown
+GeForce4 Ti 4200,5,154,,,,,Unknown
+ALL-IN-WONDER RADEON 8500DV,5,128,,,,,Unknown
+RADEON 9100 IGP,5,128,,,,,Unknown
+MOBILITY RADEON 9000/9100 IGP,5,118,,,,,Unknown
+Xabre,5,28,,,,,Unknown
+Intel 945G Embedded Chipset Function 0,4,251,,,,,Unknown
+Dell 8200,4,205,,,,,Unknown
+WinFast A250 LE,4,197,,,,,Unknown
+Quadro4 900 XGL,4,194,,,,,Unknown
+Intel 82865G Controller,4,194,,,,,Unknown
+GeForce4 440,4,193,,,,,Unknown
+GeForce2 MX with DVI-D and TV-out,4,187,,,,,Unknown
+GeForce4 MX 460,4,176,,,,,Desktop
+GeForce2 Integrated GPU,4,171,,,,,Unknown
+GeForce4 MX 420,4,168,,,,,Desktop
+VIA Chrome9 HC IGP,4,167,,,,,Unknown
+"Intel 915G,910G Express",4,166,,,,,Unknown
+VIA/S3G UniChrome Pro IGP,4,164,,,,,Unknown
+VIA/S3G UniChrome IGP,4,164,,,,,Unknown
+GeForce4 MX 440SE,4,159,,,,,Unknown
+GeForce4 MX 440 with AGP8X,4,157,,,,,Desktop
+MOBILITY/RADEON 9000,4,153,,,,,Unknown
+GeForce2 Ti,4,149,,,,,Desktop
+ASUS AGP-V3800PRO v31.40H,4,149,,,,,Unknown
+Quadro2 MXR/EX,4,142,,,,,Workstation
+GeForce4 MX 440,4,140,,,,,Desktop
+GeForce3 Ti 200,4,140,,,,,Unknown
+GeForce4 MX 4000,4,131,,,,,Unknown
+RADEON 9000,4,126,,,,,Desktop
+RADEON 7500 Family,4,125,,,,,Unknown
+VIA/S3G KM400/KN400,4,124,,,,,Unknown
+GeForce3,4,120,,,,,Desktop
+ALL-IN-WONDER 9000,4,103,,,,,Unknown
+GeForce2 Go,4,95,,,,,Mobile
+MOBILITY FIREGL 7800,4,86,,,,,Workstation
+Intel 915G/915GV/910GL Embedded Controller Functio,4,41,,,,,Unknown
+XGI Volari Family v1.13.23.D_V,4,34,,,,,Unknown
+Intel Q33 Express,4,25,,,,,Unknown
+Matrox Parhelia 128MB,3,107,,393.99,0.01,,Unknown
+RADEON 7500,3,35,,177.25,0.02,,Desktop
+RADEON 9200,3,135,,153.63,0.02,,Desktop
+GeForce 6200A,3,117,,54.99,0.07,,Desktop
+VIA Chrome9 HC IGP Family,3,178,,,,,Unknown
+GeForce4 4200 Go,3,173,,,,,Mobile
+VIA Chrome9 HC IGP Family WDDM,3,165,,,,,Unknown
+ABIT Siluro T400,3,151,,,,,Unknown
+GeForce4 420 Go,3,147,,,,,Mobile
+MOBILITY RADEON 9200,3,145,,,,,Mobile
+Intel 82915G/GV/910GL Express,3,142,,,,,Unknown
+GeForce4 440 Go,3,140,,,,,Mobile
+GeForce2 GTS/GeForce2 Pro,3,136,,,,,Unknown
+GeForce2 MX/MX 400,3,129,,,,,Unknown
+VIA/S3G DeltaChrome IGP,3,125,,,,,Unknown
+RADEON 9000 Family,3,123,,,,,Unknown
+GeForce2 MX 100/200,3,119,,,,,Unknown
+MOBILITY RADEON 9000,3,111,,,,,Mobile
+AMIGAMERLIN 3.1-R1 For Voodoo 4 4500 PCI,3,110,,,,,Unknown
+RADEON 7000 / RADEON VE Family,3,107,,,,,Unknown
+RIVA TNT2 Model 64/Model 64 Pro,3,107,,,,,Unknown
+MOBILITY RADEON 7500,3,103,,,,,Mobile
+Radeon IGP 320M,3,101,,,,,Unknown
+Intel 82915G/915GV/910GL,3,95,,,,,Unknown
+Vanta/Vanta LT,3,91,,,,,Unknown
+Intel Media Accelerator 500,3,71,,,,,Unknown
+RIVA TNT2/TNT2 Pro,3,71,,,,,Unknown
+Intel 946GZ Embedded Chipset Function 0,3,66,,,,,Unknown
+Rage Fury Pro/Xpert 2000 Pro,3,53,,,,,Unknown
+RADEON IGP 320,3,44,,,,,Unknown
+Intel 946GZ Express,3,44,,,,,Unknown
+S3 Inc. Savage4,3,21,,,,,Unknown
+Intel 865 Embedded Controller,3,20,,,,,Unknown
+Dell 8100,2,58,,999.11,0.00,,Unknown
+RADEON 7200,2,94,,599.99,0.00,,Unknown
+RADEON 9250,2,127,,194.00,0.01,,Desktop
+Intel 82845G/GL Controller,2,176,,,,,Unknown
+Intel 82845G/GL/GE/PE/GV Controller,2,159,,,,,Unknown
+VIA Chrome9 HC3 IGP,2,157,,,,,Unknown
+VIA Chrome9 HC IGP WDDM 1.1,2,147,,,,,Unknown
+VIA Chrome9 HC IGP WDDM,2,144,,,,,Unknown
+GeForce2 MX,2,143,,,,,Desktop
+RADEON 9200 PRO Family,2,135,,,,,Unknown
+Intel 82845G Controller,2,132,,,,,Unknown
+RADEON 9200 SE,2,129,,,,,Desktop
+MOBILITY RADEON 9100 IGP,2,128,,,,,Unknown
+RADEON 9200 LE Family,2,128,,,,,Unknown
+Quadro NVS 280 SD,2,119,,,,,Unknown
+GeForce3 Ti 500,2,116,,,,,Unknown
+Radeon IGP 340M,2,102,,,,,Unknown
+VIA Chrome9 HC IGP Prerelease WDDM 1.1,2,100,,,,,Unknown
+Radeon 7000 / Radeon VE,2,99,,,,,Unknown
+64MB GeForce2 MX with TV Out,2,98,,,,,Unknown
+Intel 82915G/GV/910GL Advanced v3.5,2,94,,,,,Unknown
+Intel Media Accelerator 3150,2,86,,,,,Unknown
+RADEON IGP 345M,2,82,,,,,Unknown
+Intel GMA 3150 Express,2,66,,,,,Unknown
+Mobile Intel 915GM/GMS/910GML Express,2,43,,,,,Unknown
+Radeon VE,2,36,,,,,Unknown
+FireMV 2200 PCI,1,153,,,,,Workstation
+S3 SuperSavage/IXC 1014,1,147,,,,,Unknown
+Quadro2 Pro,1,143,,,,,Workstation
+RAGE 128 PRO AGP 4X TMDS,1,142,,,,,Unknown
+Intel Extreme Controller,1,136,,,,,Unknown
+VisionTek Radeon 7000,1,117,,,,,Unknown
+Intel 82852/82855 GM/GME Controller,1,107,,,,,Unknown
+VIA Chrome9 HCM IGP,1,94,,,,,Unknown
+RADEON IGP 34xM,1,89,,,,,Unknown
+S3 ProSavageDDR,1,41,,,,,Unknown
+Rage 128 Pro,1,40,,,,,Unknown
+IGP 340M,1,39,,,,,Unknown
+Mobile Intel 945 Express,1,9,,,,,Unknown

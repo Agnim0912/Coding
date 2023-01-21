@@ -1,0 +1,5 @@
+setwd("C:/Users/priya/OneDrive/Documents/coding/5th semister/AL/Class 7") 
+data=read.csv("Student.csv")
+info=subset(data,branch=="IT" | branch=="CSE") 
+cat("students in IT or CSE branch:\n")
+print(info)

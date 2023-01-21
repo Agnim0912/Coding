@@ -1,0 +1,10 @@
+x<-2000
+if(x%%400==0){
+  print("Is a Leap Year")
+}else if(x%%100==0){
+  print("Not a Leap Year")
+}else if(x%%4==0){
+  print("Is a Leap Year")
+}else{
+  print("Not a Leap Year")
+}

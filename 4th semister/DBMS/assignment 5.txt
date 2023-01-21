@@ -1,0 +1,237 @@
+SQL> CREATE TABLE EMP06 (EMP_NO NUMBER(5) constraint c1 primary key, F_NAME VARCHAR(20)constraint c2 not null, L_NAME VARCHAR(20), SALARY NUMBER(10), DEPT_NO NUMBER(5));
+
+Table created.
+
+SQL> desc emp06;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMP_NO                                    NOT NULL NUMBER(5)
+ F_NAME                                    NOT NULL VARCHAR2(20)
+ L_NAME                                             VARCHAR2(20)
+ SALARY                                             NUMBER(10)
+ DEPT_NO                                            NUMBER(5)
+
+SQL> INSERT INTO EMP06 (emp_no, f_name, salary, dept_no) VALUES (101, 'Jai', 90000, 1);
+
+1 row created.
+
+SQL> INSERT INTO EMP06 (emp_no, f_name, salary, dept_no) VALUES (102, 'Viru', 80000, 1);
+
+1 row created.
+
+SQL> INSERT INTO EMP06 (emp_no, f_name,l_name, salary, dept_no) VALUES (103,'Gabbar','Singh', 70000, 2);
+
+1 row created.
+
+SQL> INSERT INTO EMP06 (emp_no, f_name, salary, dept_no) VALUES (104, 'Basanti', 60000, 3);
+
+1 row created.
+
+SQL> INSERT INTO EMP06 (emp_no, f_name,l_name, salary, dept_no) VALUES (105,'Ram','Lal', 50000, 3);
+
+1 row created.
+
+SQL> INSERT INTO EMP06 (emp_no, f_name,l_name, salary, dept_no) VALUES (106,'Radha','Thakur', 30000, 3);
+
+1 row created.
+
+SQL> select * from emp06;
+
+    EMP_NO F_NAME               L_NAME                   SALARY    DEPT_NO      
+---------- -------------------- -------------------- ---------- ----------      
+       101 Jai                                            90000          1      
+       102 Viru                                           80000          1      
+       103 Gabbar               Singh                     70000          2      
+       104 Basanti                                        60000          3      
+       105 Ram                  Lal                       50000          3      
+       106 Radha                Thakur                    30000          3      
+
+6 rows selected.
+
+SQL> CREATE TABLE PROJECT(P_NO NUMBER(10) CONSTRAINT PK_P_NO PRIMARY KEY,P_NAME VARCHAR(20),P_LOC VARCHAR(20) DEFAULT 'MUMBAI');
+
+Table created.
+
+SQL> INSERT INTO PROJECT VALUES (1, 'XYZ', 'Pune');
+
+1 row created.
+
+SQL> INSERT INTO PROJECT VALUES (2, 'ABC', 'Pune');
+
+1 row created.
+
+SQL> INSERT INTO PROJECT (P_NO,P_NAME) VALUES (3, 'IJK');
+
+1 row created.
+
+SQL> select * from project;
+
+      P_NO P_NAME               P_LOC                                           
+---------- -------------------- --------------------                            
+         1 XYZ                  Pune                                            
+         2 ABC                  Pune                                            
+         3 IJK                  MUMBAI                                          
+
+SQL> CREATE TABLE EMP_PROJ(EMP_NO NUMBER(9),P_NO NUMBER(9),CONSTRAINT PK_EMP_PROJ PRIMARY KEY(EMP_NO,P_NO));
+
+Table created.
+
+SQL> INSERT INTO EMP_PROJ VALUES (101, 1);
+
+1 row created.
+
+SQL> INSERT INTO EMP_PROJ VALUES (102, 1);
+
+1 row created.
+
+SQL> INSERT INTO EMP_PROJ VALUES (103, 2);
+
+1 row created.
+
+SQL> INSERT INTO EMP_PROJ VALUES (104, 2);
+
+1 row created.
+
+SQL> INSERT INTO EMP_PROJ VALUES (101, 2);
+
+1 row created.
+
+SQL> INSERT INTO EMP_PROJ VALUES (105, 2);
+
+1 row created.
+
+SQL> select * from emp_proj;
+
+    EMP_NO       P_NO                                                           
+---------- ----------                                                           
+       101          1                                                           
+       102          1                                                           
+       103          2                                                           
+       104          2                                                           
+       101          2                                                           
+       105          2                                                           
+
+6 rows selected.
+
+SQL> SELECT A.F_NAME, B.P_NAME FROM EMP06 A, PROJECT B, EMP_PROJ C WHERE A.EMP_NO = C.EMP_NO AND C.P_NO = B.P_NO;
+
+F_NAME               P_NAME                                                     
+-------------------- --------------------                                       
+Jai                  XYZ                                                        
+Viru                 XYZ                                                        
+Jai                  ABC                                                        
+Gabbar               ABC                                                        
+Basanti              ABC                                                        
+Ram                  ABC                                                        
+
+6 rows selected.
+
+SQL> 
+SQL> SELECT B.P_LOC FROM EMP06 A, PROJECT B, EMP_PROJ C WHERE A.F_NAME = 'Gabbar' AND A.EMP_NO = C.EMP_NO AND C.P_NO = B.P_NO;
+
+P_LOC                                                                           
+--------------------                                                            
+Pune                                                                            
+
+SQL> SELECT f_name FROM EMP06 MINUS SELECT f_name FROM EMP06 NATURAL JOIN EMP_PROJ NATURAL JOIN PROJECT;
+
+F_NAME                                                                          
+--------------------                                                            
+Radha                                                                           
+
+SQL> SELECT f_name, l_name FROM emp06 MINUS (SELECT f_name, l_name FROM emp06 OUTER JOIN emp_proj USING(emp_no));
+
+F_NAME               L_NAME                                                     
+-------------------- --------------------                                       
+Radha                Thakur                                                     
+
+SQL> SELECT P_name FROM project MINUS (SELECT p_name FROM project OUTER JOIN emp_proj USING(p_no));
+
+P_NAME                                                                          
+--------------------                                                            
+IJK                                                                             
+
+SQL> SELECT a.f_name from emp06 a,project b, emp_proj c  where a.emp_no=c.emp_no and b.p_no=c.p_no and b.p_no=1 union select a.f_name from emp06 a,project b, emp_proj c  where a.emp_no=c.emp_no and b.p_no=c.p_no and b.p_name='abc';
+
+F_NAME                                                                          
+--------------------                                                            
+Jai                                                                             
+Viru                                                                            
+
+SQL> SELECT a.f_name from emp06 a,project b, emp_proj c  where a.emp_no=c.emp_no and b.p_no=c.p_no and b.p_no=1 INTERSECT select a.f_name from emp06 a,project b, emp_proj c  where a.emp_no=c.emp_no and b.p_no=c.p_no and b.p_no=2;
+
+F_NAME                                                                          
+--------------------                                                            
+Jai                                                                             
+
+SQL> select count(a.f_name) from emp06 a,project b,emp_proj c where a.emp_no=c.emp_no and c.p_no=b.p_no;
+
+COUNT(A.F_NAME)                                                                 
+---------------                                                                 
+              6                                                                 
+
+SQL> select avg(salary) from emp06 group by dept_no;
+
+AVG(SALARY)                                                                     
+-----------                                                                     
+      85000                                                                     
+      70000                                                                     
+ 46666.6667                                                                     
+
+SQL> SELECT dept_no, COUNT(emp_no), AVG(salary)FROM EMP06 GROUP BY dept_no HAVING AVG(salary) > 60000 AND COUNT(emp_no) > 1;
+
+   DEPT_NO COUNT(EMP_NO) AVG(SALARY)                                            
+---------- ------------- -----------                                            
+         1             2       85000                                            
+
+SQL> select b.f_name from emp06 a,emp06 b where a.f_name='Basanti' and a.salary<b.salary;
+
+F_NAME                                                                          
+--------------------                                                            
+Jai                                                                             
+Viru                                                                            
+Gabbar                                                                          
+
+SQL> select f_name from emp06 where salary>(select avg(salary)from emp06);
+
+F_NAME                                                                          
+--------------------                                                            
+Jai                                                                             
+Viru                                                                            
+Gabbar                                                                          
+
+SQL> select * from emp06 where salary=(select max(salary) from emp06);
+
+    EMP_NO F_NAME               L_NAME                   SALARY    DEPT_NO      
+---------- -------------------- -------------------- ---------- ----------      
+       101 Jai                                            90000          1      
+
+SQL> select * from emp06 where salary=(select max(salary) from emp06 where dept_no=3 group by dept_no);
+
+    EMP_NO F_NAME               L_NAME                   SALARY    DEPT_NO      
+---------- -------------------- -------------------- ---------- ----------      
+       104 Basanti                                        60000          3      
+
+SQL> select * from emp06 where salary=(select max(salary) as salary  from emp06 where salary<(select max(salary) from emp06));
+
+    EMP_NO F_NAME               L_NAME                   SALARY    DEPT_NO      
+---------- -------------------- -------------------- ---------- ----------      
+       102 Viru                                           80000          1      
+
+SQL> select max(avg(salary)) from EMP06 group by DEPT_NO;
+
+MAX(AVG(SALARY))                                                                
+----------------                                                                
+           85000                                                                
+
+SQL> select * from emp06 where salary=(select max(salary) as salary  from emp06 where salary<(select max(salary) from emp06 where salary<(select max(salary) from emp06)));
+
+    EMP_NO F_NAME               L_NAME                   SALARY    DEPT_NO      
+---------- -------------------- -------------------- ---------- ----------      
+       103 Gabbar               Singh                     70000          2      
+
+SQL> commit;
+
+Commit complete.
+
+SQL> spool off

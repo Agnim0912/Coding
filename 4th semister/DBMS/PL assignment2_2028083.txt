@@ -1,0 +1,153 @@
+SQL> set serverout on;
+SQL> Declare
+  2  Var1 integer;
+  3  Var2 integer;
+  4  Var3 integer;
+  5  Var4 integer;
+  6  Var5 integer;
+  7  Var6 integer;
+  8  Begin
+  9  Var1:=&var1;
+ 10  Var2:=&var2;
+ 11  Var3:=var1+var2;
+ 12  Var4:=var1-var2;
+ 13  Var5:=var1*var2;
+ 14  Var6:=var1/var2;
+ 15  Dbms_output.put_line('Addition Value is:'||var3);
+ 16  Dbms_output.put_line('Substaction Value is:'||var4);
+ 17  Dbms_output.put_line('Multiplicated Value is:'||var5);
+ 18  Dbms_output.put_line('Dividend Value is:'||var6);
+ 19  End;
+ 20  /
+Enter value for var1: 4
+old   9: Var1:=&var1;
+new   9: Var1:=4;
+Enter value for var2: 5
+old  10: Var2:=&var2;
+new  10: Var2:=5;
+Addition Value is:9                                                             
+Substaction Value is:-1                                                         
+Multiplicated Value is:20                                                       
+Dividend Value is:1                                                             
+
+PL/SQL procedure successfully completed.
+
+SQL> set serverout on;
+SQL> Declare
+  2  var1 number;
+  3  var2 integer;
+  4  Begin
+  5  var1:=&var1;
+  6  var2:=var1*var1;
+  7  dbms_output.put_line('Square='||var2);
+  8  dbms_output.put_line('Square root= '||SQRT(var1));
+  9  END;
+ 10  /
+Enter value for var1: 4
+old   5: var1:=&var1;
+new   5: var1:=4;
+Square=16                                                                       
+Square root= 2                                                                  
+
+PL/SQL procedure successfully completed.
+
+SQL> Declare
+  2  var1 number;
+  3  var2 number;
+  4  temp integer;
+  5  BEGIN
+  6  var1 := &var1;
+  7  var2 := &var2;
+  8  dbms_output.put_line('Before swapping : ');
+  9  dbms_output.put_line('var1 = ' || var1);
+ 10  dbms_output.put_line('var2 = ' || var2);
+ 11  temp := var1;
+ 12  var1 := var2;
+ 13  var2 := temp;
+ 14  dbms_output.put_line('After swapping : ');
+ 15  dbms_output.put_line('var1 = ' || var1);
+ 16  dbms_output.put_line('var2 = ' || var2);
+ 17  END;
+ 18  /
+Enter value for var1: 10
+old   6: var1 := &var1;
+new   6: var1 := 10;
+Enter value for var2: 32
+old   7: var2 := &var2;
+new   7: var2 := 32;
+Before swapping :                                                               
+var1 = 10                                                                       
+var2 = 32                                                                       
+After swapping :                                                                
+var1 = 32                                                                       
+var2 = 10                                                                       
+
+PL/SQL procedure successfully completed.
+
+SQL> Declare
+  2  a number:=&a;
+  3  b number:=&b;
+  4  c number:=&c;
+  5  summ number;
+  6  avgg number;
+  7  Begin
+  8  summ:=a+b+c;
+  9  avgg:=summ/3;
+ 10  dbms_output.put_line('Sum = '||summ);
+ 11  dbms_output.put_line('Average = '||avgg);
+ 12  END;
+ 13  /
+Enter value for a: 10
+old   2: a number:=&a;
+new   2: a number:=10;
+Enter value for b: 30
+old   3: b number:=&b;
+new   3: b number:=30;
+Enter value for c: 50
+old   4: c number:=&c;
+new   4: c number:=50;
+Sum = 90                                                                        
+Average = 30                                                                    
+
+PL/SQL procedure successfully completed.
+
+SQL> Declare
+  2  C number;
+  3  F number:=&f;
+  4  Begin
+  5  C:=(F-32)*(5/9);
+  6  dbms_output.put_line('Centigrade = '||C);
+  7  END;
+  8  /
+Enter value for f: 30
+old   3: F number:=&f;
+new   3: F number:=30;
+Centigrade = -1.11111111111111111111111111111111111111                          
+
+PL/SQL procedure successfully completed.
+
+SQL> Declare
+  2  basicSal real;
+  3  otherAllowance real;
+  4  hra real;
+  5  grossSal real;
+  6  BEGIN
+  7  basicSal := &basicSal;
+  8  hra := (20 * basicSal)/100;
+  9  otherAllowance := (40 * basicSal)/100;
+ 10  grossSal := otherAllowance + basicSal + hra;
+ 11  dbms_output.put_line('Gross Salary of Ramesh is ' || grossSal);
+ 12  END;
+ 13  /
+Enter value for basicsal: 30000
+old   7: basicSal := &basicSal;
+new   7: basicSal := 30000;
+Gross Salary of Ramesh is 48000                                                 
+
+PL/SQL procedure successfully completed.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> spool off;

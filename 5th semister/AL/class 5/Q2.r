@@ -1,0 +1,5 @@
+pet_list <- c("Cat","Dog","Hamster","Goldfish")
+pet <- c(sample(pet_list, size = 1000, replace = T, prob = c(0.25,0.25,0.25,0.25)))
+for(i in 1:5)
+  print(pet[i])
+print(table(pet))

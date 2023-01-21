@@ -1,0 +1,7 @@
+SQL> Select sysdate from dual;
+
+SYSDATE                                                                         
+---------                                                                       
+25-FEB-22                                                                       
+
+SQL> spool off;

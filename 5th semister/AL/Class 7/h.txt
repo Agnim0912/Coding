@@ -1,0 +1,9 @@
+2. WAP to swap 2 variables without using 3rd variable 
+
+3. Calculate the Simple Interest by taking Interest rate from the user and period is 5 yeears.
+
+4. WAP to find area of the following: triangle, circle
+
+5. WAP to input a 3 digit number and find sum of all digits
+
+6. wap to input 3 digit number and reverse it.

@@ -1,0 +1,261 @@
+SQL> CREATE TABLE EMP12(
+  2  EMPID INTEGER PRIMARY KEY,
+  3  EMPNAME VARCHAR(10) NOT NULL,
+  4  PHNO INTEGER UNIQUE,
+  5  AGE INTEGER CHECK (AGE>18),
+  6  EMP_COUNTRY VARCHAR(20) DEFAULT 'INDIA');
+
+Table created.
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (112,'MICHEAL',234,19,'RUSSIA');
+
+1 row created.
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (113,'ABDUL',913,25,'');
+
+1 row created.
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (131,'',678,43,'USA');
+(131,'',678,43,'USA')
+     *
+ERROR at line 3:
+ORA-01400: cannot insert NULL into ("SYSTEM"."EMP12"."EMPNAME") 
+
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (132,'RIYA',234,22,'INDIA');
+INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (SYSTEM.SYS_C007218) violated 
+
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (113,'LIYA',876,60,'UK');
+INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (SYSTEM.SYS_C007217) violated 
+
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (127,'DINO',777,17,'ITALY');
+INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+*
+ERROR at line 1:
+ORA-02290: check constraint (SYSTEM.SYS_C007216) violated 
+
+
+SQL> INSERT INTO EMP12(EMPID,EMPNAME,PHNO,AGE,EMP_COUNTRY)
+  2  VALUES
+  3  (117,'INDIRA',676,NULL,'');
+
+1 row created.
+
+SQL> SPOOL OFF;
+SQL> desc emp12
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMPID                                     NOT NULL NUMBER(38)
+ EMPNAME                                   NOT NULL VARCHAR2(10)
+ PHNO                                               NUMBER(38)
+ AGE                                                NUMBER(38)
+ EMP_COUNTRY                                        VARCHAR2(20)
+
+SQL> ALTER TABLE EMP12
+  2  ADD CONSTRAINT CHCK_AGE CHECK(AGE>18);
+
+Table altered.
+
+SQL> ALTER TABLE EMP12
+  2  drop constraint chck_AGE;
+
+Table altered.
+
+SQL> SPOOL OFF;
+SQL> alter table EMP12_8083 modify AGE INTEGER default 18 constraint ck_age check(age>=18 and age<=70);
+
+Table altered.
+
+SQL> INSERT INTO EMP12_8083
+  2  VALUES(114,'RAJ',238,54,'USA');
+
+1 row created.
+
+SQL> INSERT INTO EMP12_8083
+  2  VALUES(115,'ABHAY',222,NULL,'');
+
+1 row created.
+
+SQL> SPOOL OFF;
+SQL> CREATE TABLE PROJECTX_8083(
+  2  PID VARCHAR(5),
+  3  PNAME VARCHAR(20),
+  4  PHEAD INTEGER,
+  5  PLOC VARCHAR(20),
+  6  PMEMBERS INTEGER DEFAULT 5,
+  7  CONSTRAINT PK_PX1 PRIMARY KEY(PID,PNAME),
+  8  CONSTRAINT UC_PX_34 UNIQUE(PHEAD,PLOC),
+  9  CONSTRAINT CK_PX_5 CHECK(PMEMBERS<=5));
+
+Table created.
+
+SQL> ALTER TABLE PROJECTX_8083
+  2  DROP CONSTRAINT PK_PX1;
+
+Table altered.
+
+SQL> ALTER TABLE PROJECTX_8083
+  2  MODIFY PID VARCHAR(5)
+  3  CONSTRAINT PK_PX_1 PRIMARY KEY;
+
+Table altered.
+
+SQL> INSERT INTO PROJECTX_8083
+  2  VALUES('A11','DEXTER',112,'MIAMI',2);
+
+1 row created.
+
+SQL> INSERT INTO PROJECTX_8083
+  2  VALUES('P67','LUNA',113,'CHENNAI',2);
+
+1 row created.
+
+SQL> INSERT INTO PROJECTX_8083
+  2  VALUES('X55','EAST_WEST',114,'JAPAN',NULL);
+
+1 row created.
+
+SQL> DELETE FROM EMP12_8083
+  2  WHERE NOT(EMPID=ANY(112,113,114));
+
+2 rows deleted.
+
+SQL> SELECT * FROM EMP12_8083;
+
+     EMPID EMPNAME          PHNO        AGE EMP_COUNTRY                         
+---------- ---------- ---------- ---------- --------------------                
+       112 MICHEAL           234         19 RUSSIA                              
+       113 ABDUL             913         25                                     
+       114 RAJ               238         54 USA                                 
+
+SQL> ALTER TABLE EMP12_8083
+  2  ADD PROJECT VARCHAR(5);
+
+Table altered.
+
+SQL> UPDATE EMP12_8083
+  2  SET PROJECT='A11'
+  3  WHERE EMPID=112;
+
+1 row updated.
+
+SQL> UPDATE EMP12_8083
+  2  SET PROJECT='P67',EMP_COUNTRY=DEFAULT
+  3  WHERE EMPID=113;
+
+1 row updated.
+
+SQL> UPDATE EMP12_8083
+  2  SET PROJECT='X55'
+  3  WHERE EMPID=114;
+
+1 row updated.
+
+SQL> SPOOL OFF;
+SQL> ALTER TABLE EMP12_8083
+  2  ADD CONSTRAINT FK_PROJECT FOREIGN KEY(PROJECT) REFERENCES PROJECTX_8083(PID) ON DELETE SET NULL;
+
+Table altered.
+
+SQL> SPOOL OFF;
+SQL> INSERT INTO EMP12_8083
+  2  VALUES(115,'BONO',910,NULL,NULL,'A11');
+
+1 row created.
+
+SQL> INSERT INTO EMP12_8083
+  2  VALUES(116,'CAITLIN',660,25,'UK','P67');
+
+1 row created.
+
+SQL> INSERT INTO EMP12_8083
+  2  VALUES(117,'RAJESH',200,60,NULL,'X50');
+INSERT INTO EMP12_8083
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (SYSTEM.FK_PROJECT) violated - parent key not 
+found 
+
+SQL> spool off;
+SQL> ALTER TABLE PROJECTX_8083
+  2  ADD CONSTRAINT FK_PHEAD FOREIGN KEY(PHEAD)
+  3  REFERENCES EMP12_8083(EMPID) ON DELETE SET NULL;
+
+Table altered.
+
+SQL> select constraint_name FROM all_constraints where table_name='EMP12_8083';
+
+CONSTRAINT_NAME                                                                 
+------------------------------                                                  
+FK_PROJECT                                                                      
+SYS_C007215                                                                     
+SYS_C007216                                                                     
+SYS_C007217                                                                     
+SYS_C007218                                                                     
+CK_AGE                                                                          
+
+6 rows selected.
+
+SQL> alter table emp12_8083 drop constraint SYS_C007215;
+
+Table altered.
+
+SQL> alter table emp12_8083 drop constraint SYS_C007216;
+
+Table altered.
+
+SQL> alter table emp12_8083 drop constraint SYS_C007217;
+alter table emp12_8083 drop constraint SYS_C007217
+                                       *
+ERROR at line 1:
+ORA-02273: this unique/primary key is referenced by some foreign keys 
+
+
+SQL> alter table emp12_8083 drop constraint SYS_C007218;
+
+Table altered.
+
+SQL> alter table emp12_8083 drop constraint CK_AGE;
+
+Table altered.
+
+SQL> spool off;
+SQL> alter table employee_8083
+  2  add constraint pk_emp_id primary key(emp_id);
+
+Table altered.
+
+SQL> ALTER TABLE DEPARTMENT_8083
+  2  ADD CONSTRAINT PK_D_NAME PRIMARY KEY(D_NAME);
+
+Table altered.
+
+SQL> ALTER TABLE EMPLOYEE_8083
+  2  ADD CONSTRAINT FK_DEPT FOREIGN KEY(DEPT)
+  3  REFERENCES DEPARTMENT_8083(D_NAME) ON DELETE SET NULL;
+ADD CONSTRAINT FK_DEPT FOREIGN KEY(DEPT)
+               *
+ERROR at line 2:
+ORA-02298: cannot validate (SYSTEM.FK_DEPT) - parent keys not found 
+
+SQL> SPOOL OFF;

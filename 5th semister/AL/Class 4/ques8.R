@@ -1,0 +1,7 @@
+l <- list(c("A","B","C"), matrix(c(34,-12,67), nrow = 2), list("green",12.3))
+names(l) <- c("String", "Matrix", "List")
+print(l$String)
+cat("\n")
+print(l$Matrix)
+cat("\n")
+print(l$List)

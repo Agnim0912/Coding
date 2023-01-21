@@ -1,0 +1,284 @@
+SQL> select sysdate from dual;
+
+SYSDATE                                                                         
+---------                                                                       
+25-FEB-22                                                                       
+
+SQL> create table Employee8083(empno int,ename varchar2(10) ,job varchar2(10), mgr int, hiredate date, sal int, comm int, deptno int);
+
+Table created.
+
+SQL> insert into Employee8083(empno, ename, job, mgr, hiredate, sal, comm, deptno) values ('7369','Smith','Clerk','7902','17-DEC-80','800',NULL,'20');
+
+1 row created.
+
+SQL> insert into Employee8083(empno, ename, job, mgr, hiredate, sal, comm, deptno) values ('7499','Allen','Salesman','7698','20-FEB-81','1600','300','30');
+
+1 row created.
+
+SQL> insert into Employee8083(empno, ename, job, mgr, hiredate, sal, comm, deptno) values ('7521','Ward','Salesman','7698','22-FEB-81','1250','500','30');
+
+1 row created.
+
+SQL> insert into Employee8083(empno, ename, job, mgr, hiredate, sal, comm, deptno) values ('7566','Jones','Manager','7839','02-APR-81','2975',NULL,'20');
+
+1 row created.
+
+SQL> Select add_months(hiredate,4) from Employee8083;
+
+ADD_MONTH                                                                       
+---------                                                                       
+17-APR-81                                                                       
+20-JUN-81                                                                       
+22-JUN-81                                                                       
+02-AUG-81                                                                       
+
+SQL> Select add_months(hiredate,4) as "Permanant Status" from Employee8083;
+
+Permanant                                                                       
+---------                                                                       
+17-APR-81                                                                       
+20-JUN-81                                                                       
+22-JUN-81                                                                       
+02-AUG-81                                                                       
+
+SQL> select empno, ename , months_between(sysdate,hiredate) as "Expirience" from Employee8083;
+
+     EMPNO ENAME      Expirience                                                
+---------- ---------- ----------                                                
+      7369 Smith      494.281499                                                
+      7499 Allen      492.184725                                                
+      7521 Ward       492.120209                                                
+      7566 Jones       490.76537                                                
+
+SQL> select next_day(sysdate,'TUESDAY') from dual;
+
+NEXT_DAY(                                                                       
+---------                                                                       
+01-MAR-22                                                                       
+
+SQL> select extract(MONTH from Sysdate) from dual;
+
+EXTRACT(MONTHFROMSYSDATE)                                                       
+-------------------------                                                       
+                        2                                                       
+
+SQL> select extract(year from Sysdate) from dual;
+
+EXTRACT(YEARFROMSYSDATE)                                                        
+------------------------                                                        
+                    2022                                                        
+
+SQL> select abs(-505) from dual;
+
+ ABS(-505)                                                                      
+----------                                                                      
+       505                                                                      
+
+SQL> select ceil(10.44), ceil(10.50), ceil(10.65) from dual;
+
+CEIL(10.44) CEIL(10.50) CEIL(10.65)                                             
+----------- ----------- -----------                                             
+         11          11          11                                             
+
+SQL> select floor(10.44), floor(10.50), floor(10.65) from dual;
+
+FLOOR(10.44) FLOOR(10.50) FLOOR(10.65)                                          
+------------ ------------ ------------                                          
+          10           10           10                                          
+
+SQL> select log(2,10) from dual;
+
+ LOG(2,10)                                                                      
+----------                                                                      
+3.32192809                                                                      
+
+SQL> select mod(594,7) from dual;
+
+MOD(594,7)                                                                      
+----------                                                                      
+         6                                                                      
+
+SQL> select power(8,3) from dual;
+
+POWER(8,3)                                                                      
+----------                                                                      
+       512                                                                      
+
+SQL> select sqrt(3481) from dual;
+
+SQRT(3481)                                                                      
+----------                                                                      
+        59                                                                      
+
+
+SQL> select round(45.923,2), round(45.923,0), round(45.923, -1),round(45.923,2), round(45.923,0), round (45.923, -2) from dual;
+
+ROUND(45.923,2) ROUND(45.923,0) ROUND(45.923,-1) ROUND(45.923,2) ROUND(45.923,0)
+--------------- --------------- ---------------- --------------- ---------------
+ROUND(45.923,-2)                                                                
+----------------                                                                
+          45.92              46               50           45.92              46
+               0                                                                
+                                                                                
+
+SQL> spool off;
+SQL> select trunc(45.888,2), trunc(56.758,0), trunc(49.245,-2), trunc(45.888,2), round(45.888,2) from dual;
+
+TRUNC(45.888,2) TRUNC(56.758,0) TRUNC(49.245,-2) TRUNC(45.888,2) ROUND(45.888,2)
+--------------- --------------- ---------------- --------------- ---------------
+          45.88              56                0           45.88           45.89
+
+SQL> select sign(20), sign(-67.60), sign(0) from dual;
+
+  SIGN(20) SIGN(-67.60)    SIGN(0)                                              
+---------- ------------ ----------                                              
+         1           -1          0                                              
+
+SQL> select cos(45), sin(45), tan(45) from dual;
+
+   COS(45)    SIN(45)    TAN(45)                                                
+---------- ---------- ----------                                                
+.525321989 .850903525 1.61977519                                                
+
+SQL> select chr(79) from dual;
+
+C                                                                               
+-                                                                               
+O                                                                               
+
+SQL> select concat('F_name','l_name') from dual;
+
+CONCAT('F_NA                                                                    
+------------                                                                    
+F_namel_name                                                                    
+
+SQL> select upper(ename) from Employee8083;
+
+UPPER(ENAM                                                                      
+----------                                                                      
+SMITH                                                                           
+ALLEN                                                                           
+WARD                                                                            
+JONES                                                                           
+
+SQL> select length(ename) from Employee8083 where job like 'Salesman';
+
+LENGTH(ENAME)                                                                   
+-------------                                                                   
+            5                                                                   
+            4                                                                                                                                 
+
+12 rows selected.
+
+SQL> select EMP_id,
+  2  case
+  3  when newsal < '20000' then '0%'
+  4  when newsal > '20000' and newsal < '40000' then '9%'
+  5  when newsal >= '40000' and newsal < '60000' then '20%'
+  6  when newsal >= '60000' and newsal < '80000' then '30%'
+  7  when newsal >= '80000' then '45%'
+  8  else 'Out of Bounds'
+  9  end as TaxRate
+ 10  from Employees8083;
+
+    EMP_ID TAXRATE                                                              
+---------- -------------                                                        
+         1 45%                                                                  
+         1 45%                                                                  
+         3 30%                                                                  
+         4 30%                                                                  
+         5 20%                                                                  
+         6 30%                                                                  
+         7 20%                                                                  
+         8 30%                                                                  
+         9 20%                                                                  
+        10 9%                                                                   
+        11 9%                                                                   
+
+    EMP_ID TAXRATE                                                              
+---------- -------------                                                        
+        12 0%                                                                   
+
+12 rows selected.
+
+SQL> select avg(newsal) as "Average Salary", max(newsal) as "Maximum Salary", min(newsal) as "Minimum Salary",sum(newsal) as "Total Salary"from Employees8083;
+
+Average Salary Maximum Salary Minimum Salary Total Salary                       
+-------------- -------------- -------------- ------------                       
+    54433.3333          91100          16100       653200                       
+                                                                                
+
+SQL> select avg(newsal) as "Average Salary", max(newsal) as "Maximum Salary", min(newsal) as "Minimum Salary",sum(newsal) as "Total Salary"from Employees8083 where dept like 'sales';
+
+Average Salary Maximum Salary Minimum Salary Total Salary                       
+-------------- -------------- -------------- ------------                       
+         58600          76100          41100       117200                       
+
+SQL> select name from Employees8083 order by name asc;
+
+NAME                                                                            
+--------------------                                                            
+Arun                                                                            
+amir                                                                            
+barun                                                                           
+bobby                                                                           
+chitra                                                                          
+dheeraj                                                                         
+dheeraj                                                                         
+emma                                                                            
+floki                                                                           
+mou                                                                             
+saul                                                                            
+
+NAME                                                                            
+--------------------                                                            
+sunny                                                                           
+
+12 rows selected.
+
+SQL> select name, surname from Employees8083 order by surname asc;
+
+NAME                 SURNAME                                                    
+-------------------- --------------------                                       
+mou                  bhat                                                       
+bobby                deol                                                       
+sunny                deol                                                       
+floki                dutt                                                       
+emma                 dutt                                                       
+saul                 good                                                       
+chitra               kapoor                                                     
+amir                 khan                                                       
+Arun                 khan                                                       
+dheeraj              kumar                                                      
+barun                kumar                                                      
+
+NAME                 SURNAME                                                    
+-------------------- --------------------                                       
+dheeraj              mishra                                                     
+
+12 rows selected.
+
+SQL> select count(case when job_type = 'engineer' then 1 end) as Engineers from Employees8083;
+
+ ENGINEERS                                                                      
+----------                                                                      
+         4                                                                      
+
+SQL> select count(distinct dept) as Departments from Employees8083;
+
+DEPARTMENTS                                                                     
+-----------                                                                     
+          6                                                                     
+
+SQL> select avg(commision) as Average_Commissions from Employees8083;
+
+AVERAGE_COMMISSIONS                                                             
+-------------------                                                             
+               1250                                                             
+
+SQL> commit;
+
+Commit complete.
+
+SQL> spool off;
