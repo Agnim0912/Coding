@@ -13,5 +13,6 @@
         "valarray": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
-    "workbench.colorTheme": "Tokyo Nights Dark Pro Color Theme"
+    "workbench.colorTheme": "Tokyo Nights Dark Pro Color Theme",
+    "discord.enabled": true
 }
