@@ -22,7 +22,6 @@ void findavgTime( int processes[], int n, int bt[])
 
     findTurnAroundTime(processes, n, bt, wt, tat);
 
-    //Display processes along with all details
     printf("Processes: ");
     for (int i=0; i<n; i++)
     {
